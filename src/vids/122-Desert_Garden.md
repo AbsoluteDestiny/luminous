@@ -9,8 +9,8 @@ artist: Vast
 width: 884
 height: 480
 fandoms: Hannibal
-mp4: null
-mp4size: null
+mp4: Luminosity-122-Desert Garden.m4v
+mp4size: 12.41 MB
 collection: vids
 ---
 

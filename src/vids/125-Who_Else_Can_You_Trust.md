@@ -9,8 +9,8 @@ artist: Ivy Levan
 width: 884
 height: 480
 fandoms: Archer
-mp4: null
-mp4size: null
+mp4: Luminosity-125-Who Else Can You Trust.m4v
+mp4size: 115.92 MB
 collection: vids
 ---
 

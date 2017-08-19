@@ -9,8 +9,8 @@ artist: Black Rebel Motorcycle Club
 width: 884
 height: 480
 fandoms: Hannibal
-mp4: null
-mp4size: null
+mp4: Luminosity-123-Short Story.m4v
+mp4size: 3.1 MB
 collection: vids
 ---
 
