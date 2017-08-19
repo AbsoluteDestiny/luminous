@@ -1,0 +1,105 @@
+---
+layout: default.html
+title: Welcome
+---
+<div class="c-filter">
+  <div class="c-filter__label" id="c-filter__fandom-label">
+    Fandoms:
+  </div>
+  <div class="c-filter__dropdown">
+    <span class="dropdown-el" role="radiogroup" aria-labelledby="c-filter__fandom-label">
+      <input type="radio" name="fandom" value="-1" checked="checked" id="sort-all"><label for="sort-all">All-fandoms</label>
+    {% for fandom in fandoms %}
+      <input type="radio" name="fandom" value="{{fandom}}" id="sort-{{loop.index}}"><label for="sort-{{loop.index}}">{{fandom}}</label>
+    {% endfor %}
+  </span>
+  </div>
+  <script>
+    (function(document) {
+
+      function filterFandoms(fandom) {
+        console.log('fandom', fandom);
+        var vids = document.querySelectorAll('[data-fandom]');
+        if (fandom === "-1") {
+          Array.prototype.forEach.call(vids, function (vid) {
+            vid.classList.remove('is-hidden');
+          })
+        } else {
+          Array.prototype.forEach.call(vids, function (vid) {
+            if (vid.getAttribute('data-fandom').split(', ').indexOf(fandom) === -1) {
+              vid.classList.add('is-hidden');
+            } else {
+              vid.classList.remove('is-hidden');
+            }
+          });
+        }
+        bLazy.revalidate();
+      }
+      var dropdown = document.querySelector('.dropdown-el');
+      dropdown.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var label = e.target;
+        console.log(label.getAttribute('for'));
+        var input = document.querySelector('#' + label.getAttribute('for'));
+        dropdown.classList.toggle('expanded');
+        if (input) {
+          input.checked = true;
+          filterFandoms(input.value);
+        }
+        
+
+      })
+    })(document);
+  </script>
+</div>
+<ol class="c-vidlist">
+  {% for post in vids %}
+  <li class="c-vidlist__item" data-fandom="{{post.fandoms}}">
+    {% if post.mp4 and post.mp4 != 'undefined'%}
+    <a class="c-vid has-download" href="{{post.paths.href}}">
+      {% else %}
+      <div class="c-vid">
+      {% endif %}
+        {% if loop.index > 7 %}
+          <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://lum.advids.org/images/{{post.vidkey}}.png">
+        {% else %}
+          <img alt="A barcode of colors from the vid {{post.title}}" class="c-vid__barcode" src="http://lum.advids.org/images/{{post.vidkey}}.png">
+        {% endif %}
+        <div class="c-vid__main">
+          <div class="o-flex o-flex--space-between o-flex--align-end">
+            <div class="o-flex__item">
+              <div class="o-flex o-flex--column">
+                <div class="o-flex__item c-vid__title">{{post.title}} <span class="c-vid__creators">by&nbsp;{{post.creators}}</span>
+                <div class="c-flex__item c-vid__fandom">{{post.fandoms}}</div>
+                </div>
+              </div>
+            </div>
+            <div class="o-flex__item o-flex__item--right">
+              <div class="o-flex o-flex--column">
+                <div class="c-flex__item c-vid__audio">
+                    {% if post.song and post.artist %}
+                    <span class="c-vid__song">{{post.song}}</span>
+                    by
+                    <span class="c-vid__artist">{{post.artist}}</span>
+                    {% endif %}
+                </div>
+                <div class="o-flex__item c-vid__year">
+                  {% if post.date %}
+                    {{post.date.toLocaleString('en', { month: "long" }) }} {{post.date.getFullYear() }}
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-vid__description">{{post.description}}</div>
+        
+      {% if post.mp4 and post.mp4 != 'undefined'%}
+      </a> {% else %}
+    </div>
+    {% endif %}
+
+  </li>
+  {% endfor %}
+</ol>

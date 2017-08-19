@@ -1,0 +1,68 @@
+{% extends "default.html" %}
+
+{% block pageMeta %}
+<meta property="fb:app_id" content="{{ site.fb_appid }}">
+<meta property="og:url" content="{{ site.base_url }}{{paths.dir | replace('\\', '/')}}">
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:image" content="{{ site.base_url }}/thumbnails/{{vidkey}}.png">
+<meta property="og:description" content="{{fandoms}} vid by {{creators}}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:video" content="{{ site.base_url }}/newvids/{{ mp4 }}" />
+<meta property="video:director" content="Luminosity">
+<meta property="video:release_date" content="{{ date.toISOString() }}">
+<meta name="twitter:card" content="player">
+<meta name="twitter:site" content="{{ site.twitter }}">
+<meta name="twitter:url" content="{{ site.base_url }}/vid/{{vidkey}}">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{fandoms}} vid by {{creators}}">
+<meta name="twitter:image" content="{{ site.base_url }}/thumbnails/{{vidkey}}.png" />
+<meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '')}}/index.html" />
+<meta name="twitter:player:width" content="{{ width }}" />
+<meta name="twitter:player:height" content="{{ height }}" />
+<meta name="twitter:player:stream" content="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" />
+<meta name="twitter:player:stream:content_type" content="video/mp4" />
+{% endblock %}
+
+
+{% block bodyAttrs %}style='background: url("{{ site.base_url }}/images/{{vidkey}}.png");'{% endblock %}
+
+{% block main %}
+<figure class="c-vid-detail__stream">
+  <div class="c-vid-detail__video">
+    <video poster="{{ site.base_url }}/thumbnails/{{vidkey}}.png" controls>
+      <source src="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" type="video/mp4">
+    </video>
+  </div>
+</figure>
+
+<article class="c-vid-detail">
+  <div class="main">
+    <h2 class="c-vid-detail__title">{{ title }} <span class="c-vid-detail__date">({{date.toLocaleString('en', { month: "long" }) }} {{date.getFullYear() }})</span></h2>
+
+    <div class="c-vid-detail__body">
+      <div class="c-vid-detail__creators">Vidder: {{ creators }}</div>
+      <div class="c-vid-detail__fandoms">Footage: {{ fandoms }}</div>
+      {% if song and artist %}
+      <div class="c-vid-detail__song">Song: {{ song }}</div>
+      <div class="c-vid-detail__artist">Artist: {{ artist }}</div>
+      {% endif %}
+      <div class="c-vid-detail__download">Download: <a class="c-vid-detail__download-link" href="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" download>{{title}}.m4v ({{ mp4size }})</a></div>
+      <div class="c-vid-detail__description">{{ description }}</div>
+    </div>
+
+    <div class="post-main">
+      {{ contents | safe }}
+    </div>
+  </div>
+
+</article>
+{% endblock %}
+{% block scripts %}
+  <link rel="stylesheet" href="/js/plyr.css">
+  <script src="/js/plyr.js"></script>
+  <script>
+    plyr.setup();
+  </script>
+{% endblock %}
