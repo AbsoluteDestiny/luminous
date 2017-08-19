@@ -1,7 +1,7 @@
 ---
 layout: vid.html
 vidkey: 126-Hot_Thoughts_(Naka-Choko)
-date:   2013-05-01 10:00:00
+date:   2017-04-14 10:00:00
 title:  Hot Thoughts (Naka-Choko)
 creators: Luminosity
 song: Hot Thoughts
