@@ -491,8 +491,13 @@ body:before {
   z-index: -1;
 }
 
-.t-vid-detail:before {
-  display: none;
+.t-vid-detail {
+  background-color: #000;
+  background-size: 100% 100%;
+
+  &::before {
+    display: none;
+  }
 }
 
 .c-page-header {
@@ -637,15 +642,10 @@ main {
   margin: 20px 0;
   padding: 0;
   border: 0;
-  // transform: scale(1000);
   background: rgba(255, 255, 255, 0.12);
-  // background-size: 110% 35px;
-  // background-repeat: no-repeat;
-  // background-position-y: bottom;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: background 0.15s ease-in;
-  // box-shadow: 0 0 0 0 #000;
   text-shadow: #000 2px 2px 0;
 
   &::before {
@@ -658,10 +658,6 @@ main {
     opacity: 0;
     transition: opacity 0.15s ease-in,  background-size 0.5s ease-in, max-height 0.15s ease-in;
     z-index: -1;
-    // background: url('../images/fighting-forms.jpg');
-    // background-attachment: fixed;
-    // background-size: 100% 100%;
-    // background-position: center;
   }
 
   &.has-download {
@@ -670,7 +666,11 @@ main {
 
   &.no-download {
     display: block;
-    border: 5px solid green;
+    margin: 0 0 10px;
+
+    .c-vid__main {
+      padding: 5px 30px;
+    }
   }
   
   &:focus {
@@ -680,16 +680,9 @@ main {
   &[href]:hover {
     position: relative;
     background-color: rgba(0, 0, 0, 0.3);
-    // box-shadow: 0 10px 6px -6px #000;
-    // transform: scale(1.01);
-    // zoom: 101%;
-    // background: rgba(255, 255, 255, 0.14);
-    // background:  url('../images/fighting-forms.jpg');
-    // background-size: cover;
 
     &::before {
       opacity: .4; 
-      // background-size: 95% 95%;
     }
   }
   
@@ -699,7 +692,6 @@ main {
   }
   
   &__main {
-    // background: blue;
     padding: 30px;
     
   }

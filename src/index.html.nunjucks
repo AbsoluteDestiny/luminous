@@ -14,44 +14,6 @@ title: Welcome
     {% endfor %}
   </span>
   </div>
-  <script>
-    (function(document) {
-
-      function filterFandoms(fandom) {
-        console.log('fandom', fandom);
-        var vids = document.querySelectorAll('[data-fandom]');
-        if (fandom === "-1") {
-          Array.prototype.forEach.call(vids, function (vid) {
-            vid.classList.remove('is-hidden');
-          })
-        } else {
-          Array.prototype.forEach.call(vids, function (vid) {
-            if (vid.getAttribute('data-fandom').split(', ').indexOf(fandom) === -1) {
-              vid.classList.add('is-hidden');
-            } else {
-              vid.classList.remove('is-hidden');
-            }
-          });
-        }
-        bLazy.revalidate();
-      }
-      var dropdown = document.querySelector('.dropdown-el');
-      dropdown.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var label = e.target;
-        console.log(label.getAttribute('for'));
-        var input = document.querySelector('#' + label.getAttribute('for'));
-        dropdown.classList.toggle('expanded');
-        if (input) {
-          input.checked = true;
-          filterFandoms(input.value);
-        }
-        
-
-      })
-    })(document);
-  </script>
 </div>
 <ol class="c-vidlist">
   {% for post in vids %}
@@ -106,3 +68,43 @@ title: Welcome
   </li>
   {% endfor %}
 </ol>
+{% block scripts %}
+    <script>var bLazy = new Blazy({ offset: 500 });</script>
+    <link rel="stylesheet" href="/js/vanilla-js-dropdown.css">
+    <script src="/js/vanilla-js-dropdown.min.js"></script>
+    <script>
+    (function(document) {
+      function filterFandoms(fandom) {
+        var vids = document.querySelectorAll('[data-fandom]');
+        if (fandom === "-1") {
+          Array.prototype.forEach.call(vids, function (vid) {
+            vid.classList.remove('is-hidden');
+          })
+        } else {
+          Array.prototype.forEach.call(vids, function (vid) {
+            if (vid.getAttribute('data-fandom').split(', ').indexOf(fandom) === -1) {
+              vid.classList.add('is-hidden');
+            } else {
+              vid.classList.remove('is-hidden');
+            }
+          });
+        }
+        bLazy.revalidate();
+      }
+      var dropdown = document.querySelector('.dropdown-el');
+      dropdown.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var label = e.target;
+        var input = document.querySelector('#' + label.getAttribute('for'));
+        dropdown.classList.toggle('expanded');
+        if (input) {
+          input.checked = true;
+          filterFandoms(input.value);
+        }
+        
+
+      })
+    })(document);
+    </script>
+{% endblock %}
