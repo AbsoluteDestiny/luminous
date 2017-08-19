@@ -25,7 +25,7 @@ title: Welcome
       {% endif %}
         {% if post.mp4 and post.mp4 != 'undefined' %}
           {% if loop.index > 7 %}
-            <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://lum.advids.org/images/{{post.vidkey}}.png">
+            <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/barcode/{{post.vidkey}}.png">
           {% else %}
             <img alt="A barcode of colors from the vid {{post.title}}" class="c-vid__barcode" src="http://lum.advids.org/images/{{post.vidkey}}.png">
           {% endif %}
