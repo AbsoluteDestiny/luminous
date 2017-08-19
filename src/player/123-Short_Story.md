@@ -1,11 +1,11 @@
 ---
 layout: twitterplayer.html
 vidkey: 123-Short_Story
-date:   2013-05-01 10:00:00
+date:   2016-11-17 10:00:00
 title:  Short Story
 creators: Luminosity
-song: 
-artist: 
+song: Chorus
+artist: Black Rebel Motorcycle Club
 width: 884
 height: 480
 fandoms: Hannibal

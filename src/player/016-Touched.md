@@ -5,7 +5,7 @@ date:   2001-12-01 10:00:00
 title:  Touched
 creators: Luminosity
 song: Touched
-artist: VAST
+artist: Vast
 width: 640
 height: 480
 fandoms: Highlander

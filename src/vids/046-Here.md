@@ -5,7 +5,7 @@ date:   2004-07-01 10:00:00
 title:  Here
 creators: Luminosity
 song: Here
-artist: VAST
+artist: Vast
 width: 848
 height: 480
 fandoms: Angel

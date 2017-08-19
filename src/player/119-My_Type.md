@@ -1,7 +1,7 @@
 ---
 layout: twitterplayer.html
 vidkey: 119-My_Type
-date:   2013-05-01 10:00:00
+date:   2015-09-23 10:00:00
 title:  My Type
 creators: Luminosity
 song: My Type
