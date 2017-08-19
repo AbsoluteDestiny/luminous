@@ -2,7 +2,7 @@
 layout: vid.html
 vidkey: 113-Regular_John
 date:   2013-03-01 10:00:00
-title:  Regular John
+title:  Welcome to The Machine (Regular John)
 creators: Luminosity
 song: Regular John
 artist: Queens of the Stone Age

@@ -5,7 +5,7 @@
 <meta property="og:url" content="{{ site.base_url }}{{paths.dir | replace('\\', '/')}}">
 <meta property="og:type" content="video.other">
 <meta property="og:title" content="{{ title }}">
-<meta property="og:image" content="{{ site.base_url }}/thumbnails/{{vidkey}}.png">
+<meta property="og:image" content="/images/thumbnails/{{vidkey}}.jpg">
 <meta property="og:description" content="{{fandoms}} vid by {{creators}}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
@@ -17,7 +17,7 @@
 <meta name="twitter:url" content="{{ site.base_url }}/vid/{{vidkey}}">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:description" content="{{fandoms}} vid by {{creators}}">
-<meta name="twitter:image" content="{{ site.base_url }}/images/thumbnails/{{vidkey}}.png" />
+<meta name="twitter:image" content="/images/thumbnails/{{vidkey}}.jpg" />
 <meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '')}}/index.html" />
 <meta name="twitter:player:width" content="{{ width }}" />
 <meta name="twitter:player:height" content="{{ height }}" />
@@ -31,7 +31,7 @@
 {% block main %}
 <figure class="c-vid-detail__stream">
   <div class="c-vid-detail__video">
-    <video poster="{{ site.base_url }}/images/thumbnails/{{vidkey}}.png" controls>
+    <video poster="/images/thumbnails/{{vidkey}}.jpg" controls preload="metadata" width="{{ width }}px" height="{{ height }}px">
       <source src="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" type="video/mp4">
     </video>
   </div>

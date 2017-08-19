@@ -57,14 +57,16 @@ title: Welcome
   {% for post in vids %}
   <li class="c-vidlist__item" data-fandom="{{post.fandoms}}">
     {% if post.mp4 and post.mp4 != 'undefined'%}
-    <a class="c-vid has-download" href="{{post.paths.href}}">
+      <a class="c-vid has-download" href="{{post.paths.href}}">
       {% else %}
-      <div class="c-vid">
+      <div class="c-vid no-download">
       {% endif %}
-        {% if loop.index > 7 %}
-          <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://lum.advids.org/images/{{post.vidkey}}.png">
-        {% else %}
-          <img alt="A barcode of colors from the vid {{post.title}}" class="c-vid__barcode" src="http://lum.advids.org/images/{{post.vidkey}}.png">
+        {% if post.mp4 and post.mp4 != 'undefined' %}
+          {% if loop.index > 7 %}
+            <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="http://lum.advids.org/images/{{post.vidkey}}.png">
+          {% else %}
+            <img alt="A barcode of colors from the vid {{post.title}}" class="c-vid__barcode" src="http://lum.advids.org/images/{{post.vidkey}}.png">
+          {% endif %}
         {% endif %}
         <div class="c-vid__main">
           <div class="o-flex o-flex--space-between o-flex--align-end">
@@ -96,8 +98,9 @@ title: Welcome
         <div class="c-vid__description">{{post.description}}</div>
         
       {% if post.mp4 and post.mp4 != 'undefined'%}
-      </a> {% else %}
-    </div>
+      </a>
+      {% else %}
+      </div>
     {% endif %}
 
   </li>
