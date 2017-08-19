@@ -9,7 +9,7 @@ artist: Michael Newberry
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 107 - Just Dropped In.m4v
+mp4: Luminosity-107-Just-Dropped-In.m4v
 mp4size: 39.09 MB
 collection: playerVids
 ---

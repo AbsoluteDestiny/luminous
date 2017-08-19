@@ -9,7 +9,7 @@ artist: Ray LaMontagne
 width: 848
 height: 480
 fandoms: Justified
-mp4: Luminosity - 110 - It's a Shame.m4v
+mp4: Luminosity-110-It's-a-Shame.m4v
 mp4size: 58.12 MB
 collection: playerVids
 ---

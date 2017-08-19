@@ -9,7 +9,7 @@ artist: Vast
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 016 - Touched.m4v
+mp4: Luminosity-016-Touched.m4v
 mp4size: 33.99 MB
 collection: vids
 ---

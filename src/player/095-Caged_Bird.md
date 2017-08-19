@@ -9,7 +9,7 @@ artist: Unkle
 width: 992
 height: 480
 fandoms: Last Year at Marienbad
-mp4: Luminosity - 095 - Caged Bird.m4v
+mp4: Luminosity-095-Caged-Bird.m4v
 mp4size: 60.39 MB
 collection: playerVids
 ---

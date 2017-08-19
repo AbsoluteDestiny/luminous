@@ -9,7 +9,7 @@ artist: Rusted Root
 width: 848
 height: 480
 fandoms: Farscape
-mp4: Luminosity - 063 - Ecstatic Drum Trip.m4v
+mp4: Luminosity-063-Ecstatic-Drum-Trip.m4v
 mp4size: 59.04 MB
 collection: playerVids
 ---

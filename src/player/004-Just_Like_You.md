@@ -9,7 +9,7 @@ artist: Voice of the Beehive
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 004 - Just Like You.m4v
+mp4: Luminosity-004-Just-Like-You.m4v
 mp4size: 35.95 MB
 collection: playerVids
 ---

@@ -9,7 +9,7 @@ artist: Randy Newman
 width: 640
 height: 480
 fandoms: Angel
-mp4: Luminosity - 028 - I Love LA.m4v
+mp4: Luminosity-028-I-Love-LA.m4v
 mp4size: 72.31 MB
 collection: playerVids
 ---

@@ -9,7 +9,7 @@ artist: Carl Stalling
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 022 - A Hero's Tale.m4v
+mp4: Luminosity-022-A-Hero's-Tale.m4v
 mp4size: 81.83 MB
 collection: vids
 ---

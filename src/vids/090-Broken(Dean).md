@@ -9,7 +9,7 @@ artist: Unkle
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 090 - Broken(Dean).m4v
+mp4: Luminosity-090-Broken(Dean).m4v
 mp4size: 42.11 MB
 collection: vids
 ---

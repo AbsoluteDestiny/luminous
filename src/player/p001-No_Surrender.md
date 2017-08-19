@@ -9,7 +9,7 @@ artist: Storage 24
 width: 624
 height: 352
 fandoms: 
-mp4: Luminosity - p001 - No Surrender.m4v
+mp4: Luminosity-p001-No-Surrender.m4v
 mp4size: 46.61 MB
 collection: playerVids
 ---

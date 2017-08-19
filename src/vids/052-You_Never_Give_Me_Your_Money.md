@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 052 - You Never Give Me Your Money.m4v
+mp4: Luminosity-052-You-Never-Give-Me-Your-Money.m4v
 mp4size: 30.73 MB
 collection: vids
 ---

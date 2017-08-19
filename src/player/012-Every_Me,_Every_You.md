@@ -9,7 +9,7 @@ artist: Placebo
 width: 640
 height: 480
 fandoms: The X-Files
-mp4: Luminosity - 012 - Every Me, Every You.m4v
+mp4: Luminosity-012-Every-Me,-Every-You.m4v
 mp4size: 43.78 MB
 collection: playerVids
 ---

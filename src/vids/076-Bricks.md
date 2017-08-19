@@ -9,7 +9,7 @@ artist: Rolf Schraa
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 076 - Bricks.m4v
+mp4: Luminosity-076-Bricks.m4v
 mp4size: 35.57 MB
 collection: vids
 ---

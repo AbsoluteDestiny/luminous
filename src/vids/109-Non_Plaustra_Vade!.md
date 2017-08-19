@@ -9,7 +9,7 @@ artist: Arcade Fire
 width: 848
 height: 360
 fandoms: Harry Potter
-mp4: Luminosity - 109 - Non Plaustra Vade!.m4v
+mp4: Luminosity-109-Non-Plaustra-Vade!.m4v
 mp4size: 73.68 MB
 collection: vids
 ---

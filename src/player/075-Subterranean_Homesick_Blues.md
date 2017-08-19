@@ -9,7 +9,7 @@ artist: Bob Dylan
 width: 848
 height: 480
 fandoms: X-Files
-mp4: Luminosity - 075 - Subterranean Homesick Blues.m4v
+mp4: Luminosity-075-Subterranean-Homesick-Blues.m4v
 mp4size: 36.5 MB
 collection: playerVids
 ---

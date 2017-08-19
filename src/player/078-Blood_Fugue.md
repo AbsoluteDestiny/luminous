@@ -9,7 +9,7 @@ artist: Dog Fashion Disco
 width: 640
 height: 480
 fandoms: Dexter
-mp4: Luminosity - 078 - Blood Fugue.m4v
+mp4: Luminosity-078-Blood-Fugue.m4v
 mp4size: 27.11 MB
 collection: playerVids
 ---

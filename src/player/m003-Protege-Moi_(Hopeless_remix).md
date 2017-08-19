@@ -9,7 +9,7 @@ artist: Placebo
 width: 848
 height: 360
 fandoms: The Lord of the Rings Trilogy
-mp4: Luminosity - m003 - Protege-Moi (Hopeless remix).m4v
+mp4: Luminosity-m003-Protege-Moi-(Hopeless-remix).m4v
 mp4size: 34.02 MB
 collection: playerVids
 ---

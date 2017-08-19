@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 064 - Because.m4v
+mp4: Luminosity-064-Because.m4v
 mp4size: 24.95 MB
 collection: vids
 ---

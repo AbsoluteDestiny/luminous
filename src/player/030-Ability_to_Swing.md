@@ -9,7 +9,7 @@ artist: Thomas Dolby
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 030 - Ability to Swing.m4v
+mp4: Luminosity-030-Ability-to-Swing.m4v
 mp4size: 38.79 MB
 collection: playerVids
 ---

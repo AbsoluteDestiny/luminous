@@ -9,7 +9,7 @@ artist: Mix Master
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 025 - Fool for Love.m4v
+mp4: Luminosity-025-Fool-for-Love.m4v
 mp4size: 78.71 MB
 collection: playerVids
 ---

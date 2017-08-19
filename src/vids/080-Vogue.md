@@ -9,7 +9,7 @@ artist: Madonna
 width: 1120
 height: 480
 fandoms: 300
-mp4: Luminosity - 080 - Vogue.m4v
+mp4: Luminosity-080-Vogue.m4v
 mp4size: 91.18 MB
 collection: vids
 ---

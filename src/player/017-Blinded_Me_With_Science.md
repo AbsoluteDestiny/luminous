@@ -9,7 +9,7 @@ artist: Thomas Dolby
 width: 640
 height: 480
 fandoms: The X-Files
-mp4: Luminosity - 017 - Blinded Me With Science.m4v
+mp4: Luminosity-017-Blinded-Me-With-Science.m4v
 mp4size: 66.08 MB
 collection: playerVids
 ---

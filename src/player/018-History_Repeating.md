@@ -9,7 +9,7 @@ artist: Propellerheads
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 018 - History Repeating.m4v
+mp4: Luminosity-018-History-Repeating.m4v
 mp4size: 46.1 MB
 collection: playerVids
 ---

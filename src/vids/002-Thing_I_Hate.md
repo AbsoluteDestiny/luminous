@@ -9,7 +9,7 @@ artist: Stabbing Westward
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 002 - Thing I Hate.m4v
+mp4: Luminosity-002-Thing-I-Hate.m4v
 mp4size: 50.35 MB
 collection: vids
 ---

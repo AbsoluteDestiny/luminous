@@ -9,7 +9,7 @@ artist: Cusco
 width: 1040
 height: 480
 fandoms: Blueberry
-mp4: Luminosity - 100 - (Things That Go Bump in the Light) Montezuma.m4v
+mp4: Luminosity-100-(Things-That-Go-Bump-in-the-Light)-Montezuma.m4v
 mp4size: 92.53 MB
 collection: vids
 ---

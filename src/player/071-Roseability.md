@@ -9,7 +9,7 @@ artist: Idlewild South
 width: 848
 height: 480
 fandoms: Angel
-mp4: Luminosity - 071 - Roseability.m4v
+mp4: Luminosity-071-Roseability.m4v
 mp4size: 37.57 MB
 collection: playerVids
 ---

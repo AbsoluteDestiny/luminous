@@ -9,7 +9,7 @@ artist: Fuel
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 001 - The Last Time.m4v
+mp4: Luminosity-001-The-Last-Time.m4v
 mp4size: 30.65 MB
 collection: vids
 ---

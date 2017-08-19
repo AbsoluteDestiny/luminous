@@ -9,7 +9,7 @@ artist: Tomita
 width: 640
 height: 480
 fandoms: Night of the Hunter
-mp4: Luminosity - 092 - Night of the Hunter.m4v
+mp4: Luminosity-092-Night-of-the-Hunter.m4v
 mp4size: 78.17 MB
 collection: playerVids
 ---

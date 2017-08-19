@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 065 - I Want You.m4v
+mp4: Luminosity-065-I-Want-You.m4v
 mp4size: 35.43 MB
 collection: playerVids
 ---

@@ -9,7 +9,7 @@ artist: Various
 width: 848
 height: 480
 fandoms: Battlestar Galactica, Farscape, Doctor Who
-mp4: Luminosity - 072 - Sci-Fi Friday in a Blender.m4v
+mp4: Luminosity-072-Sci-Fi-Friday-in-a-Blender.m4v
 mp4size: 79.24 MB
 collection: vids
 ---

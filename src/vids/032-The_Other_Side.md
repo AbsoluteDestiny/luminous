@@ -9,7 +9,7 @@ artist: David Gray
 width: 848
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 032 - The Other Side.m4v
+mp4: Luminosity-032-The-Other-Side.m4v
 mp4size: 39.12 MB
 collection: vids
 ---

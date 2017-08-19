@@ -9,7 +9,7 @@ artist: Unkle
 width: 848
 height: 360
 fandoms: Wanted
-mp4: Luminosity - 093 - Wanted.m4v
+mp4: Luminosity-093-Wanted.m4v
 mp4size: 63.2 MB
 collection: playerVids
 ---

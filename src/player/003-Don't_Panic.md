@@ -9,7 +9,7 @@ artist: Coldplay
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 003 - Don't Panic.m4v
+mp4: Luminosity-003-Don't-Panic.m4v
 mp4size: 30.69 MB
 collection: playerVids
 ---

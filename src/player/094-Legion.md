@@ -9,7 +9,7 @@ artist: Sea of Treachery
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 094 - Legion.m4v
+mp4: Luminosity-094-Legion.m4v
 mp4size: 38.08 MB
 collection: playerVids
 ---

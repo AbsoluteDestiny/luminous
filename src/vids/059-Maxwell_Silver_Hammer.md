@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 059 - Maxwell Silver Hammer.m4v
+mp4: Luminosity-059-Maxwell-Silver-Hammer.m4v
 mp4size: 37.3 MB
 collection: vids
 ---

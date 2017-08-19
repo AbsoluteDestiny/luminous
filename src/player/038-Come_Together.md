@@ -9,7 +9,7 @@ artist: Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 038 - Come Together.m4v
+mp4: Luminosity-038-Come-Together.m4v
 mp4size: 46.78 MB
 collection: playerVids
 ---

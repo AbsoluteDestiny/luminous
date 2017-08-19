@@ -9,7 +9,7 @@ artist: Michael Hedges
 width: 848
 height: 480
 fandoms: NOVA
-mp4: Luminosity - 096 - because it's there.m4v
+mp4: Luminosity-096-because-it's-there.m4v
 mp4size: 60.78 MB
 collection: vids
 ---

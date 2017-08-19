@@ -9,7 +9,7 @@ artist: Tears for Fears
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 098 - The Best Laid Plans.m4v
+mp4: Luminosity-098-The-Best-Laid-Plans.m4v
 mp4size: 52.23 MB
 collection: playerVids
 ---

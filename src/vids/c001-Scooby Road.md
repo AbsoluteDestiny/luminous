@@ -9,8 +9,8 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - c001 - Scooby Road.m4v
-mp4size: 414.56 MB
+mp4: Luminosity-c001-Scooby-Road.m4v
+mp4size: 415.37 MB
 collection: vids
 ---
 

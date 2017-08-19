@@ -9,7 +9,7 @@ artist: Gary Jules
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 026 - Mad World.m4v
+mp4: Luminosity-026-Mad-World.m4v
 mp4size: 48.47 MB
 collection: playerVids
 ---

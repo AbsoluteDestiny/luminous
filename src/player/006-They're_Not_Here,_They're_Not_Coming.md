@@ -9,7 +9,7 @@ artist: Don Henley
 width: 640
 height: 480
 fandoms: The X-Files
-mp4: Luminosity - 006 - They're Not Here, They're Not Coming.m4v
+mp4: Luminosity-006-They're-Not-Here,-They're-Not-Coming.m4v
 mp4size: 57.81 MB
 collection: playerVids
 ---

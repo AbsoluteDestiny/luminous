@@ -9,7 +9,7 @@ artist: The Strokes
 width: 640
 height: 480
 fandoms: Angel
-mp4: Luminosity - 048 - City of.m4v
+mp4: Luminosity-048-City-of.m4v
 mp4size: 43.6 MB
 collection: playerVids
 ---

@@ -9,7 +9,7 @@ artist: Vast
 width: 848
 height: 480
 fandoms: Angel
-mp4: Luminosity - 046 - Here.m4v
+mp4: Luminosity-046-Here.m4v
 mp4size: 44.36 MB
 collection: vids
 ---

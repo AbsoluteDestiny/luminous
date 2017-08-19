@@ -9,7 +9,7 @@ artist: David Bowie
 width: 848
 height: 480
 fandoms: Angel
-mp4: Luminosity - 037 - Putting Out Fire.m4v
+mp4: Luminosity-037-Putting-Out-Fire.m4v
 mp4size: 55.41 MB
 collection: playerVids
 ---

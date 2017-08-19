@@ -9,7 +9,7 @@ artist: James Blake
 width: 884
 height: 480
 fandoms: Beasts of the Southern Wild
-mp4: Luminosity - 115 - Retrograde.m4v
+mp4: Luminosity-115-Retrograde.m4v
 mp4size: 48.73 MB
 collection: playerVids
 ---

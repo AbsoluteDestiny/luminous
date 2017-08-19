@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 060 - Octopus's Garden.m4v
+mp4: Luminosity-060-Octopus's-Garden.m4v
 mp4size: 29.58 MB
 collection: vids
 ---

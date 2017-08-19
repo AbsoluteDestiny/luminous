@@ -9,7 +9,7 @@ artist: Wang Chung
 width: 992
 height: 480
 fandoms: Ancient Aliens
-mp4: Luminosity - 114 - Everybody Wang Chung Tonight.m4v
+mp4: Luminosity-114-Everybody-Wang-Chung-Tonight.m4v
 mp4size: 69.94 MB
 collection: playerVids
 ---

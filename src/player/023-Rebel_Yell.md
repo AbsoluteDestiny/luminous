@@ -9,7 +9,7 @@ artist: Billy Idol
 width: 848
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 023 - Rebel Yell.m4v
+mp4: Luminosity-023-Rebel-Yell.m4v
 mp4size: 58.84 MB
 collection: playerVids
 ---

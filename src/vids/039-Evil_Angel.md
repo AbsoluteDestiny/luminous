@@ -9,7 +9,7 @@ artist: Rufus Wainwright
 width: 640
 height: 480
 fandoms: Angel
-mp4: Luminosity - 039 - Evil Angel.m4v
+mp4: Luminosity-039-Evil-Angel.m4v
 mp4size: 37 MB
 collection: vids
 ---

@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 058 - Golden Slumbers.m4v
+mp4: Luminosity-058-Golden-Slumbers.m4v
 mp4size: 12.78 MB
 collection: playerVids
 ---

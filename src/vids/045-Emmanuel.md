@@ -9,7 +9,7 @@ artist: Von Trapp Family Singers
 width: 848
 height: 480
 fandoms: Smallville
-mp4: Luminosity - 045 - Emmanuel.m4v
+mp4: Luminosity-045-Emmanuel.m4v
 mp4size: 36.58 MB
 collection: vids
 ---

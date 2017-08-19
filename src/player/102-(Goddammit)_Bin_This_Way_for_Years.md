@@ -9,7 +9,7 @@ artist: The Headstones
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 102 - (Goddammit) Bin This Way for Years.m4v
+mp4: Luminosity-102-(Goddammit)-Bin-This-Way-for-Years.m4v
 mp4size: 47.97 MB
 collection: playerVids
 ---

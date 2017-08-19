@@ -9,7 +9,7 @@ artist: Radiohead
 width: 848
 height: 480
 fandoms: Sherlock
-mp4: Luminosity - 112 - I Might Be Wrong.m4v
+mp4: Luminosity-112-I-Might-Be-Wrong.m4v
 mp4size: 47.68 MB
 collection: playerVids
 ---

@@ -43,7 +43,7 @@ if (fs.existsSync("./lumvids.json")) {
     .filter(f => f.indexOf(".m4v") > -1);
   let vids = Object.keys(lumvids).map(v => {
     const vid = lumvids[v];
-    let mp4 = files.filter(f => f.indexOf(`- ${v.split("-")[0]} -`) > -1);
+    let mp4 = files.filter(f => f.indexOf(`-${v.split("-")[0]}-`) > -1);
     let mp4size = 0;
     if (mp4.length) {
       mp4size = fs.statSync(path.join("F:\\lum\\encodes", mp4[0])).size;

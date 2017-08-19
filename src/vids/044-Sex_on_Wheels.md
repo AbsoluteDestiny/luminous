@@ -9,7 +9,7 @@ artist: My Life With the Thrill Kill Kult
 width: 848
 height: 480
 fandoms: Angel
-mp4: Luminosity - 044 - Sex on Wheels.m4v
+mp4: Luminosity-044-Sex-on-Wheels.m4v
 mp4size: 54.23 MB
 collection: vids
 ---

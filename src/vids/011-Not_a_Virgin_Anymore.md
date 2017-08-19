@@ -9,7 +9,7 @@ artist: Poe
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 011 - Not a Virgin Anymore.m4v
+mp4: Luminosity-011-Not-a-Virgin-Anymore.m4v
 mp4size: 55.42 MB
 collection: vids
 ---

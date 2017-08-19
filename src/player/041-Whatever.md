@@ -9,7 +9,7 @@ artist: T-Bal and BJ
 width: 640
 height: 480
 fandoms: Angel
-mp4: Luminosity - 041 - Whatever.m4v
+mp4: Luminosity-041-Whatever.m4v
 mp4size: 21.92 MB
 collection: playerVids
 ---

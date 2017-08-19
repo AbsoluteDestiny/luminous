@@ -9,7 +9,7 @@ artist: Billy Idol
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 005 - White Wedding.m4v
+mp4: Luminosity-005-White-Wedding.m4v
 mp4size: 45.9 MB
 collection: vids
 ---

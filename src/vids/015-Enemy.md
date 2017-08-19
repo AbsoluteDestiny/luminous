@@ -9,7 +9,7 @@ artist: Days of the New
 width: 640
 height: 480
 fandoms: Highlander
-mp4: Luminosity - 015 - Enemy.m4v
+mp4: Luminosity-015-Enemy.m4v
 mp4size: 33.46 MB
 collection: vids
 ---

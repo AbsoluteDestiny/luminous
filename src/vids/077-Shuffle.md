@@ -9,7 +9,7 @@ artist: Black Rebel Motorcycle Club
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 077 - Shuffle.m4v
+mp4: Luminosity-077-Shuffle.m4v
 mp4size: 38.02 MB
 collection: vids
 ---

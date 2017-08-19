@@ -9,7 +9,7 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: Luminosity - 054 - Oh Darling.m4v
+mp4: Luminosity-054-Oh-Darling.m4v
 mp4size: 32.35 MB
 collection: playerVids
 ---

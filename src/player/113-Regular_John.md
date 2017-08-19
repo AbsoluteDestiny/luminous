@@ -9,7 +9,7 @@ artist: Queens of the Stone Age
 width: 848
 height: 480
 fandoms: Person of Interest
-mp4: Luminosity - 113 - Regular John.m4v
+mp4: Luminosity-113-Regular-John.m4v
 mp4size: 58.95 MB
 collection: playerVids
 ---

@@ -9,7 +9,7 @@ artist: Bee Gees
 width: 848
 height: 480
 fandoms: Angel
-mp4: Luminosity - m001 - Night Fever (Sex on Wheels remix).m4v
+mp4: Luminosity-m001-Night-Fever-(Sex-on-Wheels-remix).m4v
 mp4size: 53.02 MB
 collection: vids
 ---

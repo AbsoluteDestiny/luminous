@@ -9,7 +9,7 @@ artist: Evanescence
 width: 640
 height: 480
 fandoms: Multifandom
-mp4: Luminosity - 074 - Bring Me to Life.m4v
+mp4: Luminosity-074-Bring-Me-to-Life.m4v
 mp4size: 31.23 MB
 collection: vids
 ---

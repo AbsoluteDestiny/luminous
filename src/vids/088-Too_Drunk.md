@@ -9,7 +9,7 @@ artist: Nouvelle Vague
 width: 640
 height: 480
 fandoms: Family Guy
-mp4: Luminosity - 088 - Too Drunk.m4v
+mp4: Luminosity-088-Too-Drunk.m4v
 mp4size: 18.18 MB
 collection: vids
 ---

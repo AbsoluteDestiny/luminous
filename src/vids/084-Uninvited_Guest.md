@@ -9,7 +9,7 @@ artist: Dog Fashion Disco
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: Luminosity - 084 - Uninvited Guest.m4v
+mp4: Luminosity-084-Uninvited-Guest.m4v
 mp4size: 14.62 MB
 collection: vids
 ---

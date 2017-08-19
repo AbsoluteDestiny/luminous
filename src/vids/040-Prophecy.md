@@ -9,7 +9,7 @@ artist: Remy Zero
 width: 848
 height: 480
 fandoms: Angel
-mp4: Luminosity - 040 - Prophecy.m4v
+mp4: Luminosity-040-Prophecy.m4v
 mp4size: 38.31 MB
 collection: vids
 ---

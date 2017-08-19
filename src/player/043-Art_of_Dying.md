@@ -9,7 +9,7 @@ artist: George Harrison
 width: 640
 height: 480
 fandoms: Kill Bill
-mp4: Luminosity - 043 - Art of Dying.m4v
+mp4: Luminosity-043-Art-of-Dying.m4v
 mp4size: 37.98 MB
 collection: playerVids
 ---

@@ -9,7 +9,7 @@ artist: Internet Disclaimer anonymous
 width: 848
 height: 480
 fandoms: Misc
-mp4: Luminosity - 086 - Theme of Luxury.m4v
+mp4: Luminosity-086-Theme-of-Luxury.m4v
 mp4size: 9.4 MB
 collection: playerVids
 ---
