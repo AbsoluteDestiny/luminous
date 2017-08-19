@@ -17,7 +17,7 @@
 <meta name="twitter:url" content="{{ site.base_url }}/vid/{{vidkey}}">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:description" content="{{fandoms}} vid by {{creators}}">
-<meta name="twitter:image" content="{{ site.base_url }}/thumbnails/{{vidkey}}.png" />
+<meta name="twitter:image" content="{{ site.base_url }}/images/thumbnails/{{vidkey}}.png" />
 <meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '')}}/index.html" />
 <meta name="twitter:player:width" content="{{ width }}" />
 <meta name="twitter:player:height" content="{{ height }}" />
@@ -26,12 +26,12 @@
 {% endblock %}
 
 
-{% block bodyAttrs %}style='background: url("{{ site.base_url }}/images/{{vidkey}}.png");'{% endblock %}
+{% block bodyAttrs %}style='background: url("{{ site.base_url }}/images/barcodes/{{vidkey}}.png");'{% endblock %}
 
 {% block main %}
 <figure class="c-vid-detail__stream">
   <div class="c-vid-detail__video">
-    <video poster="{{ site.base_url }}/thumbnails/{{vidkey}}.png" controls>
+    <video poster="{{ site.base_url }}/images/thumbnails/{{vidkey}}.png" controls>
       <source src="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" type="video/mp4">
     </video>
   </div>
