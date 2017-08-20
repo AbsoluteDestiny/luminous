@@ -9,8 +9,8 @@ artist: Spoon
 width: 884
 height: 480
 fandoms: Hannibal
-mp4: null
-mp4size: null
+mp4: Luminosity-126-Hot Thoughts (Naka-Choko).m4v
+mp4size: 19.48 MB
 collection: playerVids
 ---
 
