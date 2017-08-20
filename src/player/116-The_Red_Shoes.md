@@ -9,8 +9,8 @@ artist: Vast
 width: 884
 height: 480
 fandoms: The Red Shoes
-mp4: null
-mp4size: null
+mp4: Luminosity-116-The Red Shoes.m4v
+mp4size: 49.69 MB
 collection: playerVids
 ---
 
