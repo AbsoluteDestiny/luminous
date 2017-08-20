@@ -6,11 +6,11 @@ title:  Running Joke
 creators: Luminosity
 song: Running Joke
 artist: Queens of the Stone Age
-width: 884
-height: 480
+width: 720
+height: 404
 fandoms: True Detective
-mp4: null
-mp4size: null
+mp4: Luminosity-117-Running Joke.m4v
+mp4size: 22.25 MB
 collection: vids
 ---
 

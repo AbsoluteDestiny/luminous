@@ -5,12 +5,12 @@ date:   2014-08-13 10:00:00
 title:  Wrecking Ball
 creators: Luminosity
 song: Wreking Ball
-artist: Katy Perry
-width: 884
-height: 480
+artist: Miley Cyrus
+width: 720
+height: 400
 fandoms: Hitler
-mp4: null
-mp4size: null
+mp4: Luminosity-118-Wrecking Ball.m4v
+mp4size: 28.02 MB
 collection: vids
 ---
 

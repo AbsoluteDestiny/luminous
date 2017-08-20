@@ -9,8 +9,8 @@ artist: Unkle with Lupe Fiasco
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: null
-mp4size: null
+mp4: Luminosity-108-Chemical v2.m4v
+mp4size: 24.89 MB
 collection: playerVids
 ---
 

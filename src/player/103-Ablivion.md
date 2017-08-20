@@ -6,11 +6,11 @@ title:  Ablivion
 creators: Luminosity
 song: Ablivion
 artist: Unkle
-width: 848
-height: 480
+width: 640
+height: 352
 fandoms: Supernatural
-mp4: null
-mp4size: null
+mp4: Luminosity-103-Ablivion.m4v
+mp4size: 37.63 MB
 collection: playerVids
 ---
 

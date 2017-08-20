@@ -9,8 +9,8 @@ artist: Saint Motel
 width: 884
 height: 480
 fandoms: Hannibal
-mp4: null
-mp4size: null
+mp4: Luminosity-119-My Type.m4v
+mp4size: 27.28 MB
 collection: vids
 ---
 

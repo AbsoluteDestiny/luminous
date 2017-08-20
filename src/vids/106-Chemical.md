@@ -9,8 +9,8 @@ artist: Unkle with Gavin Clark
 width: 848
 height: 480
 fandoms: Supernatural
-mp4: null
-mp4size: null
+mp4: Luminosity-106-Chemical.m4v
+mp4size: 24.93 MB
 collection: vids
 ---
 
