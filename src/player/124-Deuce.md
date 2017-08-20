@@ -4,7 +4,7 @@ vidkey: 124-Deuce
 date:   2016-12-29 10:00:00
 title:  Deuce
 creators: Luminosity
-song: 
+song: Deuce
 artist: The Cardigans
 width: 884
 height: 480
