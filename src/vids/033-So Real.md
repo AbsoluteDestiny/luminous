@@ -6,7 +6,7 @@ title:  So Real
 creators: Luminosity
 song: So Real
 artist: Jeff Buckley
-width: 640
+width: 848
 height: 480
 fandoms: Angel
 mp4: Luminosity-033-So-Real.m4v

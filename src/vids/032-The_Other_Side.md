@@ -6,7 +6,7 @@ title:  The Other Side
 creators: Luminosity
 song: The Other Side
 artist: David Gray
-width: 848
+width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
 mp4: Luminosity-032-The-Other-Side.m4v

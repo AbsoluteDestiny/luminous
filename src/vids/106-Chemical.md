@@ -6,8 +6,8 @@ title:  Chemical
 creators: Luminosity
 song: Chemical
 artist: Unkle with Gavin Clark
-width: 848
-height: 480
+width: 640
+height: 352
 fandoms: Supernatural
 mp4: Luminosity-106-Chemical.m4v
 mp4size: 24.93 MB

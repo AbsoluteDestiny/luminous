@@ -6,7 +6,7 @@ title:  Deathproof
 creators: Luminosity
 song: heropsychodreamer
 artist: Live
-width: 828
+width: 848
 height: 360
 fandoms: Deathproof
 mp4: Luminosity-111-Deathproof.m4v

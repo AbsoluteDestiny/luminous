@@ -6,8 +6,8 @@ title:  Nothing But Cause and Effect (Feelin' Good)
 creators: Luminosity
 song: Feelin' Good
 artist: Muse
-width: 884
-height: 480
+width: 720
+height: 400
 fandoms: Hannibal
 mp4: Luminosity-120-Nothing But Cause and Effect (Feelin' Good).m4v
 mp4size: 18.63 MB

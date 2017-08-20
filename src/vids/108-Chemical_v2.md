@@ -6,8 +6,8 @@ title:  Chemical v2
 creators: Luminosity
 song: Chemical
 artist: Unkle with Lupe Fiasco
-width: 848
-height: 480
+width: 640
+height: 352
 fandoms: Supernatural
 mp4: Luminosity-108-Chemical v2.m4v
 mp4size: 24.89 MB

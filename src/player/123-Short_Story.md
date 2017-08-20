@@ -6,7 +6,7 @@ title:  Short Story
 creators: Luminosity
 song: Chorus
 artist: Black Rebel Motorcycle Club
-width: 884
+width: 720
 height: 480
 fandoms: Hannibal
 mp4: Luminosity-123-Short Story.m4v
