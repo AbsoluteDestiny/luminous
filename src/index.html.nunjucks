@@ -34,7 +34,7 @@ title: Welcome
           <div class="o-flex o-flex--space-between o-flex--align-end">
             <div class="o-flex__item">
               <div class="o-flex o-flex--column">
-                <div class="o-flex__item c-vid__title">{{post.title}} <span class="c-vid__creators">by&nbsp;{{post.creators}}</span>{% if !post.mp4 or post.mp4 == 'undefined'%} (unavailable){% endif %}
+                <div class="o-flex__item c-vid__title">{{post.title}} <span class="c-vid__creators">by&nbsp;{{post.creators}}</span>{% if post.mp4 and post.mp4 != 'undefined'%}{% else %}(unavailable){% endif %}
                 <div class="c-flex__item c-vid__fandom">{{post.fandoms}}</div>
                 </div>
               </div>
