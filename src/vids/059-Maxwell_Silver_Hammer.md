@@ -2,9 +2,9 @@
 layout: vid.html
 vidkey: 059-Maxwell_Silver_Hammer
 date:   2005-03-02 10:00:00
-title:  Maxwell Silver Hammer
+title:  Maxwell's Silver Hammer
 creators: Luminosity
-song: Maxwell Silver Hammer
+song: Maxwell's Silver Hammer
 artist: The Beatles
 width: 640
 height: 480
