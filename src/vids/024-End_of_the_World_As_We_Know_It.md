@@ -3,7 +3,7 @@ layout: vid.html
 vidkey: 024-End_of_the_World_As_We_Know_It
 date:   2002-04-12 10:00:00
 title:  End of the World As We Know It
-creators: Luminosity
+creators: Luminosity and Kamil
 song: End of the World As We Know It
 artist: REM
 width: 640
