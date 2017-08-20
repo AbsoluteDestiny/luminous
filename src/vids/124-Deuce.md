@@ -9,8 +9,8 @@ artist: The Cardigans
 width: 884
 height: 480
 fandoms: Hannibal
-mp4: null
-mp4size: null
+mp4: Luminosity-124-Deuce.m4v
+mp4size: 15.39 MB
 collection: vids
 ---
 

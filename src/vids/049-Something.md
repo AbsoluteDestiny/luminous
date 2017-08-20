@@ -9,8 +9,8 @@ artist: The Beatles
 width: 640
 height: 480
 fandoms: Buffy the Vampire Slayer
-mp4: null
-mp4size: null
+mp4: Luminosity-049-Something.m4v
+mp4size: 22.86 MB
 collection: vids
 ---
 

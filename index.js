@@ -64,7 +64,7 @@ if (fs.existsSync("./lumvids.json")) {
     };
   });
 
-  for (vid of vids) {
+  for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
 layout: vid.html
 vidkey: ${vid.key}

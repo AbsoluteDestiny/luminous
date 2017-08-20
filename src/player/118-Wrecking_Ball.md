@@ -4,7 +4,7 @@ vidkey: 118-Wrecking_Ball
 date:   2014-08-13 10:00:00
 title:  Wrecking Ball
 creators: Luminosity
-song: Wreking Ball
+song: Wrecking Ball
 artist: Miley Cyrus
 width: 720
 height: 400
