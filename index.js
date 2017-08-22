@@ -19,17 +19,14 @@ const htmlMinifier = require("metalsmith-html-minifier");
 const ignore = require('metalsmith-ignore');
 const filesize = require("filesize");
 const watch = require("metalsmith-watch");
-// const nunjucks = require('jstransformer')(require('jstransformer-nunjucks'))
 let lumvids;
 
 if (fs.existsSync("./lumvids.json")) {
   lumvids = require("./lumvids.json");
-  // console.log(lumvids);
   let fandoms = [];
 
   for (key in lumvids) {
     const vid = lumvids[key];
-    // console.log(vid.fandoms, typeof vid.fandoms);
     Array.prototype.forEach.call(vid.fandoms || [], fandom => {
       if (fandoms.indexOf(fandom) === -1) {
         fandoms.push(fandom);

@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": "airbnb-basyarn e",
+    "extends": "airbnb-base",
     "plugins": [
         "react"
     ]
