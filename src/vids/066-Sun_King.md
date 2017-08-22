@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 066-Sun_King
 date:   2005-06-01 10:00:00
 title:  Sun King
@@ -11,7 +10,6 @@ height: 480
 fandoms: Buffy the Vampire Slayer
 mp4: Luminosity-066-Sun-King.m4v
 mp4size: 26.3 MB
-collection: vids
 ---
 
   <div>

@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 113-Regular_John
 date:   2013-03-01 10:00:00
 title:  Welcome to The Machine (Regular John)
@@ -11,7 +10,6 @@ height: 480
 fandoms: Person of Interest
 mp4: Luminosity-113-Regular-John.m4v
 mp4size: 58.95 MB
-collection: vids
 ---
 
   <div>

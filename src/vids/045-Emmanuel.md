@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 045-Emmanuel
 date:   2004-06-02 10:00:00
 title:  Emmanuel
@@ -11,7 +10,6 @@ height: 480
 fandoms: Smallville
 mp4: Luminosity-045-Emmanuel.m4v
 mp4size: 36.58 MB
-collection: vids
 ---
 
   <div>

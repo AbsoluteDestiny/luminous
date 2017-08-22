@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 116-The_Red_Shoes
 date:   2014-02-09 10:00:00
 title:  The Red Shoes
@@ -11,7 +10,6 @@ height: 480
 fandoms: The Red Shoes
 mp4: Luminosity-116-The Red Shoes.m4v
 mp4size: 49.69 MB
-collection: vids
 ---
 
   <div>

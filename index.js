@@ -12,9 +12,11 @@ const paths = require("metalsmith-paths");
 const less = require("metalsmith-less");
 const autoprefixer = require("metalsmith-autoprefixer");
 const metacopy = require("metalsmith-metacopy");
+const copy = require("metalsmith-copy");
 const pagination = require("metalsmith-pagination");
 const jsonToFiles = require("metalsmith-json-to-files");
 const htmlMinifier = require("metalsmith-html-minifier");
+const ignore = require('metalsmith-ignore');
 const filesize = require("filesize");
 const watch = require("metalsmith-watch");
 // const nunjucks = require('jstransformer')(require('jstransformer-nunjucks'))
@@ -22,7 +24,7 @@ let lumvids;
 
 if (fs.existsSync("./lumvids.json")) {
   lumvids = require("./lumvids.json");
-  console.log(lumvids);
+  // console.log(lumvids);
   let fandoms = [];
 
   for (key in lumvids) {
@@ -66,7 +68,6 @@ if (fs.existsSync("./lumvids.json")) {
 
   for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
-layout: vid.html
 vidkey: ${vid.key}
 date:   ${vid.date_made}
 title:  ${vid.title}
@@ -78,7 +79,6 @@ height: ${vid.height}
 fandoms: ${vid.fandoms ? vid.fandoms.join(", ") : ""}
 mp4: ${vid.mp4 ? vid.mp4 : null}
 mp4size: ${vid.mp4 ? vid.mp4size : null}
-collection: vids
 ---
 
   <div>
@@ -86,136 +86,107 @@ collection: vids
   </div>
   `;
     fs.writeFileSync(`./src/vids/${vid.key}.md`, vidTemplate);
-    fs.writeFileSync(
-      `./src/player/${vid.key}.md`,
-      vidTemplate
-        .replace("vid.html", "twitterplayer.html")
-        .replace("collection: vids", "collection: playerVids")
-    );
   }
 }
 
 nunjucks.configure("./layouts", { watch: false, noCache: true });
 
-Metalsmith(process.cwd())
-  .metadata({
-    title: "Luminosity Vids",
-    // description: "It's about saying »Hello« to the World.",
-    generator: "Metalsmith",
-    url: "http://www.metalsmith.io/"
-  })
-  .source("./src")
-  .destination("./build")
-  .clean(true)
-  .use(less())
-  .use(autoprefixer())
-  .use(
-    metadata({
-      site: "site.json",
-      links: "data/links.json",
-      fandoms: "data/fandoms.json"
-    })
-  )
-  .use(
-    collections({
-      posts: {
-        pattern: "posts/**/*.md",
-        sortBy: "date",
-        reverse: true
-      },
-      vids: {
-        pattern: "vids/*.md",
-        sortBy: "date",
-        reverse: true
-      },
-      playerVids: {
-        pattern: "player/*.md",
-        sortBy: "date",
-        reverse: true
-      }
-    })
-  )
-  .use(markdown())
-  .use(
-    metacopy({
-      file: [
-        {
-          src: "contents",
-          dest: "bodyContent"
-        }
-      ]
-    })
-  )
-  .use(
-    permalinks({
-      // original options would act as the keys of a `default` linkset,
-      pattern: "post/:date/:title",
-      date: "YYYY/MM/DD",
 
-      // each linkset defines a match, and any other desired option
-      linksets: [
-        // {
-        //   match: { collection: "posts" },
-        //   pattern: "post/:title",
-        //   // date: "mmddyy"
-        // },
-        {
-          match: { collection: "vids" },
-          pattern: "vid/:vidkey"
-          // date: "mmddyy"
-        },
-        {
-          match: { collection: "playerVids" },
-          pattern: "vidplayer/:vidkey"
-          // date: "mmddyy"
-        }
-      ]
-    })
-  )
-  .use(
-    pagination({
-      "collections.vids": {
-        perPage: 20,
-        layout: "vidindex.html",
-        first: "vids/index.html",
-        last: "vids/last.html",
-        path: "vids/:num/index.html",
-        filter: function(page) {
-          return !page.private;
-        },
-        pageMetadata: {
-          title: "Archive"
-        }
-      },
-      "collections.posts": {
-        perPage: 20,
-        layout: "vidindex.html",
-        first: "posts/index.html",
-        path: "posts/:num/index.html",
-        filter: function(page) {
-          return !page.private;
-        },
-        pageMetadata: {
-          title: "Archive"
-        }
-      }
-    })
-  )
-  .use(paths({ property: "paths" }))
-  .use(
-    layouts({
-      engine: "nunjucks",
-      pattern: "**/*.html**"
-    })
-  )
-  .use(
-    inplace({
-      pattern: "**/*.html.**"
-    })
-  )
-  // .use(htmlMinifier())
-  .build(function(err, files) {
-    if (err) {
-      throw err;
+// Pre-process vid markdowns for twitter player template
+
+Metalsmith(process.cwd())
+.source("./src")
+.destination("./build")
+.clean(true)
+.use(less())
+.use(autoprefixer())
+.use(
+  metadata({
+    site: "data/site.json",
+    fandoms: "data/fandoms.json"
+  })
+)
+.use(
+  collections({
+    vids: {
+      pattern: "vids/*.md",
+      sortBy: "date",
+      reverse: true
     }
-  });
+  })
+)
+.use(markdown())
+.use(
+  permalinks({
+    // original options would act as the keys of a `default` linkset,
+    pattern: "post/:date/:title",
+    date: "YYYY/MM/DD",
+
+    // each linkset defines a match, and any other desired option
+    linksets: [
+      {
+        match: { collection: "vids" },
+        pattern: "vid/:vidkey"
+      }
+    ]
+  })
+)
+.use(paths({ property: "paths" }))
+.use(
+  layouts({
+    engine: "nunjucks",
+    pattern: "**/*.html**",
+    default: 'vid.html'
+  })
+)
+.use(
+  inplace({
+    pattern: "**/*.html.**"
+  })
+)
+.use(copy({
+  pattern: 'assets/**/*.*',
+  move: true,
+  transform: function (file) {
+    // console.log(path.dirname(file).split(path.delimiter).slice(1));
+    return path.join(...path.dirname(file).split(path.sep).slice(1), path.basename(file));
+  }
+}))
+// .use(htmlMinifier())
+.build(function(err, files) {
+  if (err) {
+    throw err;
+  }
+  else {
+    Metalsmith(process.cwd())
+    .source("./src")
+    .destination("./build")
+    .clean(false)
+    .use(
+      metadata({
+        site: "data/site.json",
+        fandoms: "data/fandoms.json"
+      })
+    )
+    .use(ignore('!vids/*.md'))
+    .use(markdown())
+    .use(
+      permalinks({
+        pattern: "vidplayer/:vidkey"
+      })
+    )
+    .use(paths({ property: "paths" }))
+    .use(
+      layouts({
+        engine: "nunjucks",
+        pattern: "vidplayer/**/*.html**",
+        default: 'twitterplayer.html'
+      })
+    )
+    .build(function(err, files) {
+      if (err) {
+        throw err;
+      }
+    });
+  }
+});

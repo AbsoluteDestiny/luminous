@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 075-Subterranean_Homesick_Blues
 date:   2006-07-01 10:00:00
 title:  Subterranean Homesick Blues
@@ -11,7 +10,6 @@ height: 480
 fandoms: X-Files
 mp4: Luminosity-075-Subterranean-Homesick-Blues.m4v
 mp4size: 36.5 MB
-collection: vids
 ---
 
   <div>

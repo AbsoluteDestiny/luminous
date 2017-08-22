@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 120-Nothing_But_Cause_And_Effect
 date:   2015-11-20 10:00:00
 title:  Nothing But Cause and Effect (Feelin' Good)
@@ -11,7 +10,6 @@ height: 400
 fandoms: Hannibal
 mp4: Luminosity-120-Nothing But Cause and Effect (Feelin' Good).m4v
 mp4size: 18.63 MB
-collection: vids
 ---
 
   <div>

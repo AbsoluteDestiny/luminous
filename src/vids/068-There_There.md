@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 068-There_There
 date:   2005-10-01 10:00:00
 title:  There There
@@ -11,7 +10,6 @@ height: 480
 fandoms: Angel
 mp4: Luminosity-068-There-There.m4v
 mp4size: 58.31 MB
-collection: vids
 ---
 
   <div>

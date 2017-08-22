@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 006-They're_Not_Here,_They're_Not_Coming
 date:   2001-07-01 10:00:00
 title:  They're Not Here, They're Not Coming
@@ -11,7 +10,6 @@ height: 480
 fandoms: The X-Files
 mp4: Luminosity-006-They're-Not-Here,-They're-Not-Coming.m4v
 mp4size: 57.81 MB
-collection: vids
 ---
 
   <div>

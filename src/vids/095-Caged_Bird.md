@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 095-Caged_Bird
 date:   2010-07-01 10:00:00
 title:  Caged Bird
@@ -11,7 +10,6 @@ height: 480
 fandoms: Last Year at Marienbad
 mp4: Luminosity-095-Caged-Bird.m4v
 mp4size: 60.39 MB
-collection: vids
 ---
 
   <div>

@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 004-Just_Like_You
 date:   2001-06-01 10:00:00
 title:  Just Like You
@@ -11,7 +10,6 @@ height: 480
 fandoms: Highlander
 mp4: Luminosity-004-Just-Like-You.m4v
 mp4size: 35.95 MB
-collection: vids
 ---
 
   <div>

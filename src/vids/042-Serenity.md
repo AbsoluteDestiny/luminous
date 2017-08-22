@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 042-Serenity
 date:   2004-04-01 10:00:00
 title:  Serenity
@@ -11,7 +10,6 @@ height: 480
 fandoms: Firefly
 mp4: Luminosity-042-Serenity.m4v
 mp4size: 66.73 MB
-collection: vids
 ---
 
   <div>

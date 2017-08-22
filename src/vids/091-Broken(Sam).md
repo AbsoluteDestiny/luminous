@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 091-Broken(Sam)
 date:   2009-01-02 10:00:00
 title:  Broken(Sam)
@@ -11,7 +10,6 @@ height: 480
 fandoms: Supernatural
 mp4: Luminosity-091-Broken(Sam).m4v
 mp4size: 41.35 MB
-collection: vids
 ---
 
   <div>

@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 077-Shuffle
 date:   2006-11-01 10:00:00
 title:  Shuffle
@@ -11,7 +10,6 @@ height: 480
 fandoms: Supernatural
 mp4: Luminosity-077-Shuffle.m4v
 mp4size: 38.02 MB
-collection: vids
 ---
 
   <div>

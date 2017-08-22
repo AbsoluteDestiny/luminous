@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 124-Deuce
 date:   2016-12-29 10:00:00
 title:  Deuce
@@ -11,7 +10,6 @@ height: 480
 fandoms: Hannibal
 mp4: Luminosity-124-Deuce.m4v
 mp4size: 15.39 MB
-collection: vids
 ---
 
   <div>

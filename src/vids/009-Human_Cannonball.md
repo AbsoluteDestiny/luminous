@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 009-Human_Cannonball
 date:   2001-08-04 10:00:00
 title:  Human Cannonball
@@ -11,7 +10,6 @@ height: 480
 fandoms: The X-Files
 mp4: Luminosity-009-Human-Cannonball.m4v
 mp4size: 44.71 MB
-collection: vids
 ---
 
   <div>

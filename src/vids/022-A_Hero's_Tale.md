@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 022-A_Hero's_Tale
 date:   2002-03-22 10:00:00
 title:  A Hero's Tale
@@ -11,7 +10,6 @@ height: 480
 fandoms: Highlander
 mp4: Luminosity-022-A-Hero's-Tale.m4v
 mp4size: 81.83 MB
-collection: vids
 ---
 
   <div>

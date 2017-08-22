@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 093-Wanted
 date:   2009-05-02 10:00:00
 title:  Wanted
@@ -11,7 +10,6 @@ height: 360
 fandoms: Wanted
 mp4: Luminosity-093-Wanted.m4v
 mp4size: 63.2 MB
-collection: vids
 ---
 
   <div>

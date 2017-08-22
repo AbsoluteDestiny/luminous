@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 039-Evil_Angel
 date:   2003-11-01 10:00:00
 title:  Evil Angel
@@ -11,7 +10,6 @@ height: 480
 fandoms: Angel
 mp4: Luminosity-039-Evil-Angel.m4v
 mp4size: 37 MB
-collection: vids
 ---
 
   <div>

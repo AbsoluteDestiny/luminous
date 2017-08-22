@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 027-Southwest_Voodoo
 date:   2002-06-12 10:00:00
 title:  Southwest Voodoo
@@ -11,7 +10,6 @@ height: 480
 fandoms: Buffy the Vampire Slayer
 mp4: Luminosity-027-Southwest-Voodoo.m4v
 mp4size: 45.26 MB
-collection: vids
 ---
 
   <div>

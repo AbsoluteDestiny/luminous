@@ -1,5 +1,4 @@
 ---
-layout: vid.html
 vidkey: 041-Whatever
 date:   2004-01-02 10:00:00
 title:  Whatever
@@ -11,7 +10,6 @@ height: 480
 fandoms: Angel
 mp4: Luminosity-041-Whatever.m4v
 mp4size: 21.92 MB
-collection: vids
 ---
 
   <div>
