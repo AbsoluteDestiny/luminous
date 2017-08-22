@@ -1,18 +1,16 @@
 ---
 vidkey: 033-So Real
-date:   2003-06-01 10:00:00
 title:  So Real
 creators: Luminosity
 song: So Real
 artist: Jeff Buckley
-width: 848
-height: 480
+date:   2003-06-01 10:00:00
 fandoms: Angel
 mp4: Luminosity-033-So-Real.m4v
 mp4size: 49.54 MB
+width: 848
+height: 480
 ---
 
-  <div>
-  Wes dreams.
-  </div>
+Wes dreams.
   
