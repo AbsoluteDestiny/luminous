@@ -187,6 +187,7 @@ Metalsmith(process.cwd())
     if (err) {
       throw err;
     } else {
+      // Process metalsmith again for the twitter templates
       Metalsmith(process.cwd())
         .metadata({
           fandoms: fandoms.sort()
