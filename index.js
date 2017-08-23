@@ -20,24 +20,11 @@ const ignore = require("metalsmith-ignore");
 const each = require("metalsmith-each");
 const filesize = require("filesize");
 const watch = require("metalsmith-watch");
-const frontmatter = require('front-matter');
+const frontmatter = require("front-matter");
 let lumvids;
 
 if (fs.existsSync("./lumvids.json")) {
   lumvids = require("./lumvids.json");
-  let fandoms = [];
-
-  for (key in lumvids) {
-    const vid = lumvids[key];
-    Array.prototype.forEach.call(vid.fandoms || [], fandom => {
-      if (fandoms.indexOf(fandom) === -1) {
-        fandoms.push(fandom);
-      }
-    });
-  }
-
-  fandoms.sort();
-  fs.writeFileSync("./src/data/fandoms.json", JSON.stringify(fandoms));
 
   let files = fs
     .readdirSync("F:\\lum\\encodes")
@@ -68,7 +55,9 @@ if (fs.existsSync("./lumvids.json")) {
   for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
 title:  ${vid.title}
-fandoms:${vid.fandoms ? '\n' + vid.fandoms.map((f) => '    - ' + f).join("\n") : ""}
+fandoms:${vid.fandoms
+      ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")
+      : ""}
 creators: ${vid.vidder}
 song: ${vid.song}
 artist: ${vid.artist}
@@ -89,13 +78,12 @@ nunjucks.configure("./layouts", { watch: false, noCache: true });
 
 // Pre-process vid markdowns for twitter player template
 
-let vidPosts = fs
-  .readdirSync("./src/vids/");
+const vidPosts = fs.readdirSync("./src/vids/");
 
 let fandoms = [];
 
 for (md of vidPosts) {
-  const fm = frontmatter(fs.readFileSync(path.join("./src/vids/", md), 'utf8'));
+  const fm = frontmatter(fs.readFileSync(path.join("./src/vids/", md), "utf8"));
   if (fm.attributes.fandoms) {
     for (fandom of fm.attributes.fandoms) {
       if (fandoms.indexOf(fandom) < 0) {
@@ -109,7 +97,7 @@ fandoms = fandoms.sort();
 
 Metalsmith(process.cwd())
   .metadata({
-    fandoms: fandoms.sort()
+    fandoms
   })
   .source("./src")
   .destination("./build")
@@ -197,7 +185,7 @@ Metalsmith(process.cwd())
         .clean(false)
         .use(
           metadata({
-            site: "data/site.json",
+            site: "data/site.json"
           })
         )
         .use(ignore("!vids/*.md"))
