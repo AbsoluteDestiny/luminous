@@ -18,7 +18,7 @@
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:description" content="{{fandoms}} vid by {{creators}}">
 <meta name="twitter:image" content="{{ site.base_url }}/images/thumbnails/{{vidkey}}.jpg" />
-<meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '')}}/index.html" />
+<meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '') | replace('vid/', '')}}/index.html" />
 <meta name="twitter:player:width" content="{{ width }}" />
 <meta name="twitter:player:height" content="{{ height }}" />
 <meta name="twitter:player:stream" content="{{ site.vid_cdn }}/{{ mp4name }}" />
