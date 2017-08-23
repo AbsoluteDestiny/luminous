@@ -470,7 +470,15 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: #c22107;
-  background-image:  url('../images/fighting-forms.jpg');
+  @media screen and (max-width: 1279px) {
+    background-image:  url('../images/fighting-forms-md.jpg');
+  }
+  @media screen and (min-width: 1279px) and (max-width: 1919px) {
+    background-image:  url('../images/fighting-forms-md.jpg');
+  }
+  @media screen and (min-width: 1920px) {
+    background-image:  url('../images/fighting-forms-xl.jpg');
+  }
   // background-color: #666;
   // background: #1d4350; /* fallback for old browsers */
   // background: linear-gradient(to right, #1d4350, #a43931);
@@ -479,6 +487,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: #fff;
+  transition: background-image 0.3s ease-in;
 }
 
 body:before {
