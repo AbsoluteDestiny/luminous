@@ -2,7 +2,7 @@
 
 {% block pageMeta %}
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
-<meta property="og:url" content="{{ site.base_url }}{{paths.dir | replace('\\', '/')}}">
+<meta property="og:url" content="{{ site.base_url }}/{{paths.dir | replace('\\', '/')}}">
 <meta property="og:type" content="video.other">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:image" content="{{ site.base_url }}/images/thumbnails/{{vidkey}}.jpg">
@@ -54,6 +54,10 @@
 
     <div class="post-main">
       {{ contents | safe }}
+      {{paths.dir}}
+      {{paths.basename}}
+      {{paths.filename}}
+      {{paths.file}}
     </div>
   </div>
 
