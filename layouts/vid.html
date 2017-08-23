@@ -29,7 +29,7 @@
 {% block bodyAttrs %}style='background-image: url("/images/barcodes/{{vidkey}}.png");' class="t-vid-detail"{% endblock %}
 
 {% block main %}
-<link rel="stylesheet" href="/js/plyr.css">
+<link rel="stylesheet" href="/{{ fingerprint["js/plyr.css"] }}">
 <figure class="c-vid-detail__stream">
   <div class="c-vid-detail__video">
     <video poster="/images/thumbnails/{{vidkey}}.jpg" controls preload="metadata" width="{{ width }}px" height="{{ height }}px">

@@ -76,7 +76,7 @@ title: Welcome
 <script>
   var bLazy = new Blazy({ offset: 500 });
 </script>
-<link rel="stylesheet" href="/js/vanilla-js-dropdown.css">
+<link rel="stylesheet" href="/{{ fingerprint["js/vanilla-js-dropdown.css"] }}">
 <script src="/js/vanilla-js-dropdown.min.js"></script>
 <script>
   (function (document) {

@@ -21,6 +21,7 @@ const each = require("metalsmith-each");
 const filesize = require("filesize");
 const watch = require("metalsmith-watch");
 const frontmatter = require("front-matter");
+const fingerprint = require("metalsmith-fingerprint-ignore");
 let lumvids;
 
 if (fs.existsSync("./lumvids.json")) {
@@ -105,6 +106,19 @@ Metalsmith(process.cwd())
   .use(less())
   .use(autoprefixer())
   .use(
+    copy({
+      pattern: "assets/**/*.*",
+      move: true,
+      transform: function(file) {
+        return path.join(
+          ...path.dirname(file).split(path.sep).slice(1),
+          path.basename(file)
+        );
+      }
+    })
+  )
+  .use(fingerprint({ pattern: '**/*.css' }))
+  .use(
     metadata({
       site: "data/site.json"
     })
@@ -151,18 +165,6 @@ Metalsmith(process.cwd())
   .use(
     inplace({
       pattern: "**/*.html.**"
-    })
-  )
-  .use(
-    copy({
-      pattern: "assets/**/*.*",
-      move: true,
-      transform: function(file) {
-        return path.join(
-          ...path.dirname(file).split(path.sep).slice(1),
-          path.basename(file)
-        );
-      }
     })
   )
   .use(
