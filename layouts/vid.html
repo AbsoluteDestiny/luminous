@@ -1,5 +1,5 @@
 {% extends "default.html" %}
-
+{% set vidkey = mp4name | replace('.m4v', '') | replace('.mp4', '') %}
 {% block pageMeta %}
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
 <meta property="og:url" content="{{ site.base_url }}/{{paths.dir | replace('\\', '/')}}">
@@ -9,7 +9,7 @@
 <meta property="og:description" content="{{fandoms}} vid by {{creators}}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
-<meta property="og:video" content="{{ site.base_url }}/newvids/{{ mp4 }}" />
+<meta property="og:video" content="{{ site.vid_cdn }}/{{ mp4name }}" />
 <meta property="video:director" content="Luminosity">
 <meta property="video:release_date" content="{{ date.toISOString() }}">
 <meta name="twitter:card" content="player">
@@ -21,7 +21,7 @@
 <meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '')}}/index.html" />
 <meta name="twitter:player:width" content="{{ width }}" />
 <meta name="twitter:player:height" content="{{ height }}" />
-<meta name="twitter:player:stream" content="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" />
+<meta name="twitter:player:stream" content="{{ site.vid_cdn }}/{{ mp4name }}" />
 <meta name="twitter:player:stream:content_type" content="video/mp4" />
 {% endblock %}
 
@@ -29,10 +29,11 @@
 {% block bodyAttrs %}style='background-image: url("/images/barcodes/{{vidkey}}.png");' class="t-vid-detail"{% endblock %}
 
 {% block main %}
+<link rel="stylesheet" href="/js/plyr.css">
 <figure class="c-vid-detail__stream">
   <div class="c-vid-detail__video">
     <video poster="/images/thumbnails/{{vidkey}}.jpg" controls preload="metadata" width="{{ width }}px" height="{{ height }}px">
-      <source src="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" type="video/mp4">
+      <source src="{{ site.vid_cdn }}/{{ mp4name }}" type="video/mp4">
     </video>
   </div>
 </figure>
@@ -48,23 +49,18 @@
       <div class="c-vid-detail__song">Song: {{ song }}</div>
       <div class="c-vid-detail__artist">Artist: {{ artist }}</div>
       {% endif %}
-      <div class="c-vid-detail__download">Download: <a class="c-vid-detail__download-link" href="{{ site.vid_cdn }}/{{ mp4 | replace(' ', '+') }}" download>{{title}}.m4v ({{ mp4size }})</a></div>
+      <div class="c-vid-detail__download">Download: <a class="c-vid-detail__download-link" href="{{ site.vid_cdn }}/{{ mp4name }}" download>{{title}}.m4v ({{ mp4size }})</a></div>
       <div class="c-vid-detail__description">{{ description }}</div>
     </div>
 
     <div class="post-main">
       {{ contents | safe }}
-      {{paths.dir}}
-      {{paths.basename}}
-      {{paths.filename}}
-      {{paths.file}}
     </div>
   </div>
 
 </article>
 {% endblock %}
 {% block scripts %}
-  <link rel="stylesheet" href="/js/plyr.css">
   <script src="/js/plyr.js"></script>
   <script>
     plyr.setup();

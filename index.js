@@ -17,8 +17,10 @@ const pagination = require("metalsmith-pagination");
 const jsonToFiles = require("metalsmith-json-to-files");
 const htmlMinifier = require("metalsmith-html-minifier");
 const ignore = require("metalsmith-ignore");
+const each = require("metalsmith-each");
 const filesize = require("filesize");
 const watch = require("metalsmith-watch");
+const frontmatter = require('front-matter');
 let lumvids;
 
 if (fs.existsSync("./lumvids.json")) {
@@ -65,14 +67,13 @@ if (fs.existsSync("./lumvids.json")) {
 
   for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
-vidkey: ${vid.key}
 title:  ${vid.title}
-fandoms: ${vid.fandoms ? vid.fandoms.join(", ") : ""}
+fandoms:${vid.fandoms ? '\n' + vid.fandoms.map((f) => '    - ' + f).join("\n") : ""}
 creators: ${vid.vidder}
 song: ${vid.song}
 artist: ${vid.artist}
 date:   ${vid.date_made}
-mp4: ${vid.mp4 ? vid.mp4 : null}
+mp4name: ${vid.mp4 ? vid.mp4 : null}
 mp4size: ${vid.mp4 ? vid.mp4size : null}
 width: ${vid.width}
 height: ${vid.height}
@@ -88,7 +89,28 @@ nunjucks.configure("./layouts", { watch: false, noCache: true });
 
 // Pre-process vid markdowns for twitter player template
 
+let vidPosts = fs
+  .readdirSync("./src/vids/");
+
+let fandoms = [];
+
+for (md of vidPosts) {
+  const fm = frontmatter(fs.readFileSync(path.join("./src/vids/", md), 'utf8'));
+  if (fm.attributes.fandoms) {
+    for (fandom of fm.attributes.fandoms) {
+      if (fandoms.indexOf(fandom) < 0) {
+        fandoms.push(fandom);
+      }
+    }
+  }
+}
+
+fandoms = fandoms.sort();
+
 Metalsmith(process.cwd())
+  .metadata({
+    fandoms: fandoms.sort()
+  })
   .source("./src")
   .destination("./build")
   .clean(true)
@@ -96,8 +118,13 @@ Metalsmith(process.cwd())
   .use(autoprefixer())
   .use(
     metadata({
-      site: "data/site.json",
-      fandoms: "data/fandoms.json"
+      site: "data/site.json"
+    })
+  )
+  .use(
+    each((file, filename) => {
+      file.basename = path.basename(filename, ".md");
+      return filename;
     })
   )
   .use(
@@ -120,7 +147,7 @@ Metalsmith(process.cwd())
       linksets: [
         {
           match: { collection: "vids" },
-          pattern: "vid/:vidkey"
+          pattern: "vid/:basename"
         }
       ]
     })
@@ -150,22 +177,26 @@ Metalsmith(process.cwd())
       }
     })
   )
-  .use(htmlMinifier({
-    removeAttributeQuotes: false,
-    removeEmptyAttributes: false
-  }))
+  .use(
+    htmlMinifier({
+      removeAttributeQuotes: false,
+      removeEmptyAttributes: false
+    })
+  )
   .build(function(err, files) {
     if (err) {
       throw err;
     } else {
       Metalsmith(process.cwd())
+        .metadata({
+          fandoms: fandoms.sort()
+        })
         .source("./src")
         .destination("./build")
         .clean(false)
         .use(
           metadata({
             site: "data/site.json",
-            fandoms: "data/fandoms.json"
           })
         )
         .use(ignore("!vids/*.md"))

@@ -1,12 +1,12 @@
 ---
-vidkey: 043-Art_of_Dying
 title:  Art of Dying
-fandoms: Kill Bill
+fandoms:
+    - Kill Bill
 creators: Luminosity
 song: Art of Dying
 artist: George Harrison
 date:   2004-04-02 10:00:00
-mp4: Luminosity-043-Art-of-Dying.m4v
+mp4name: Luminosity-043-Art-of-Dying.m4v
 mp4size: 37.98 MB
 width: 640
 height: 480

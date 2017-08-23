@@ -1,12 +1,12 @@
 ---
-vidkey: 039-Evil_Angel
 title:  Evil Angel
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Evil Angel
 artist: Rufus Wainwright
 date:   2003-11-01 10:00:00
-mp4: Luminosity-039-Evil-Angel.m4v
+mp4name: Luminosity-039-Evil-Angel.m4v
 mp4size: 37 MB
 width: 640
 height: 480
