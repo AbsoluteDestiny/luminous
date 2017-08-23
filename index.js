@@ -188,11 +188,17 @@ Metalsmith(process.cwd())
             site: "data/site.json"
           })
         )
+        .use(
+          each((file, filename) => {
+            file.basename = path.basename(filename, ".md");
+            return filename;
+          })
+        )
         .use(ignore("!vids/*.md"))
         .use(markdown())
         .use(
           permalinks({
-            pattern: "vidplayer/:vidkey"
+            pattern: "vidplayer/:basename"
           })
         )
         .use(paths({ property: "paths" }))
