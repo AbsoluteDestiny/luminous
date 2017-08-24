@@ -22,6 +22,7 @@ const filesize = require("filesize");
 const watch = require("metalsmith-watch");
 const frontmatter = require("front-matter");
 const fingerprint = require("metalsmith-fingerprint-ignore");
+const subsetfonts = require("metalsmith-subsetfonts");
 let lumvids;
 
 if (fs.existsSync("./lumvids.json")) {
@@ -167,6 +168,7 @@ Metalsmith(process.cwd())
       pattern: "**/*.html.**"
     })
   )
+  .use(subsetfonts())
   .use(
     htmlMinifier({
       removeAttributeQuotes: false,
