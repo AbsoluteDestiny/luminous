@@ -2,23 +2,23 @@
 {% set vidkey = mp4name | replace('.m4v', '') | replace('.mp4', '') %}
 {% block pageMeta %}
 <meta property="fb:app_id" content="{{ site.fb_appid }}">
-<meta property="og:url" content="{{ site.base_url }}/{{paths.dir | replace('\\', '/')}}">
+<meta property="og:url" content="{{ site.url }}/{{paths.dir | replace('\\', '/')}}">
 <meta property="og:type" content="video.other">
 <meta property="og:title" content="{{ title }}">
-<meta property="og:image" content="{{ site.base_url }}/images/thumbnails/{{vidkey}}.jpg">
+<meta property="og:image" content="{{ site.url }}/images/thumbnails/{{vidkey}}.jpg">
 <meta property="og:description" content="{{fandoms}} vid by {{creators}}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
 <meta property="og:video" content="{{ site.vid_cdn }}/{{ mp4name }}" />
-<meta property="video:director" content="Luminosity">
+<meta property="video:director" content="{{ site.author }}">
 <meta property="video:release_date" content="{{ date.toISOString() }}">
 <meta name="twitter:card" content="player">
 <meta name="twitter:site" content="{{ site.twitter_handle }}">
-<meta name="twitter:url" content="{{ site.base_url }}/vid/{{vidkey}}">
+<meta name="twitter:url" content="{{ site.url }}/vid/{{vidkey}}">
 <meta name="twitter:title" content="{{ title }}">
 <meta name="twitter:description" content="{{fandoms}} vid by {{creators}}">
-<meta name="twitter:image" content="{{ site.base_url }}/images/thumbnails/{{vidkey}}.jpg" />
-<meta name="twitter:player" content="{{ site.base_url }}/vidplayer/{{paths.dir | replace('vid\\', '') | replace('vid/', '')}}/index.html" />
+<meta name="twitter:image" content="{{ site.url }}/images/thumbnails/{{vidkey}}.jpg" />
+<meta name="twitter:player" content="{{ site.url }}/vidplayer/{{paths.dir | replace('vid\\', '') | replace('vid/', '')}}/index.html" />
 <meta name="twitter:player:width" content="{{ width }}" />
 <meta name="twitter:player:height" content="{{ height }}" />
 <meta name="twitter:player:stream" content="{{ site.vid_cdn }}/{{ mp4name }}" />

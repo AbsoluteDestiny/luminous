@@ -23,7 +23,10 @@ const watch = require("metalsmith-watch");
 const frontmatter = require("front-matter");
 const fingerprint = require("metalsmith-fingerprint-ignore");
 const subsetfonts = require("metalsmith-subsetfonts");
+const sitemap = require("metalsmith-sitemap");
+const feed = require("metalsmith-feed");
 let lumvids;
+const sitedata = require("./src/data/site.json");
 
 if (fs.existsSync("./lumvids.json")) {
   lumvids = require("./lumvids.json");
@@ -96,10 +99,11 @@ for (md of vidPosts) {
 }
 
 fandoms = fandoms.sort();
-
+console.log(sitedata);
 Metalsmith(process.cwd())
   .metadata({
-    fandoms
+    fandoms,
+    site: sitedata,
   })
   .source("./src")
   .destination("./build")
@@ -119,11 +123,6 @@ Metalsmith(process.cwd())
     })
   )
   .use(fingerprint({ pattern: '**/*.css' }))
-  .use(
-    metadata({
-      site: "data/site.json"
-    })
-  )
   .use(
     each((file, filename) => {
       file.basename = path.basename(filename, ".md");
@@ -155,6 +154,9 @@ Metalsmith(process.cwd())
       ]
     })
   )
+  .use(feed({
+    collection: 'vids'
+  }))
   .use(paths({ property: "paths" }))
   .use(
     layouts({
@@ -175,6 +177,10 @@ Metalsmith(process.cwd())
       removeEmptyAttributes: false
     })
   )
+  .use(sitemap({
+    hostname: sitedata.url,
+    omitIndex: true
+  }))
   .build(function(err, files) {
     if (err) {
       throw err;
