@@ -26,6 +26,7 @@
     "metalsmith-copy": "^0.3.0",
     "metalsmith-each": "^0.1.1",
     "metalsmith-feed": "^0.3.0",
+    "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-fingerprint-ignore": "^2.0.0",
     "metalsmith-html-minifier": "^2.2.0",
     "metalsmith-ignore": "^0.1.2",

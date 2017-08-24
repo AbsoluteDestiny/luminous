@@ -25,11 +25,11 @@ const fingerprint = require("metalsmith-fingerprint-ignore");
 const subsetfonts = require("metalsmith-subsetfonts");
 const sitemap = require("metalsmith-sitemap");
 const feed = require("metalsmith-feed");
-let lumvids;
+const fileMetadata = require("metalsmith-filemetadata");
 const sitedata = require("./src/data/site.json");
 
 if (fs.existsSync("./lumvids.json")) {
-  lumvids = require("./lumvids.json");
+  const lumvids = require("./lumvids.json");
 
   let files = fs
     .readdirSync("F:\\lum\\encodes")
@@ -81,10 +81,8 @@ ${vid.description}
 
 nunjucks.configure("./layouts", { watch: false, noCache: true });
 
-// Pre-process vid markdowns for twitter player template
-
+// Work out all the fandoms used
 const vidPosts = fs.readdirSync("./src/vids/");
-
 let fandoms = [];
 
 for (md of vidPosts) {
@@ -99,11 +97,11 @@ for (md of vidPosts) {
 }
 
 fandoms = fandoms.sort();
-console.log(sitedata);
+
 Metalsmith(process.cwd())
   .metadata({
     fandoms,
-    site: sitedata,
+    site: sitedata
   })
   .source("./src")
   .destination("./build")
@@ -122,7 +120,7 @@ Metalsmith(process.cwd())
       }
     })
   )
-  .use(fingerprint({ pattern: '**/*.css' }))
+  .use(fingerprint({ pattern: "**/*.css" }))
   .use(
     each((file, filename) => {
       file.basename = path.basename(filename, ".md");
@@ -130,9 +128,34 @@ Metalsmith(process.cwd())
     })
   )
   .use(
+    copy({
+      pattern: "vids/*.*",
+      move: false,
+      transform: function(file) {
+        const newpath = path.join(
+          'vidplayer',
+          ...path.dirname(file).split(path.sep).slice(1),
+          path.basename(file)
+        );
+        return newpath;
+      }
+    })
+  )
+  .use(
+    fileMetadata([
+      { pattern: "vids/**", metadata: { layout: "vid.html" } },
+      { pattern: "vidplayer/**", metadata: { layout: "twitterplayer.html" } }
+    ])
+  )
+  .use(
     collections({
       vids: {
         pattern: "vids/*.md",
+        sortBy: "date",
+        reverse: true
+      },
+      vidplayer: {
+        pattern: "vidplayer/*.md",
         sortBy: "date",
         reverse: true
       }
@@ -141,28 +164,31 @@ Metalsmith(process.cwd())
   .use(markdown())
   .use(
     permalinks({
-      // original options would act as the keys of a `default` linkset,
       pattern: "post/:date/:title",
       date: "YYYY/MM/DD",
 
-      // each linkset defines a match, and any other desired option
       linksets: [
         {
           match: { collection: "vids" },
           pattern: "vid/:basename"
+        },
+        {
+          match: { collection: "vidplayer" },
+          pattern: "vidplayer/:basename"
         }
       ]
     })
   )
-  .use(feed({
-    collection: 'vids'
-  }))
+  .use(
+    feed({
+      collection: "vids"
+    })
+  )
   .use(paths({ property: "paths" }))
   .use(
     layouts({
       engine: "nunjucks",
       pattern: "**/*.html**",
-      default: "vid.html"
     })
   )
   .use(
@@ -177,52 +203,14 @@ Metalsmith(process.cwd())
       removeEmptyAttributes: false
     })
   )
-  .use(sitemap({
-    hostname: sitedata.url,
-    omitIndex: true
-  }))
+  .use(
+    sitemap({
+      hostname: sitedata.url,
+      omitIndex: true
+    })
+  )
   .build(function(err, files) {
     if (err) {
       throw err;
-    } else {
-      // Process metalsmith again for the twitter templates
-      Metalsmith(process.cwd())
-        .metadata({
-          fandoms: fandoms.sort()
-        })
-        .source("./src")
-        .destination("./build")
-        .clean(false)
-        .use(
-          metadata({
-            site: "data/site.json"
-          })
-        )
-        .use(
-          each((file, filename) => {
-            file.basename = path.basename(filename, ".md");
-            return filename;
-          })
-        )
-        .use(ignore("!vids/*.md"))
-        .use(markdown())
-        .use(
-          permalinks({
-            pattern: "vidplayer/:basename"
-          })
-        )
-        .use(paths({ property: "paths" }))
-        .use(
-          layouts({
-            engine: "nunjucks",
-            pattern: "vidplayer/**/*.html**",
-            default: "twitterplayer.html"
-          })
-        )
-        .build(function(err, files) {
-          if (err) {
-            throw err;
-          }
-        });
     }
   });
