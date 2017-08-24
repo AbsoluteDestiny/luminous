@@ -26,6 +26,7 @@ const subsetfonts = require("metalsmith-subsetfonts");
 const sitemap = require("metalsmith-sitemap");
 const feed = require("metalsmith-feed");
 const fileMetadata = require("metalsmith-filemetadata");
+const tags = require("metalsmith-tags");
 const sitedata = require("./src/data/site.json");
 
 if (fs.existsSync("./lumvids.json")) {
@@ -81,26 +82,29 @@ ${vid.description}
 
 nunjucks.configure("./layouts", { watch: false, noCache: true });
 
-// Work out all the fandoms used
-const vidPosts = fs.readdirSync("./src/vids/");
-let fandoms = [];
-
-for (md of vidPosts) {
-  const fm = frontmatter(fs.readFileSync(path.join("./src/vids/", md), "utf8"));
-  if (fm.attributes.fandoms) {
-    for (fandom of fm.attributes.fandoms) {
-      if (fandoms.indexOf(fandom) < 0) {
-        fandoms.push(fandom);
-      }
-    }
-  }
+function fandoms(options) {
+  return function(files, metalsmith, done) {
+    let fandoms = [];
+    Object.keys(files)
+      .filter(f => path.extname(f) === ".md")
+      .forEach(function(file) {
+        const fm = frontmatter(fs.readFileSync(path.join(metalsmith._source, file), "utf8"));
+        if (fm.attributes.fandoms) {
+          for (fandom of fm.attributes.fandoms) {
+            if (fandoms.indexOf(fandom) < 0) {
+              fandoms.push(fandom);
+            }
+          }
+        }
+      });
+    fandoms.sort();
+    metalsmith._metadata.tags = fandoms;
+    setImmediate(done);
+  };
 }
-
-fandoms = fandoms.sort();
 
 Metalsmith(process.cwd())
   .metadata({
-    fandoms,
     site: sitedata
   })
   .source("./src")
@@ -122,18 +126,22 @@ Metalsmith(process.cwd())
   )
   .use(fingerprint({ pattern: "**/*.css" }))
   .use(
+    fandoms()
+  )
+  .use(
     each((file, filename) => {
       file.basename = path.basename(filename, ".md");
       return filename;
     })
   )
+  .use(ignore(["tags/**", "**/*.less"]))
   .use(
     copy({
       pattern: "vids/*.*",
       move: false,
       transform: function(file) {
         const newpath = path.join(
-          'vidplayer',
+          "vidplayer",
           ...path.dirname(file).split(path.sep).slice(1),
           path.basename(file)
         );
@@ -188,7 +196,7 @@ Metalsmith(process.cwd())
   .use(
     layouts({
       engine: "nunjucks",
-      pattern: "**/*.html**",
+      pattern: "**/*.html**"
     })
   )
   .use(

@@ -10,7 +10,7 @@ title: Welcome
   <div class="c-filter__dropdown">
     <span class="dropdown-el" role="radiogroup" aria-labelledby="c-filter__fandom-label">
       <input type="radio" name="fandom" value="-1" checked="checked" id="sort-all"><label for="sort-all">All Fandoms</label>
-      {% for fandom in fandoms %}
+      {% for fandom in tags %}
       <input type="radio" name="fandom" value="{{fandom}}" id="sort-{{loop.index}}"><label for="sort-{{loop.index}}">{{fandom}}</label>
       {% endfor %}
   </span>
