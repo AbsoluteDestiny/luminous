@@ -12,7 +12,11 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Vid Title", name: "title", widget: "string"}
       - {label: "Vid Creation Date", name: "date", widget: "datetime"}
-      - {label: "Fandoms (separate multiple with a comma)", name: "fandoms", widget: "string"}
+      - name: fandoms
+        label: Fandoms
+        widget: list
+        fields:
+          - {label: Fandom, name: fandom, widget: string}
       - {label: "Vidders", name: "creators", widget: "string", default: "Luminosity"}
       - {label: "Song Title", name: "song", widget: "string"}
       - {label: "Song Artist", name: "artist", widget: "string"}
