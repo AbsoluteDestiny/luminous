@@ -1,0 +1,23 @@
+backend:
+  name: github
+  repo: AbsoluteDestiny/luminous # Path to your Github repository
+  branch: staging # Branch to update
+media_folder: "src/assets/images"
+collections:
+  - name: "vids" # Used in routes, e.g., /admin/collections/blog
+    label: "Vids" # Used in the UI
+    folder: "src/vids" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{id}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Vid Title", name: "title", widget: "string"}
+      - {label: "Vid Creation Date", name: "date", widget: "datetime"}
+      - {label: "Fandoms (separate multiple with a comma)", name: "fandoms", widget: "string"}
+      - {label: "Vidders", name: "creators", widget: "string", default: "Luminosity"}
+      - {label: "Song Title", name: "song", widget: "string"}
+      - {label: "Song Artist", name: "artist", widget: "string"}
+      - {label: "mp4 filename", name: "artist", widget: "string"}
+      - {label: "mp4 size", name: "artist", widget: "string"}
+      - {label: "mp4 width", name: "artist", widget: "number"}
+      - {label: "mp4 height", name: "artist", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
