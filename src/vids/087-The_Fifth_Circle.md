@@ -1,5 +1,5 @@
 ---
-vid_id: 087-The_Fifth_Circle
+vid_id: 087
 title: The Fifth Circle
 fandoms:
     - Supernatural

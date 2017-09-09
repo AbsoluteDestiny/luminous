@@ -1,5 +1,5 @@
 ---
-vid_id: 017-Blinded_Me_With_Science
+vid_id: 017
 title: Blinded Me With Science
 fandoms:
     - The X-Files

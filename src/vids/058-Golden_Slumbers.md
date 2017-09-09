@@ -1,5 +1,5 @@
 ---
-vid_id: 058-Golden_Slumbers
+vid_id: 058
 title: Golden Slumbers
 fandoms:
     - Buffy the Vampire Slayer

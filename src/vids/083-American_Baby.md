@@ -1,5 +1,5 @@
 ---
-vid_id: 083-American_Baby
+vid_id: 083
 title: American Baby
 fandoms:
     - Friday Night Lights

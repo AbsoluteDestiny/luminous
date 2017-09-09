@@ -1,5 +1,5 @@
 ---
-vid_id: 074-Bring_Me_to_Life
+vid_id: 074
 title: Bring Me to Life
 fandoms:
     - Multifandom

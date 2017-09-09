@@ -1,5 +1,5 @@
 ---
-vid_id: 052-You_Never_Give_Me_Your_Money
+vid_id: 052
 title: You Never Give Me Your Money
 fandoms:
     - Buffy the Vampire Slayer

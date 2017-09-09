@@ -1,5 +1,5 @@
 ---
-vid_id: 117-Running_Joke
+vid_id: 117
 title: Running Joke
 fandoms:
     - True Detective

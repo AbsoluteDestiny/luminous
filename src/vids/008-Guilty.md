@@ -1,5 +1,5 @@
 ---
-vid_id: 008-Guilty
+vid_id: 008
 title: Guilty
 fandoms:
     - Highlander

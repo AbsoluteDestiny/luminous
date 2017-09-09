@@ -1,5 +1,5 @@
 ---
-vid_id: 059-Maxwell_Silver_Hammer
+vid_id: 059
 title: Maxwell's Silver Hammer
 fandoms:
     - Buffy the Vampire Slayer

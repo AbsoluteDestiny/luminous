@@ -1,5 +1,5 @@
 ---
-vid_id: 043-Art_of_Dying
+vid_id: 043
 title: Art of Dying
 fandoms:
     - Kill Bill

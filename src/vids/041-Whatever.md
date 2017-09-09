@@ -1,5 +1,5 @@
 ---
-vid_id: 041-Whatever
+vid_id: 041
 title: Whatever
 fandoms:
     - Angel

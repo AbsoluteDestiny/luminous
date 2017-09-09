@@ -1,5 +1,5 @@
 ---
-vid_id: 115-Retrograde
+vid_id: 115
 title: Retrograde
 fandoms:
     - Beasts of the Southern Wild

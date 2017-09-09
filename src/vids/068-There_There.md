@@ -1,5 +1,5 @@
 ---
-vid_id: 068-There_There
+vid_id: 068
 title: There There
 fandoms:
     - Angel

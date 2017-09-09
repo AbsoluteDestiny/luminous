@@ -1,5 +1,5 @@
 ---
-vid_id: 121-Adultery
+vid_id: 121
 title: Adultery
 fandoms:
     - Hannibal

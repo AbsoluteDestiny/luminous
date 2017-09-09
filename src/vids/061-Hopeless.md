@@ -1,5 +1,5 @@
 ---
-vid_id: 061-Hopeless
+vid_id: 061
 title: Hopeless
 fandoms:
     - The Lord of the Rings Trilogy

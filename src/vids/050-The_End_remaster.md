@@ -1,5 +1,5 @@
 ---
-vid_id: 050-The_End_remaster
+vid_id: 050
 title: The End (remaster)
 fandoms:
     - Buffy the Vampire Slayer

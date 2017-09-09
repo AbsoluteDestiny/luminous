@@ -1,5 +1,5 @@
 ---
-vid_id: 028-I_Love_LA
+vid_id: 028
 title: I Love LA
 fandoms:
     - Angel

@@ -1,5 +1,5 @@
 ---
-vid_id: 055-Mean_Mr._Mustard
+vid_id: 055
 title: Mean Mr. Mustard
 fandoms:
     - Buffy the Vampire Slayer

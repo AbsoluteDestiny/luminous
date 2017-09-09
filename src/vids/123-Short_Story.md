@@ -1,5 +1,5 @@
 ---
-vid_id: 123-Short_Story
+vid_id: 123
 title: Short Story
 fandoms:
     - Hannibal

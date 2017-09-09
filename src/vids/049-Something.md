@@ -1,5 +1,5 @@
 ---
-vid_id: 049-Something
+vid_id: 049
 title: Something
 fandoms:
     - Buffy the Vampire Slayer

@@ -1,5 +1,5 @@
 ---
-vid_id: 065-I_Want_You
+vid_id: 065
 title: I Want You
 fandoms:
     - Buffy the Vampire Slayer

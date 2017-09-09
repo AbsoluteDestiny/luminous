@@ -1,5 +1,5 @@
 ---
-vid_id: 116-The_Red_Shoes
+vid_id: 116
 title: The Red Shoes
 fandoms:
     - The Red Shoes

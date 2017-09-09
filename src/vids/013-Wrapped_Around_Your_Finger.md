@@ -1,5 +1,5 @@
 ---
-vid_id: 013-Wrapped_Around_Your_Finger
+vid_id: 013
 title: Wrapped Around Your Finger
 fandoms:
     - The X-Files

@@ -1,5 +1,5 @@
 ---
-vid_id: 077-Shuffle
+vid_id: 077
 title: Shuffle
 fandoms:
     - Supernatural

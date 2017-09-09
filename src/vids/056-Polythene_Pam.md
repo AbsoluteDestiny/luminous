@@ -1,5 +1,5 @@
 ---
-vid_id: 056-Polythene_Pam
+vid_id: 056
 title: Polythene Pam
 fandoms:
     - Buffy the Vampire Slayer

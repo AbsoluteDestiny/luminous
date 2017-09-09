@@ -1,5 +1,5 @@
 ---
-vid_id: 088-Too_Drunk
+vid_id: 088
 title: Too Drunk
 fandoms:
     - Family Guy

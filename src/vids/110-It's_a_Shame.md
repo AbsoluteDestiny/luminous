@@ -1,5 +1,5 @@
 ---
-vid_id: 110-It's_a_Shame
+vid_id: 110
 title: It's a Shame
 fandoms:
     - Justified

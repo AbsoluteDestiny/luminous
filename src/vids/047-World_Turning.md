@@ -1,5 +1,5 @@
 ---
-vid_id: 047-World_Turning
+vid_id: 047
 title: World Turning
 fandoms:
     - Angel

@@ -1,5 +1,5 @@
 ---
-vid_id: 084-Uninvited_Guest
+vid_id: 084
 title: Uninvited Guest
 fandoms:
     - Supernatural

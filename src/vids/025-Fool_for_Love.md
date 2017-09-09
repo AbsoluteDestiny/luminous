@@ -1,5 +1,5 @@
 ---
-vid_id: 025-Fool_for_Love
+vid_id: 025
 title: Fool for Love
 fandoms:
     - Buffy the Vampire Slayer

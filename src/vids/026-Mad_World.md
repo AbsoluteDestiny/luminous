@@ -1,5 +1,5 @@
 ---
-vid_id: 026-Mad_World
+vid_id: 026
 title: Mad World
 fandoms:
     - Buffy the Vampire Slayer

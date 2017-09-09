@@ -1,5 +1,5 @@
 ---
-vid_id: 101-Vertigo_Motel
+vid_id: 101
 title: Vertigo Motel
 fandoms:
     - Breaking Bad

@@ -1,5 +1,5 @@
 ---
-vid_id: 033-So Real
+vid_id: 033
 title: So Real
 fandoms:
     - Angel

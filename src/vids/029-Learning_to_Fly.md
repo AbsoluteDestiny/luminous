@@ -1,5 +1,5 @@
 ---
-vid_id: 029-Learning_to_Fly
+vid_id: 029
 title: Learning to Fly
 fandoms:
     - Smallville

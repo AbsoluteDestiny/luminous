@@ -1,5 +1,5 @@
 ---
-vid_id: 004-Just_Like_You
+vid_id: 004
 title: Just Like You
 fandoms:
     - Highlander

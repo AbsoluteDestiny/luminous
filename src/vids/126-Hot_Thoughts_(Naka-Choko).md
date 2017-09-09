@@ -1,5 +1,5 @@
 ---
-vid_id: 126-Hot_Thoughts_(Naka-Choko)
+vid_id: 126
 title: Hot Thoughts (Naka-Choko)
 fandoms:
     - Hannibal

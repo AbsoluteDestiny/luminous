@@ -1,5 +1,5 @@
 ---
-vid_id: 067-Her_Majesty
+vid_id: 067
 title: Her Majesty
 fandoms:
     - Buffy the Vampire Slayer

@@ -1,5 +1,5 @@
 ---
-vid_id: 039-Evil_Angel
+vid_id: 039
 title: Evil Angel
 fandoms:
     - Angel

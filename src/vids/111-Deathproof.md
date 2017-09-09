@@ -1,5 +1,5 @@
 ---
-vid_id: 111-Deathproof
+vid_id: 111
 title: Deathproof
 fandoms:
     - Deathproof

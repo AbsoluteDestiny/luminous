@@ -1,5 +1,5 @@
 ---
-vid_id: 003-Don't_Panic
+vid_id: 003
 title: Don't Panic
 fandoms:
     - Highlander

@@ -1,5 +1,5 @@
 ---
-vid_id: 020-Cheapshots
+vid_id: 020
 title: Cheapshots
 fandoms:
     - Multifandom

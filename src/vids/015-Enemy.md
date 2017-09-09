@@ -1,5 +1,5 @@
 ---
-vid_id: 015-Enemy
+vid_id: 015
 title: Enemy
 fandoms:
     - Highlander

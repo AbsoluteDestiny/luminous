@@ -1,5 +1,5 @@
 ---
-vid_id: 093-Wanted
+vid_id: 093
 title: Wanted
 fandoms:
     - Wanted

@@ -1,5 +1,5 @@
 ---
-vid_id: 118-Wrecking_Ball
+vid_id: 118
 title: Wrecking Ball
 fandoms:
     - Hitler

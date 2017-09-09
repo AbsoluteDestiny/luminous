@@ -1,5 +1,5 @@
 ---
-vid_id: 122-Desert_Garden
+vid_id: 122
 title: Desert Garden
 fandoms:
     - Hannibal

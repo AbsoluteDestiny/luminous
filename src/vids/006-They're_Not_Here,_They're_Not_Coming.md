@@ -1,5 +1,5 @@
 ---
-vid_id: 006-They're_Not_Here,_They're_Not_Coming
+vid_id: 006
 title: They're Not Here, They're Not Coming
 fandoms:
     - The X-Files

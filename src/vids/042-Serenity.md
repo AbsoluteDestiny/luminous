@@ -1,5 +1,5 @@
 ---
-vid_id: 042-Serenity
+vid_id: 042
 title: Serenity
 fandoms:
     - Firefly

@@ -1,5 +1,5 @@
 ---
-vid_id: 112-I_Might_Be_Wrong
+vid_id: 112
 title: I Might Be Wrong
 fandoms:
     - Sherlock

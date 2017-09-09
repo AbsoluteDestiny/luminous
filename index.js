@@ -60,7 +60,7 @@ if (fs.existsSync("./lumvids.json")) {
 
   for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
-vid_id: ${vid.key}
+vid_id: ${vid.key.split('-')[0]}
 title: ${vid.title}
 fandoms:${vid.fandoms
   ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")

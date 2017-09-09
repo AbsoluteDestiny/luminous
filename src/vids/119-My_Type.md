@@ -1,5 +1,5 @@
 ---
-vid_id: 119-My_Type
+vid_id: 119
 title: My Type
 fandoms:
     - Hannibal

@@ -1,5 +1,5 @@
 ---
-vid_id: 120-Nothing_But_Cause_And_Effect
+vid_id: 120
 title: Nothing But Cause and Effect (Feelin' Good)
 fandoms:
     - Hannibal

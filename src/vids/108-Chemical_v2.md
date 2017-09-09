@@ -1,5 +1,5 @@
 ---
-vid_id: 108-Chemical_v2
+vid_id: 108
 title: Chemical v2
 fandoms:
     - Supernatural

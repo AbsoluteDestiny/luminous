@@ -1,5 +1,5 @@
 ---
-vid_id: 053-Carry_That_Weight
+vid_id: 053
 title: Carry That Weight
 fandoms:
     - Buffy the Vampire Slayer

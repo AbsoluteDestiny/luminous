@@ -1,5 +1,5 @@
 ---
-vid_id: 060-Octopus's_Garden
+vid_id: 060
 title: Octopus's Garden
 fandoms:
     - Buffy the Vampire Slayer

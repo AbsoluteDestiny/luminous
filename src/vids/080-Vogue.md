@@ -1,5 +1,5 @@
 ---
-vid_id: 080-Vogue
+vid_id: 080
 title: Vogue
 fandoms:
     - 300

@@ -1,5 +1,5 @@
 ---
-vid_id: 079-Two_Step
+vid_id: 079
 title: Two Step
 fandoms:
     - Supernatural

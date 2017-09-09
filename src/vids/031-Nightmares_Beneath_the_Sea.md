@@ -1,5 +1,5 @@
 ---
-vid_id: 031-Nightmares_Beneath_the_Sea
+vid_id: 031
 title: Nightmares Beneath the Sea
 fandoms:
     - Angel

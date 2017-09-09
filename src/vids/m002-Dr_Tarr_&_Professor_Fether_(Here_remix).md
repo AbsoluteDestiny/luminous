@@ -1,5 +1,5 @@
 ---
-vid_id: m002-Dr_Tarr_&_Professor_Fether_(Here_remix)
+vid_id: m002
 title: Dr Tarr & Professor Fether (Here remix)
 fandoms:
     - Angel

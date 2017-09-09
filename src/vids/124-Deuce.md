@@ -1,5 +1,5 @@
 ---
-vid_id: 124-Deuce
+vid_id: 124
 title: Deuce
 fandoms:
     - Hannibal

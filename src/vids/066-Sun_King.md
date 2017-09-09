@@ -1,5 +1,5 @@
 ---
-vid_id: 066-Sun_King
+vid_id: 066
 title: Sun King
 fandoms:
     - Buffy the Vampire Slayer

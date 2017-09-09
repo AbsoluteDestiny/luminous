@@ -1,5 +1,5 @@
 ---
-vid_id: 081-Gimme_Shelter
+vid_id: 081
 title: Gimme Shelter
 fandoms:
     - Supernatural

@@ -1,5 +1,5 @@
 ---
-vid_id: m001-Night_Fever(Sex_on_Wheels_remix)
+vid_id: m001
 title: Night Fever (Sex on Wheels remix)
 fandoms:
     - Angel

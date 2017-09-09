@@ -1,5 +1,5 @@
 ---
-vid_id: 040-Prophecy
+vid_id: 040
 title: Prophecy
 fandoms:
     - Angel

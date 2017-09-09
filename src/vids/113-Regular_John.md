@@ -1,5 +1,5 @@
 ---
-vid_id: 113-Regular_John
+vid_id: 113
 title: Welcome to The Machine (Regular John)
 fandoms:
     - Person of Interest

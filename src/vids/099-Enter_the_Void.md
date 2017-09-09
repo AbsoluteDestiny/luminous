@@ -1,5 +1,5 @@
 ---
-vid_id: 099-Enter_the_Void
+vid_id: 099
 title: Enter the Void
 fandoms:
     - Enter the Void

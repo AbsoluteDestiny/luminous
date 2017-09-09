@@ -1,5 +1,5 @@
 ---
-vid_id: 005-White_Wedding
+vid_id: 005
 title: White Wedding
 fandoms:
     - Highlander

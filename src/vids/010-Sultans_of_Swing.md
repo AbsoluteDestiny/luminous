@@ -1,5 +1,5 @@
 ---
-vid_id: 010-Sultans_of_Swing
+vid_id: 010
 title: Sultans of Swing
 fandoms:
     - Highlander

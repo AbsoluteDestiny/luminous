@@ -1,5 +1,5 @@
 ---
-vid_id: 012-Every_Me,_Every_You
+vid_id: 012
 title: Every Me, Every You
 fandoms:
     - The X-Files

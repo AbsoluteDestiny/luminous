@@ -1,5 +1,5 @@
 ---
-vid_id: 024-End_of_the_World_As_We_Know_It
+vid_id: 024
 title: End of the World As We Know It
 fandoms:
     - Buffy the Vampire Slayer

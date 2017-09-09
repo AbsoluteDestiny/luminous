@@ -1,5 +1,5 @@
 ---
-vid_id: 030-Ability_to_Swing
+vid_id: 030
 title: Ability to Swing
 fandoms:
     - Highlander

@@ -1,5 +1,5 @@
 ---
-vid_id: 096-because_it's_there
+vid_id: 096
 title: because it's there
 fandoms:
     - NOVA

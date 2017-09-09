@@ -1,5 +1,5 @@
 ---
-vid_id: 063-Ecstatic_Drum_Trip
+vid_id: 063
 title: Ecstatic Drum Trip
 fandoms:
     - Farscape

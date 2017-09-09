@@ -1,5 +1,5 @@
 ---
-vid_id: 082-Women's_Work
+vid_id: 082
 title: Women's Work
 fandoms:
     - Supernatural

@@ -1,5 +1,5 @@
 ---
-vid_id: 032-The_Other_Side
+vid_id: 032
 title: The Other Side
 fandoms:
     - Buffy the Vampire Slayer

@@ -1,5 +1,5 @@
 ---
-vid_id: 062-Here_Comes_the_Sun
+vid_id: 062
 title: Here Comes the Sun
 fandoms:
     - Buffy the Vampire Slayer

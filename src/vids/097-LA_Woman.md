@@ -1,5 +1,5 @@
 ---
-vid_id: 097-LA_Woman
+vid_id: 097
 title: LA Woman
 fandoms:
     - Pulp Fiction

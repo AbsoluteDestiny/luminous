@@ -1,5 +1,5 @@
 ---
-vid_id: 018-History_Repeating
+vid_id: 018
 title: History Repeating
 fandoms:
     - Highlander

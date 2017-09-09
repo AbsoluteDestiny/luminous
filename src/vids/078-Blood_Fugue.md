@@ -1,5 +1,5 @@
 ---
-vid_id: 078-Blood_Fugue
+vid_id: 078
 title: Blood Fugue
 fandoms:
     - Dexter

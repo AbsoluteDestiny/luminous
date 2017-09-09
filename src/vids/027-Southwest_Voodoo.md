@@ -1,5 +1,5 @@
 ---
-vid_id: 027-Southwest_Voodoo
+vid_id: 027
 title: Southwest Voodoo
 fandoms:
     - Buffy the Vampire Slayer

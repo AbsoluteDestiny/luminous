@@ -1,5 +1,5 @@
 ---
-vid_id: m003-Protege-Moi_(Hopeless_remix)
+vid_id: m003
 title: Protege-Moi (Hopeless remix)
 fandoms:
     - The Lord of the Rings Trilogy

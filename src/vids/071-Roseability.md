@@ -1,5 +1,5 @@
 ---
-vid_id: 071-Roseability
+vid_id: 071
 title: Roseability
 fandoms:
     - Angel

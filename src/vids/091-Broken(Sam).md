@@ -1,5 +1,5 @@
 ---
-vid_id: 091-Broken(Sam)
+vid_id: 091
 title: Broken(Sam)
 fandoms:
     - Supernatural

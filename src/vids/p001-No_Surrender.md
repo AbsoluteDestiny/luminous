@@ -1,5 +1,5 @@
 ---
-vid_id: p001-No_Surrender
+vid_id: p001
 title: No Surrender
 fandoms:
 creators: Luminosity

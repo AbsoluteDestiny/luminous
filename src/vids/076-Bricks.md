@@ -1,5 +1,5 @@
 ---
-vid_id: 076-Bricks
+vid_id: 076
 title: Bricks
 fandoms:
     - Supernatural

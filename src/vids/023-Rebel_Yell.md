@@ -1,5 +1,5 @@
 ---
-vid_id: 023-Rebel_Yell
+vid_id: 023
 title: Rebel Yell
 fandoms:
     - Buffy the Vampire Slayer

@@ -1,5 +1,5 @@
 ---
-vid_id: 022-A_Hero's_Tale
+vid_id: 022
 title: A Hero's Tale
 fandoms:
     - Highlander

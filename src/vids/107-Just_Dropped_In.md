@@ -1,5 +1,5 @@
 ---
-vid_id: 107-Just_Dropped_In
+vid_id: 107
 title: Just Dropped In
 fandoms:
     - Supernatural

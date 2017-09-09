@@ -1,5 +1,5 @@
 ---
-vid_id: 021-Cheapshots 2
+vid_id: 021
 title: Cheapshots 2
 fandoms:
     - Highlander

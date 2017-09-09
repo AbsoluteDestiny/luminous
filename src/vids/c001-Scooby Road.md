@@ -1,5 +1,5 @@
 ---
-vid_id: c001-Scooby Road
+vid_id: c001
 title: Scooby Road
 fandoms:
     - Buffy the Vampire Slayer

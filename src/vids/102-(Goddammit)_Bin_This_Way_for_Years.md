@@ -1,5 +1,5 @@
 ---
-vid_id: 102-(Goddammit)_Bin_This_Way_for_Years
+vid_id: 102
 title: (Goddammit) Bin This Way for Years
 fandoms:
     - Supernatural

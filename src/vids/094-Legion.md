@@ -1,5 +1,5 @@
 ---
-vid_id: 094-Legion
+vid_id: 094
 title: Legion
 fandoms:
     - Supernatural

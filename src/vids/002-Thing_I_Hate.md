@@ -1,5 +1,5 @@
 ---
-vid_id: 002-Thing_I_Hate
+vid_id: 002
 title: Thing I Hate
 fandoms:
     - Highlander

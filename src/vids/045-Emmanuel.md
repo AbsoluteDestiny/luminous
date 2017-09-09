@@ -1,5 +1,5 @@
 ---
-vid_id: 045-Emmanuel
+vid_id: 045
 title: Emmanuel
 fandoms:
     - Smallville

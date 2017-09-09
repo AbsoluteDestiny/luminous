@@ -1,5 +1,5 @@
 ---
-vid_id: 069-More_Human_Than_Human
+vid_id: 069
 title: More Human Than Human
 fandoms:
     - Battlestar Galactica

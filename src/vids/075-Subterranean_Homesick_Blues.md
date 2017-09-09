@@ -1,5 +1,5 @@
 ---
-vid_id: 075-Subterranean_Homesick_Blues
+vid_id: 075
 title: Subterranean Homesick Blues
 fandoms:
     - X-Files

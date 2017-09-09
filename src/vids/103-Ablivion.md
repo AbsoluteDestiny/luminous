@@ -1,5 +1,5 @@
 ---
-vid_id: 103-Ablivion
+vid_id: 103
 title: Ablivion
 fandoms:
     - Supernatural

@@ -1,5 +1,5 @@
 ---
-vid_id: 011-Not_a_Virgin_Anymore
+vid_id: 011
 title: Not a Virgin Anymore
 fandoms:
     - Highlander

@@ -1,5 +1,5 @@
 ---
-vid_id: 037-Putting_Out_Fire
+vid_id: 037
 title: Putting Out Fire
 fandoms:
     - Angel

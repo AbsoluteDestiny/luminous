@@ -1,5 +1,5 @@
 ---
-vid_id: 072-Sci-Fi_Friday_in_a_Blender
+vid_id: 072
 title: Sci-Fi Friday in a Blender
 fandoms:
     - Battlestar Galactica

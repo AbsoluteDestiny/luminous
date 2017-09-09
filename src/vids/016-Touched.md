@@ -1,5 +1,5 @@
 ---
-vid_id: 016-Touched
+vid_id: 016
 title: Touched
 fandoms:
     - Highlander

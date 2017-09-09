@@ -1,5 +1,5 @@
 ---
-vid_id: 048-City_of
+vid_id: 048
 title: City of
 fandoms:
     - Angel

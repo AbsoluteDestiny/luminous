@@ -1,5 +1,5 @@
 ---
-vid_id: 057-She_Came_in_Through_the_Bathroom_Window
+vid_id: 057
 title: She Came in Through the Bathroom Window
 fandoms:
     - Buffy the Vampire Slayer

@@ -1,5 +1,5 @@
 ---
-vid_id: 038-Come_Together
+vid_id: 038
 title: Come Together
 fandoms:
     - Buffy the Vampire Slayer

@@ -1,5 +1,5 @@
 ---
-vid_id: 114-Everybody_Wang_Chung_Tonight
+vid_id: 114
 title: Everybody Wang Chung Tonight
 fandoms:
     - Ancient Aliens

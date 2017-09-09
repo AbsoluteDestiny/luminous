@@ -1,5 +1,5 @@
 ---
-vid_id: 090-Broken(Dean)
+vid_id: 090
 title: Broken(Dean)
 fandoms:
     - Supernatural

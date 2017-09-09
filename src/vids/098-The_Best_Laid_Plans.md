@@ -1,5 +1,5 @@
 ---
-vid_id: 098-The_Best_Laid_Plans
+vid_id: 098
 title: The Best Laid Plans
 fandoms:
     - Supernatural

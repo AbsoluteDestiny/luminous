@@ -1,5 +1,5 @@
 ---
-vid_id: 086-Theme_of_Luxury
+vid_id: 086
 title: Theme of Luxury
 fandoms:
     - Misc

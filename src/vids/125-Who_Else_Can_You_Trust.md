@@ -1,5 +1,5 @@
 ---
-vid_id: 125-Who_Else_Can_You_Trust
+vid_id: 125
 title: Who Else Can You Trust?
 fandoms:
     - Archer

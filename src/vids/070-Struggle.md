@@ -1,5 +1,5 @@
 ---
-vid_id: 070-Struggle
+vid_id: 070
 title: Struggle
 fandoms:
     - Angel

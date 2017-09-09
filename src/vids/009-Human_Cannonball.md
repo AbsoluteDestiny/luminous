@@ -1,5 +1,5 @@
 ---
-vid_id: 009-Human_Cannonball
+vid_id: 009
 title: Human Cannonball
 fandoms:
     - The X-Files

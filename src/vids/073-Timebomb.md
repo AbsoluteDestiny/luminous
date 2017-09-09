@@ -1,5 +1,5 @@
 ---
-vid_id: 073-Timebomb
+vid_id: 073
 title: Timebomb
 fandoms:
     - Life on Mars

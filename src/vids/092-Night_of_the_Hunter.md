@@ -1,5 +1,5 @@
 ---
-vid_id: 092-Night_of_the_Hunter
+vid_id: 092
 title: Night of the Hunter
 fandoms:
     - Night of the Hunter

@@ -1,5 +1,5 @@
 ---
-vid_id: 095-Caged_Bird
+vid_id: 095
 title: Caged Bird
 fandoms:
     - Last Year at Marienbad
