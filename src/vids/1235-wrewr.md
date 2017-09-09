@@ -1,6 +1,6 @@
 ---
 vid_id: '1235'
-title: wrewr
+title: This is a Test of the Slug
 date: 2017-09-09T04:20:09.803Z
 fandoms: null
 creators: Luminosity
@@ -14,3 +14,4 @@ thumbnail: null
 barcode: null
 ---
 null
+
