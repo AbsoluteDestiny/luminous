@@ -60,14 +60,17 @@ if (fs.existsSync("./lumvids.json")) {
 
   for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
-title:  ${vid.title}
-fandoms:${vid.fandoms
-      ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")
+vid_id: ${vid.key}
+title: ${vid.title}
+fandoms: ${vid.fandoms
+      ? vid.fandoms.join(", ")
       : ""}
 creators: ${vid.vidder}
 song: ${vid.song}
 artist: ${vid.artist}
 date:   ${vid.date_made}
+thumbnail: ${vid.mp4 ? vid.mp4.replace('.m4v', '.jpg') : null}
+barcode: ${vid.mp4 ? vid.mp4.replace('.m4v', '.png') : null}
 mp4name: ${vid.mp4 ? vid.mp4 : null}
 mp4size: ${vid.mp4 ? vid.mp4size : null}
 width: ${vid.width}
@@ -90,7 +93,8 @@ function fandoms(options) {
       .forEach(function(file) {
         const fm = frontmatter(fs.readFileSync(path.join(metalsmith._source, file), "utf8"));
         if (fm.attributes.fandoms) {
-          for (fandom of fm.attributes.fandoms) {
+          const fandoms = fm.attributes.fandoms.toString().split(", ");
+          for (fandom of fandoms) {
             if (fandoms.indexOf(fandom) < 0) {
               fandoms.push(fandom);
             }
@@ -114,6 +118,19 @@ Metalsmith(process.cwd())
   .use(autoprefixer())
   .use(
     copy({
+      pattern: "assets/css/*.css",
+      move: false,
+      transform: function(file) {
+        return path.join(
+          ...path.dirname(file).split(path.sep).slice(1),
+          'admin',
+          path.basename(file)
+        );
+      }
+    })
+  )
+  .use(
+    copy({
       pattern: "assets/**/*.*",
       move: true,
       transform: function(file) {
@@ -124,7 +141,19 @@ Metalsmith(process.cwd())
       }
     })
   )
-  .use(fingerprint({ pattern: "**/*.css" }))
+  .use(fingerprint({ pattern: "css/*.css" }))
+  .use(
+    copy({
+      pattern: "css/admin/*.*",
+      move: true,
+      transform: function(file) {
+        return path.join(
+          'css',
+          path.basename(file)
+        );
+      }
+    })
+  )
   .use(
     fandoms()
   )

@@ -38,7 +38,7 @@ title: Welcome
               <div class="o-flex o-flex--column">
                 <div class="o-flex__item c-vid__title">{{post.title}} <span class="c-vid__creators">by&nbsp;{{post.creators}}{% if post.mp4name and post.mp4name != 'undefined'%}{% else %}(unavailable){% endif %}</span>
                 {% if post.fandoms %}
-                  <div class="c-flex__item c-vid__fandom">{{post.fandoms | join(', ')}}</div>
+                  <div class="c-flex__item c-vid__fandom">{{post.fandoms}}</div>
                 {% endif %}
                 </div>
               </div>

@@ -1,11 +1,13 @@
 ---
-title:  Don't Panic
-fandoms:
-    - Highlander
+vid_id: 003-Don't_Panic
+title: Don't Panic
+fandoms: Highlander
 creators: Luminosity
 song: Don't Panic
 artist: Coldplay
 date:   2001-04-01 10:00:00
+thumbnail: Luminosity-003-Don't-Panic.jpg
+barcode: Luminosity-003-Don't-Panic.png
 mp4name: Luminosity-003-Don't-Panic.m4v
 mp4size: 30.69 MB
 width: 640

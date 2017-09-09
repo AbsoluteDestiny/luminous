@@ -1,11 +1,13 @@
 ---
-title:  Southwest Voodoo
-fandoms:
-    - Buffy the Vampire Slayer
+vid_id: 027-Southwest_Voodoo
+title: Southwest Voodoo
+fandoms: Buffy the Vampire Slayer
 creators: Shimmertwins
 song: Southwest Voodoo
 artist: Insane Clown Posse
 date:   2002-06-12 10:00:00
+thumbnail: Luminosity-027-Southwest-Voodoo.jpg
+barcode: Luminosity-027-Southwest-Voodoo.png
 mp4name: Luminosity-027-Southwest-Voodoo.m4v
 mp4size: 45.26 MB
 width: 640

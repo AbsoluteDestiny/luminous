@@ -1,11 +1,13 @@
 ---
-title:  Maxwell's Silver Hammer
-fandoms:
-    - Buffy the Vampire Slayer
+vid_id: 059-Maxwell_Silver_Hammer
+title: Maxwell's Silver Hammer
+fandoms: Buffy the Vampire Slayer
 creators: Luminosity
 song: Maxwell's Silver Hammer
 artist: The Beatles
 date:   2005-03-02 10:00:00
+thumbnail: Luminosity-059-Maxwell-Silver-Hammer.jpg
+barcode: Luminosity-059-Maxwell-Silver-Hammer.png
 mp4name: Luminosity-059-Maxwell-Silver-Hammer.m4v
 mp4size: 37.3 MB
 width: 640

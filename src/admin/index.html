@@ -1,14 +1,90 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
 
-  <link rel="stylesheet" href="https://unpkg.com/netlify-cms@~0.4/dist/cms.css" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/netlify-cms@~0.4/dist/cms.css" />
 
 </head>
+
 <body>
-  <script src="https://unpkg.com/netlify-cms@~0.4/dist/cms.js"></script>
+    <script src="https://unpkg.com/netlify-cms@~0.4/dist/cms.js"></script>
+    <script>
+        function formatDate(date) {
+            var monthNames = [
+                "January", "February", "March",
+                "April", "May", "June", "July",
+                "August", "September", "October",
+                "November", "December"
+            ];
+            var monthIndex = date.getMonth();
+            var year = date.getFullYear();
+
+            return monthNames[monthIndex] + ' ' + year;
+        }
+        var PostPreview = createClass({
+            render: function () {
+                var entry = this.props.entry;
+                var thumbnail = "";
+                var barcode = "";
+                console.log(entry.getIn(['data', 'thumbnail']));
+                console.log(entry.getIn(['data', 'barcode']));
+                if (entry.getIn(['data', 'thumbnail'])) {
+                    thumbnail = this.props.getAsset(entry.getIn(['data', 'thumbnail'])).toString();
+                }
+                if (entry.getIn(['data', 'barcode'])) {
+                    thumbnail = this.props.getAsset(entry.getIn(['data', 'barcode'])).toString();
+                }
+                return h("div", { "style": { "background-image": barcode ? 'url("' + barcode + '"' : 'none', 'min-width': '100%', 'min-height': '100vh' }, "className": "t-vid-detail" },
+                    h('figure', {},
+                        h('div', { "className": "c-vid-detail__video" },
+                            h('video', {
+                                "poster": "/images/" + thumbnail,
+                                "controls": true,
+                                "preload": "metadata",
+                                "width": entry.getIn(['data', 'width']) + "px",
+                                "height": entry.getIn(['data', 'height']) + "px"
+                            },
+                                h('source', {
+                                    "src": "https://f000.backblazeb2.com/file/LuminosityM4V/" + entry.getIn(['data', 'mp4name']),
+                                    "type": "video/mp4"
+                                })
+                            )
+                        )
+                    ),
+                    h("article", { "className": "c-vid-detail" },
+                        h("div.main", {},
+                            h("h2", { "className": "c-vid-detail__title" },
+                                entry.getIn(['data', 'title']),
+                                " ",
+                                h("span", { "className": "c-vid-detail__date" }, formatDate(entry.getIn(['data', 'date'])))
+                            ),
+                            h("div", { "className": "c-vid-detail__body" },
+                                h("div", { "className": "c-vid-detail__creators" }, entry.getIn(['data', 'creators'])),
+                                h("div", { "className": "c-vid-detail__fandoms" }, "Footage: " + entry.getIn(['data', 'fandoms']).join(', ')),
+                                h("div", { "className": "c-vid-detail__song" }, "Song: " + entry.getIn(['data', 'song'])),
+                                h("div", { "className": "c-vid-detail__artist" }, "Artist: " + entry.getIn(['data', 'artist'])),
+                                h("div", { "className": "c-vid-detail__download" },
+                                    "Download: ",
+                                    h("a", {
+                                        "href": "https://f000.backblazeb2.com/file/LuminosityM4V/Luminosity-049-Something.m4v",
+                                        "download": "",
+                                        "className": "c-vid-detail__download-link"
+                                    }, entry.getIn(['data', 'mp4name']) + "(" + entry.getIn(['data', 'mp4size']) + ")")
+                                )
+                            ),
+                            h("div.post-main", {}, this.props.widgetFor('body'))
+                        )
+                    )
+                );
+            }
+        });
+        CMS.registerPreviewStyle("/css/base.css");
+        CMS.registerPreviewTemplate("vids", PostPreview);
+    </script>
 </body>
+
 </html>
