@@ -36,13 +36,13 @@
                     thumbnail = this.props.getAsset(entry.getIn(['data', 'thumbnail'])).toString();
                 }
                 if (entry.getIn(['data', 'barcode'])) {
-                    thumbnail = this.props.getAsset(entry.getIn(['data', 'barcode'])).toString();
+                    barcode = this.props.getAsset(entry.getIn(['data', 'barcode'])).toString();
                 }
                 return h("div", { "style": { "background-image": barcode ? 'url("' + barcode + '"' : 'none', 'min-width': '100%', 'min-height': '100vh' }, "className": "t-vid-detail" },
                     h('figure', {},
                         h('div', { "className": "c-vid-detail__video" },
                             h('video', {
-                                "poster": "/images/" + thumbnail,
+                                "poster": thumbnail,
                                 "controls": true,
                                 "preload": "metadata",
                                 "width": entry.getIn(['data', 'width']) + "px",
