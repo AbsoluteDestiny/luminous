@@ -12,17 +12,17 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{vid_id}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Vid ID (e.g. 001 for a vid, c001 for a collection, m001 for a mashup)", name: "vid_id", widget: "string", required: true}
+      - {label: "Vid ID (e.g. 132 or m23)", name: "vid_id", widget: "string", required: true}
       - {label: "Vid Title", name: "title", widget: "string", required: true}
       - {label: "Vid Creation Date (UTC)", name: "date", widget: "datetime", required: true}
-      - {label: "Fandoms (separate multiple with a comma)", name: "fandoms", widget: "list"}
+      - {label: "Fandoms (separate multiple with a comma)", name: "fandoms", widget: "list", required: false}
       - {label: "Vidders", name: "creators", widget: "string", default: "Luminosity", required: true}
       - {label: "Song Title", name: "song", widget: "string", required: true}
       - {label: "Song Artist", name: "artist", widget: "string", required: true}
-      - {label: "Vid Description", name: "body", widget: "markdown"}
-      - {label: "mp4 filename", name: "mp4name", widget: "string"}
-      - {label: "mp4 size", name: "mp4size", widget: "string"}
-      - {label: "mp4 width", name: "width", widget: "number"}
-      - {label: "mp4 height", name: "height", widget: "number"}
-      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Barcode", name: "barcode", widget: "image"}
+      - {label: "Vid Description", name: "body", widget: "markdown", required: false}
+      - {label: "mp4 filename", name: "mp4name", widget: "string", required: false}
+      - {label: "mp4 size", name: "mp4size", widget: "string", required: false}
+      - {label: "mp4 width", name: "width", widget: "number", required: false}
+      - {label: "mp4 height", name: "height", widget: "number", required: false}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - {label: "Barcode", name: "barcode", widget: "image", required: false}
