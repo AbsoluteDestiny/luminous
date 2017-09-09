@@ -1,7 +1,8 @@
 ---
 vid_id: 110-It's_a_Shame
 title: It's a Shame
-fandoms: Justified
+fandoms:
+    - Justified
 creators: Luminosity
 song: Henry Nearly Killed Me
 artist: Ray LaMontagne

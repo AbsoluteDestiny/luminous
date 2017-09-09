@@ -1,7 +1,8 @@
 ---
 vid_id: 106-Chemical
 title: Chemical
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Chemical
 artist: Unkle with Gavin Clark

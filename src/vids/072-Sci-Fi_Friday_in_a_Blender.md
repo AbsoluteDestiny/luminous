@@ -1,7 +1,10 @@
 ---
 vid_id: 072-Sci-Fi_Friday_in_a_Blender
 title: Sci-Fi Friday in a Blender
-fandoms: Battlestar Galactica, Farscape, Doctor Who
+fandoms:
+    - Battlestar Galactica
+    - Farscape
+    - Doctor Who
 creators: Luminosity
 song: Alex H Mashup
 artist: Various

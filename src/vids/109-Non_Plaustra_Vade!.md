@@ -1,7 +1,8 @@
 ---
 vid_id: 109-Non_Plaustra_Vade!
 title: Non Plaustra Vade!
-fandoms: Harry Potter
+fandoms:
+    - Harry Potter
 creators: Shimmertwins and Lindsey Lee
 song: No Cars Go
 artist: Arcade Fire

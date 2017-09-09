@@ -1,7 +1,8 @@
 ---
 vid_id: 111-Deathproof
 title: Deathproof
-fandoms: Deathproof
+fandoms:
+    - Deathproof
 creators: Luminosity
 song: heropsychodreamer
 artist: Live

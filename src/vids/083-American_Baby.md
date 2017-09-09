@@ -1,7 +1,8 @@
 ---
 vid_id: 083-American_Baby
 title: American Baby
-fandoms: Friday Night Lights
+fandoms:
+    - Friday Night Lights
 creators: Liza & Luminosity
 song: American Baby
 artist: Dave Matthews Band

@@ -1,7 +1,8 @@
 ---
 vid_id: 127-Relax
 title: Relax
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Relax
 artist: Frankie Goes To Hollywood

@@ -1,7 +1,8 @@
 ---
 vid_id: 102-(Goddammit)_Bin_This_Way_for_Years
 title: (Goddammit) Bin This Way for Years
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Goddammit
 artist: The Headstones

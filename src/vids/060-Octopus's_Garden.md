@@ -1,7 +1,8 @@
 ---
 vid_id: 060-Octopus's_Garden
 title: Octopus's Garden
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Octopus's Garden
 artist: The Beatles

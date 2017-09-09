@@ -1,7 +1,8 @@
 ---
 vid_id: 084-Uninvited_Guest
 title: Uninvited Guest
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: The Uninvited Guest
 artist: Dog Fashion Disco

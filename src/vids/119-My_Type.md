@@ -1,7 +1,8 @@
 ---
 vid_id: 119-My_Type
 title: My Type
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: My Type
 artist: Saint Motel

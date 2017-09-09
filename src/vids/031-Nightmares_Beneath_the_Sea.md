@@ -1,7 +1,8 @@
 ---
 vid_id: 031-Nightmares_Beneath_the_Sea
 title: Nightmares Beneath the Sea
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Nightmares Beneath the Sea
 artist: Jeff Buckley

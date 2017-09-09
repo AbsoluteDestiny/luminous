@@ -1,7 +1,8 @@
 ---
 vid_id: 023-Rebel_Yell
 title: Rebel Yell
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Rebel Yell
 artist: Billy Idol

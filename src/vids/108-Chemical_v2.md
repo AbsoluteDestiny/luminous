@@ -1,7 +1,8 @@
 ---
 vid_id: 108-Chemical_v2
 title: Chemical v2
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Chemical
 artist: Unkle with Lupe Fiasco

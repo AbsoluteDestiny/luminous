@@ -1,7 +1,8 @@
 ---
 vid_id: 099-Enter_the_Void
 title: Enter the Void
-fandoms: Enter the Void
+fandoms:
+    - Enter the Void
 creators: Luminosity
 song: Everything Before
 artist: Deadmau5

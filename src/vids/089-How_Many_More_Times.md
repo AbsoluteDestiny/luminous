@@ -1,7 +1,8 @@
 ---
 vid_id: 089-How_Many_More_Times
 title: How Many More Times
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: How Many More Times
 artist: Led Zeppelin

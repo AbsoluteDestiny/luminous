@@ -1,7 +1,8 @@
 ---
 vid_id: 118-Wrecking_Ball
 title: Wrecking Ball
-fandoms: Hitler
+fandoms:
+    - Hitler
 creators: Luminosity
 song: Wrecking Ball
 artist: Miley Cyrus

@@ -1,7 +1,8 @@
 ---
 vid_id: 048-City_of
 title: City of
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Reptilia
 artist: The Strokes

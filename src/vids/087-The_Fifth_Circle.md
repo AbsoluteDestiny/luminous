@@ -1,7 +1,8 @@
 ---
 vid_id: 087-The_Fifth_Circle
 title: The Fifth Circle
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Lazarus Man
 artist: Terry Callier

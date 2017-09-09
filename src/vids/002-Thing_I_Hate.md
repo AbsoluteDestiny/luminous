@@ -1,7 +1,8 @@
 ---
 vid_id: 002-Thing_I_Hate
 title: Thing I Hate
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Thing I Hate
 artist: Stabbing Westward

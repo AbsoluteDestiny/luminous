@@ -1,7 +1,8 @@
 ---
 vid_id: 078-Blood_Fugue
 title: Blood Fugue
-fandoms: Dexter
+fandoms:
+    - Dexter
 creators: Luminosity
 song: For Mature Audiences Only 
 artist: Dog Fashion Disco

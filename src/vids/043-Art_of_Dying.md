@@ -1,7 +1,8 @@
 ---
 vid_id: 043-Art_of_Dying
 title: Art of Dying
-fandoms: Kill Bill
+fandoms:
+    - Kill Bill
 creators: Luminosity
 song: Art of Dying
 artist: George Harrison

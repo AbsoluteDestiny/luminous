@@ -1,7 +1,8 @@
 ---
 vid_id: 116-The_Red_Shoes
 title: The Red Shoes
-fandoms: The Red Shoes
+fandoms:
+    - The Red Shoes
 creators: Luminosity
 song: Don't Take Your Love Away
 artist: Vast

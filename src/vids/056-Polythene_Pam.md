@@ -1,7 +1,8 @@
 ---
 vid_id: 056-Polythene_Pam
 title: Polythene Pam
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Polythene Pam
 artist: The Beatles

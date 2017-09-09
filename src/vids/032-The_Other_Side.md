@@ -1,7 +1,8 @@
 ---
 vid_id: 032-The_Other_Side
 title: The Other Side
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: The Other Side
 artist: David Gray

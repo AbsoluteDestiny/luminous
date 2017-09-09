@@ -1,7 +1,8 @@
 ---
 vid_id: 101-Vertigo_Motel
 title: Vertigo Motel
-fandoms: Breaking Bad
+fandoms:
+    - Breaking Bad
 creators: Luminosity
 song: Vertigo Motel
 artist: Dog Fashion Disco

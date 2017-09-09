@@ -1,7 +1,8 @@
 ---
 vid_id: 068-There_There
 title: There There
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: There, There
 artist: Radiohead

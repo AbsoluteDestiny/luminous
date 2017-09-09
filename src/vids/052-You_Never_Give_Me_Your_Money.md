@@ -1,7 +1,8 @@
 ---
 vid_id: 052-You_Never_Give_Me_Your_Money
 title: You Never Give Me Your Money
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: You Never Give Me Your Money
 artist: The Beatles

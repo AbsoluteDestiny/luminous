@@ -1,7 +1,8 @@
 ---
 vid_id: m003-Protege-Moi_(Hopeless_remix)
 title: Protege-Moi (Hopeless remix)
-fandoms: The Lord of the Rings Trilogy
+fandoms:
+    - The Lord of the Rings Trilogy
 creators: One Sick Fuck Productions
 song: Protege-Moi
 artist: Placebo

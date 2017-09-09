@@ -1,7 +1,8 @@
 ---
 vid_id: 017-Blinded_Me_With_Science
 title: Blinded Me With Science
-fandoms: The X-Files
+fandoms:
+    - The X-Files
 creators: Luminosity
 song: Blinded Me with Science
 artist: Thomas Dolby

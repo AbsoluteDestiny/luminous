@@ -1,7 +1,8 @@
 ---
 vid_id: 064-Because
 title: Because
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Because
 artist: The Beatles

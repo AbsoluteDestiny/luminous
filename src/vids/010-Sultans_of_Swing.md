@@ -1,7 +1,8 @@
 ---
 vid_id: 010-Sultans_of_Swing
 title: Sultans of Swing
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Sultans of Swing
 artist: Dire Straits

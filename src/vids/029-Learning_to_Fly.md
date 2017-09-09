@@ -1,7 +1,8 @@
 ---
 vid_id: 029-Learning_to_Fly
 title: Learning to Fly
-fandoms: Smallville
+fandoms:
+    - Smallville
 creators: Luminosity
 song: Learning to Fly
 artist: Pink Floyd

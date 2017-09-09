@@ -1,7 +1,8 @@
 ---
 vid_id: 008-Guilty
 title: Guilty
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Guilty
 artist: Gravity Kills

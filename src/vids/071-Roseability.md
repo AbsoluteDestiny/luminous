@@ -1,7 +1,8 @@
 ---
 vid_id: 071-Roseability
 title: Roseability
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Roseability
 artist: Idlewild South

@@ -1,7 +1,8 @@
 ---
 vid_id: 044-Sex_on_Wheels
 title: Sex on Wheels
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Sex on Wheels
 artist: My Life With the Thrill Kill Kult

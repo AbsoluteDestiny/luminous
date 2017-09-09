@@ -1,7 +1,8 @@
 ---
 vid_id: 095-Caged_Bird
 title: Caged Bird
-fandoms: Last Year at Marienbad
+fandoms:
+    - Last Year at Marienbad
 creators: Luminosity
 song: Caged Bird
 artist: Unkle

@@ -1,7 +1,8 @@
 ---
 vid_id: 073-Timebomb
 title: Timebomb
-fandoms: Life on Mars
+fandoms:
+    - Life on Mars
 creators: Luminosity
 song: Timebomb
 artist: Old 97's

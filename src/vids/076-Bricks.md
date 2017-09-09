@@ -1,7 +1,8 @@
 ---
 vid_id: 076-Bricks
 title: Bricks
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Enter Aretha
 artist: Rolf Schraa

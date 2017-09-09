@@ -1,7 +1,8 @@
 ---
 vid_id: 070-Struggle
 title: Struggle
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: It's a Struggle
 artist: Ringside

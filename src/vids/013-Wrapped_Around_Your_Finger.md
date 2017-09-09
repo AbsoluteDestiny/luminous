@@ -1,7 +1,8 @@
 ---
 vid_id: 013-Wrapped_Around_Your_Finger
 title: Wrapped Around Your Finger
-fandoms: The X-Files
+fandoms:
+    - The X-Files
 creators: Luminosity
 song: Wrapped Around Your Finger
 artist: The Police

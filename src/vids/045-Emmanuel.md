@@ -1,7 +1,8 @@
 ---
 vid_id: 045-Emmanuel
 title: Emmanuel
-fandoms: Smallville
+fandoms:
+    - Smallville
 creators: Luminosity
 song: Emmanuel
 artist: Von Trapp Family Singers

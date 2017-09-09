@@ -1,7 +1,8 @@
 ---
 vid_id: 066-Sun_King
 title: Sun King
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Sun King
 artist: The Beatles

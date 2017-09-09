@@ -1,7 +1,8 @@
 ---
 vid_id: 042-Serenity
 title: Serenity
-fandoms: Firefly
+fandoms:
+    - Firefly
 creators: Luminosity
 song: Serenity
 artist: Godsmack

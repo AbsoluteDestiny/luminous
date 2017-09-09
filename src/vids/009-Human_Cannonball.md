@@ -1,7 +1,8 @@
 ---
 vid_id: 009-Human_Cannonball
 title: Human Cannonball
-fandoms: The X-Files
+fandoms:
+    - The X-Files
 creators: Luminosity
 song: Human Cannonball
 artist: Webb Wilder

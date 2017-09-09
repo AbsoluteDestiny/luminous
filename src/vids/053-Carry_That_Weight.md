@@ -1,7 +1,8 @@
 ---
 vid_id: 053-Carry_That_Weight
 title: Carry That Weight
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Carry That Weight
 artist: The Beatles

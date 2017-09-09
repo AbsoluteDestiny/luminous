@@ -1,7 +1,8 @@
 ---
 vid_id: 038-Come_Together
 title: Come Together
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Come Together
 artist: Beatles

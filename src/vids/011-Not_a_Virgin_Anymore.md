@@ -1,7 +1,8 @@
 ---
 vid_id: 011-Not_a_Virgin_Anymore
 title: Not a Virgin Anymore
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Not a Virgin Anymore
 artist: Poe

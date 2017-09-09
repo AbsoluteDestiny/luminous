@@ -1,7 +1,8 @@
 ---
 vid_id: 046-Here
 title: Here
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Here
 artist: Vast

@@ -1,7 +1,8 @@
 ---
 vid_id: 033-So Real
 title: So Real
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: So Real
 artist: Jeff Buckley

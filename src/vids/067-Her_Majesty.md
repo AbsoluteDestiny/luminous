@@ -1,7 +1,8 @@
 ---
 vid_id: 067-Her_Majesty
 title: Her Majesty
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Her Majesty
 artist: The Beatles

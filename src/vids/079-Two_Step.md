@@ -1,7 +1,8 @@
 ---
 vid_id: 079-Two_Step
 title: Two Step
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Two Step
 artist: Dave Matthews Band

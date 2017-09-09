@@ -1,7 +1,8 @@
 ---
 vid_id: 004-Just_Like_You
 title: Just Like You
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Just Like You
 artist: Voice of the Beehive

@@ -1,7 +1,8 @@
 ---
 vid_id: m002-Dr_Tarr_&_Professor_Fether_(Here_remix)
 title: Dr Tarr & Professor Fether (Here remix)
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Dr. Tarr & Professor Feather
 artist: Alan Parsons Project

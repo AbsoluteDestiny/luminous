@@ -1,7 +1,8 @@
 ---
 vid_id: 086-Theme_of_Luxury
 title: Theme of Luxury
-fandoms: Misc
+fandoms:
+    - Misc
 creators: Luminosity & absolutedestiny
 song: Theme of Luxury
 artist: Internet Disclaimer anonymous

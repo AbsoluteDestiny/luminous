@@ -1,7 +1,8 @@
 ---
 vid_id: 103-Ablivion
 title: Ablivion
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Ablivion
 artist: Unkle

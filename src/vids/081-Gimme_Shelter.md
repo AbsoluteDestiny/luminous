@@ -1,7 +1,8 @@
 ---
 vid_id: 081-Gimme_Shelter
 title: Gimme Shelter
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Gimme Shelter remix
 artist: StereoLab

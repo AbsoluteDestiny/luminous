@@ -1,7 +1,8 @@
 ---
 vid_id: 122-Desert_Garden
 title: Desert Garden
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Desert Garden
 artist: Vast

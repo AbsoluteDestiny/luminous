@@ -1,7 +1,8 @@
 ---
 vid_id: 037-Putting_Out_Fire
 title: Putting Out Fire
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Putting Out Fire (With Gasoline)
 artist: David Bowie

@@ -1,7 +1,8 @@
 ---
 vid_id: 124-Deuce
 title: Deuce
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Deuce
 artist: The Cardigans

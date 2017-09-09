@@ -1,7 +1,8 @@
 ---
 vid_id: 120-Nothing_But_Cause_And_Effect
 title: Nothing But Cause and Effect (Feelin' Good)
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Feelin' Good
 artist: Muse

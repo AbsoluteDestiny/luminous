@@ -1,7 +1,8 @@
 ---
 vid_id: 063-Ecstatic_Drum_Trip
 title: Ecstatic Drum Trip
-fandoms: Farscape
+fandoms:
+    - Farscape
 creators: Luminosity
 song: Ecstasy/Drum Trip
 artist: Rusted Root

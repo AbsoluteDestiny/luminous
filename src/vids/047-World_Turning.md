@@ -1,7 +1,8 @@
 ---
 vid_id: 047-World_Turning
 title: World Turning
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: World Turning
 artist: Lindsay Buckingham

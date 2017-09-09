@@ -1,7 +1,8 @@
 ---
 vid_id: 030-Ability_to_Swing
 title: Ability to Swing
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Ability to Swing
 artist: Thomas Dolby

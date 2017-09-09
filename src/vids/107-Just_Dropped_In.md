@@ -1,7 +1,8 @@
 ---
 vid_id: 107-Just_Dropped_In
 title: Just Dropped In
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Just Dropped In
 artist: Michael Newberry

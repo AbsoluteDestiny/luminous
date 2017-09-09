@@ -1,7 +1,8 @@
 ---
 vid_id: 088-Too_Drunk
 title: Too Drunk
-fandoms: Family Guy
+fandoms:
+    - Family Guy
 creators: Luminosity
 song: Too Drunk To Fuck
 artist: Nouvelle Vague

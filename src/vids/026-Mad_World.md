@@ -1,7 +1,8 @@
 ---
 vid_id: 026-Mad_World
 title: Mad World
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Mad World
 artist: Gary Jules

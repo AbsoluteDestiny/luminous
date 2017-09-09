@@ -1,7 +1,8 @@
 ---
 vid_id: 098-The_Best_Laid_Plans
 title: The Best Laid Plans
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity & sisabet
 song: Head Over Heels
 artist: Tears for Fears

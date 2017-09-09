@@ -1,7 +1,7 @@
 ---
 vid_id: p001-No_Surrender
 title: No Surrender
-fandoms: 
+fandoms:
 creators: Luminosity
 song: No Surrender Part 2
 artist: Storage 24

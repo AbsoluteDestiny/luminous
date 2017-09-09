@@ -1,7 +1,8 @@
 ---
 vid_id: c001-Scooby Road
 title: Scooby Road
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Abey Road
 artist: The Beatles

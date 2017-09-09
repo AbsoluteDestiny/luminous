@@ -1,7 +1,8 @@
 ---
 vid_id: 015-Enemy
 title: Enemy
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Enemy
 artist: Days of the New

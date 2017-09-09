@@ -1,7 +1,8 @@
 ---
 vid_id: 113-Regular_John
 title: Welcome to The Machine (Regular John)
-fandoms: Person of Interest
+fandoms:
+    - Person of Interest
 creators: Luminosity
 song: Regular John
 artist: Queens of the Stone Age

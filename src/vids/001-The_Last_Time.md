@@ -1,7 +1,8 @@
 ---
 vid_id: 001-The_Last_Time
 title: The Last Time
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Shimmertwins
 song: The Last Time
 artist: Fuel

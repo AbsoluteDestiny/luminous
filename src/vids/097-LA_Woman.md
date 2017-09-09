@@ -1,7 +1,8 @@
 ---
 vid_id: 097-LA_Woman
 title: LA Woman
-fandoms: Pulp Fiction
+fandoms:
+    - Pulp Fiction
 creators: Luminosity
 song: LA Woman
 artist: The Doors

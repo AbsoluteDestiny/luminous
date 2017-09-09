@@ -1,7 +1,8 @@
 ---
 vid_id: 005-White_Wedding
 title: White Wedding
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: White Wedding
 artist: Billy Idol

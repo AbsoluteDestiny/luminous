@@ -1,7 +1,8 @@
 ---
 vid_id: 055-Mean_Mr._Mustard
 title: Mean Mr. Mustard
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Mean Mr. Mustard
 artist: The Beatles

@@ -1,7 +1,8 @@
 ---
 vid_id: 091-Broken(Sam)
 title: Broken(Sam)
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Broken
 artist: Unkle

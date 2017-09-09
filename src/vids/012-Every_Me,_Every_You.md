@@ -1,7 +1,8 @@
 ---
 vid_id: 012-Every_Me,_Every_You
 title: Every Me, Every You
-fandoms: The X-Files
+fandoms:
+    - The X-Files
 creators: Luminosity
 song: Every Me, Every You
 artist: Placebo

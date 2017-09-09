@@ -1,7 +1,8 @@
 ---
 vid_id: 082-Women's_Work
 title: Women's Work
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity & sisabet
 song: Violet
 artist: Hole

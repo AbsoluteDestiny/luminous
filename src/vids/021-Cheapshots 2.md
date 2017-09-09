@@ -1,7 +1,8 @@
 ---
 vid_id: 021-Cheapshots 2
 title: Cheapshots 2
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: One Sick Fuck Productions
 song: 
 artist: 

@@ -1,7 +1,8 @@
 ---
 vid_id: 112-I_Might_Be_Wrong
 title: I Might Be Wrong
-fandoms: Sherlock
+fandoms:
+    - Sherlock
 creators: Luminosity
 song: I Might Be Wrong
 artist: Radiohead

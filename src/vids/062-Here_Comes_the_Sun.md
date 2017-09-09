@@ -1,7 +1,8 @@
 ---
 vid_id: 062-Here_Comes_the_Sun
 title: Here Comes the Sun
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Here Comes the Sun
 artist: The Beatles

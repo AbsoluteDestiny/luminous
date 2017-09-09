@@ -1,7 +1,8 @@
 ---
 vid_id: 117-Running_Joke
 title: Running Joke
-fandoms: True Detective
+fandoms:
+    - True Detective
 creators: Luminosity
 song: Running Joke
 artist: Queens of the Stone Age

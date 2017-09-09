@@ -1,7 +1,8 @@
 ---
 vid_id: 065-I_Want_You
 title: I Want You
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: I Want You
 artist: The Beatles

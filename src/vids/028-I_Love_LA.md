@@ -1,7 +1,8 @@
 ---
 vid_id: 028-I_Love_LA
 title: I Love LA
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: I Love LA
 artist: Randy Newman

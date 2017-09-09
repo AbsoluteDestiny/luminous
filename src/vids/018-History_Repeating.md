@@ -1,7 +1,8 @@
 ---
 vid_id: 018-History_Repeating
 title: History Repeating
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Killa & Luminosity
 song: History Repeating
 artist: Propellerheads

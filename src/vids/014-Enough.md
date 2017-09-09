@@ -1,7 +1,8 @@
 ---
 vid_id: 014-Enough
 title: Enough
-fandoms: The X-Files
+fandoms:
+    - The X-Files
 creators: Luminosity
 song: Enough
 artist: Gravity Kills

@@ -1,7 +1,8 @@
 ---
 vid_id: 125-Who_Else_Can_You_Trust
 title: Who Else Can You Trust?
-fandoms: Archer
+fandoms:
+    - Archer
 creators: Luminosity
 song: Who Else Can You Trust?
 artist: Ivy Levan

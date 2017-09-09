@@ -1,7 +1,8 @@
 ---
 vid_id: 039-Evil_Angel
 title: Evil Angel
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Evil Angel
 artist: Rufus Wainwright

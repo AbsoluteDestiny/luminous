@@ -1,7 +1,8 @@
 ---
 vid_id: 016-Touched
 title: Touched
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Touched
 artist: Vast

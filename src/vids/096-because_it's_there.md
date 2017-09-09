@@ -1,7 +1,8 @@
 ---
 vid_id: 096-because_it's_there
 title: because it's there
-fandoms: NOVA
+fandoms:
+    - NOVA
 creators: Luminosity
 song: Because It's There 
 artist: Michael Hedges

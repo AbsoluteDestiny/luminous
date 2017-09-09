@@ -1,7 +1,8 @@
 ---
 vid_id: 050-The_End_remaster
 title: The End (remaster)
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: The End
 artist: The Beatles

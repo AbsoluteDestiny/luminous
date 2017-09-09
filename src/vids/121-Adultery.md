@@ -1,7 +1,8 @@
 ---
 vid_id: 121-Adultery
 title: Adultery
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Adultery
 artist: Dog Fashion Disco

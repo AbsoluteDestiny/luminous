@@ -1,7 +1,8 @@
 ---
 vid_id: 077-Shuffle
 title: Shuffle
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Shuffle Your Feet
 artist: Black Rebel Motorcycle Club

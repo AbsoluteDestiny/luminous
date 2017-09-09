@@ -1,7 +1,8 @@
 ---
 vid_id: 090-Broken(Dean)
 title: Broken(Dean)
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Luminosity
 song: Broken
 artist: Unkle

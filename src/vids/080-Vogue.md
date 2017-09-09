@@ -1,7 +1,8 @@
 ---
 vid_id: 080-Vogue
 title: Vogue
-fandoms: 300
+fandoms:
+    - 300
 creators: Luminosity
 song: Vogue
 artist: Madonna

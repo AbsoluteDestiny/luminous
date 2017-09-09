@@ -1,7 +1,8 @@
 ---
 vid_id: 022-A_Hero's_Tale
 title: A Hero's Tale
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: One Sick Fuck Productions
 song: Various WB cartoons music
 artist: Carl Stalling

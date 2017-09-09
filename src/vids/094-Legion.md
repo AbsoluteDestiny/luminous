@@ -1,7 +1,8 @@
 ---
 vid_id: 094-Legion
 title: Legion
-fandoms: Supernatural
+fandoms:
+    - Supernatural
 creators: Shimmertwins
 song: Misery Business
 artist: Sea of Treachery

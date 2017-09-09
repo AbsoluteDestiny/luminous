@@ -1,7 +1,8 @@
 ---
 vid_id: 093-Wanted
 title: Wanted
-fandoms: Wanted
+fandoms:
+    - Wanted
 creators: Luminosity
 song: Hold My Hand
 artist: Unkle

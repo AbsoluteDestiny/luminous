@@ -1,7 +1,8 @@
 ---
 vid_id: 040-Prophecy
 title: Prophecy
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Prophecy
 artist: Remy Zero

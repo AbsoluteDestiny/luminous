@@ -1,7 +1,8 @@
 ---
 vid_id: 061-Hopeless
 title: Hopeless
-fandoms: The Lord of the Rings Trilogy
+fandoms:
+    - The Lord of the Rings Trilogy
 creators: One Sick Fuck Productions
 song: Hopelessly Devoted
 artist: Olivia Newton-John

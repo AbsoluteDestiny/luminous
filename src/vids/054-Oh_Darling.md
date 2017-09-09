@@ -1,7 +1,8 @@
 ---
 vid_id: 054-Oh_Darling
 title: Oh Darling
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Oh Darling
 artist: The Beatles

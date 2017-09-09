@@ -1,7 +1,8 @@
 ---
 vid_id: 123-Short_Story
 title: Short Story
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Chorus
 artist: Black Rebel Motorcycle Club

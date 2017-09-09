@@ -1,7 +1,8 @@
 ---
 vid_id: 058-Golden_Slumbers
 title: Golden Slumbers
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Golden Slumbers
 artist: The Beatles

@@ -1,7 +1,8 @@
 ---
 vid_id: 049-Something
 title: Something
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Something
 artist: The Beatles

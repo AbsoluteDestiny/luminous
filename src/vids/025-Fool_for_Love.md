@@ -1,7 +1,8 @@
 ---
 vid_id: 025-Fool_for_Love
 title: Fool for Love
-fandoms: Buffy the Vampire Slayer
+fandoms:
+    - Buffy the Vampire Slayer
 creators: Luminosity
 song: Fool For Love Remix
 artist: Mix Master

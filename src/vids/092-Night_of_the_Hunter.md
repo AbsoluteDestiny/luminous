@@ -1,7 +1,8 @@
 ---
 vid_id: 092-Night_of_the_Hunter
 title: Night of the Hunter
-fandoms: Night of the Hunter
+fandoms:
+    - Night of the Hunter
 creators: Luminosity
 song: Au Clair de Lune
 artist: Tomita

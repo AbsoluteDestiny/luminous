@@ -1,7 +1,8 @@
 ---
 vid_id: 069-More_Human_Than_Human
 title: More Human Than Human
-fandoms: Battlestar Galactica
+fandoms:
+    - Battlestar Galactica
 creators: Luminosity
 song: More Human Than Human
 artist: Megadeth

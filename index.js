@@ -62,9 +62,9 @@ if (fs.existsSync("./lumvids.json")) {
     const vidTemplate = `---
 vid_id: ${vid.key}
 title: ${vid.title}
-fandoms: ${vid.fandoms
-      ? vid.fandoms.join(", ")
-      : ""}
+fandoms:${vid.fandoms
+  ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")
+  : ""}
 creators: ${vid.vidder}
 song: ${vid.song}
 artist: ${vid.artist}

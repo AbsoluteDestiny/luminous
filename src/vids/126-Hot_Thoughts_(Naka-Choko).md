@@ -1,7 +1,8 @@
 ---
 vid_id: 126-Hot_Thoughts_(Naka-Choko)
 title: Hot Thoughts (Naka-Choko)
-fandoms: Hannibal
+fandoms:
+    - Hannibal
 creators: Luminosity
 song: Hot Thoughts
 artist: Spoon

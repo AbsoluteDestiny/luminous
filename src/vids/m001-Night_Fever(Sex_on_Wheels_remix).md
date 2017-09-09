@@ -1,7 +1,8 @@
 ---
 vid_id: m001-Night_Fever(Sex_on_Wheels_remix)
 title: Night Fever (Sex on Wheels remix)
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity
 song: Night Fever
 artist: Bee Gees

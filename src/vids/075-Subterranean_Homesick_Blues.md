@@ -1,7 +1,8 @@
 ---
 vid_id: 075-Subterranean_Homesick_Blues
 title: Subterranean Homesick Blues
-fandoms: X-Files
+fandoms:
+    - X-Files
 creators: Luminosity & tzikeh
 song: Subterranean Homesick Blues
 artist: Bob Dylan

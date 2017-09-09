@@ -1,7 +1,8 @@
 ---
 vid_id: 100-(Things_That_Go_Bump_in_the_Light)_Montezuma
 title: (Things That Go Bump in the Light) Montezuma
-fandoms: Blueberry
+fandoms:
+    - Blueberry
 creators: Luminosity
 song: Montezuma
 artist: Cusco

@@ -1,7 +1,8 @@
 ---
 vid_id: 115-Retrograde
 title: Retrograde
-fandoms: Beasts of the Southern Wild
+fandoms:
+    - Beasts of the Southern Wild
 creators: Luminosity
 song: Retrograde
 artist: James Blake

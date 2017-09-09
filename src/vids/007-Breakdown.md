@@ -1,7 +1,8 @@
 ---
 vid_id: 007-Breakdown
 title: Breakdown
-fandoms: The Matrix
+fandoms:
+    - The Matrix
 creators: Luminosity
 song: Breakdown
 artist: Tantric

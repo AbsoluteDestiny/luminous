@@ -1,7 +1,8 @@
 ---
 vid_id: 020-Cheapshots
 title: Cheapshots
-fandoms: Multifandom
+fandoms:
+    - Multifandom
 creators: One Sick Fuck Productions
 song: 
 artist: 

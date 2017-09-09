@@ -1,7 +1,8 @@
 ---
 vid_id: 006-They're_Not_Here,_They're_Not_Coming
 title: They're Not Here, They're Not Coming
-fandoms: The X-Files
+fandoms:
+    - The X-Files
 creators: Luminosity
 song: They're Not Here
 artist: Don Henley

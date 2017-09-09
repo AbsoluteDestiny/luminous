@@ -1,7 +1,8 @@
 ---
 vid_id: 041-Whatever
 title: Whatever
-fandoms: Angel
+fandoms:
+    - Angel
 creators: Luminosity & sisabet
 song: My West Hollywood Lifestyle, Whatever
 artist: T-Bal and BJ

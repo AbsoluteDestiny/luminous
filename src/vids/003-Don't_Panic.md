@@ -1,7 +1,8 @@
 ---
 vid_id: 003-Don't_Panic
 title: Don't Panic
-fandoms: Highlander
+fandoms:
+    - Highlander
 creators: Luminosity
 song: Don't Panic
 artist: Coldplay

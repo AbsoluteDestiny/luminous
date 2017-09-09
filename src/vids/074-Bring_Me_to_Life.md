@@ -1,7 +1,8 @@
 ---
 vid_id: 074-Bring_Me_to_Life
 title: Bring Me to Life
-fandoms: Multifandom
+fandoms:
+    - Multifandom
 creators: Luminosity & sisabet
 song: Bring Me to Life
 artist: Evanescence

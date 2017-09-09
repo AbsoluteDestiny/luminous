@@ -1,7 +1,8 @@
 ---
 vid_id: 114-Everybody_Wang_Chung_Tonight
 title: Everybody Wang Chung Tonight
-fandoms: Ancient Aliens
+fandoms:
+    - Ancient Aliens
 creators: Luminosity
 song: Everybody Wang Chung Tonight
 artist: Wang Chung
