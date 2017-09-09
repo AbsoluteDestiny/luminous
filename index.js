@@ -141,7 +141,7 @@ Metalsmith(process.cwd())
       }
     })
   )
-  .use(fingerprint({ pattern: "css/*.css" }))
+  .use(fingerprint({ pattern: ["css/*.css", "js/*.css"] }))
   .use(
     copy({
       pattern: "css/admin/*.*",
