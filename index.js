@@ -27,7 +27,10 @@ const sitemap = require("metalsmith-sitemap");
 const feed = require("metalsmith-feed");
 const fileMetadata = require("metalsmith-filemetadata");
 const tags = require("metalsmith-tags");
+const replace = require('metalsmith-text-replace');
 const sitedata = require("./src/data/site.json");
+
+let nextId = 0;
 
 if (fs.existsSync("./lumvids.json")) {
   const lumvids = require("./lumvids.json");
@@ -92,6 +95,7 @@ function fandoms(options) {
       .filter(f => path.extname(f) === ".md")
       .forEach(function(file) {
         const fm = frontmatter(fs.readFileSync(path.join(metalsmith._source, file), "utf8"));
+        nextId = Number.isNaN(Number(fm.attributes.vid_id)) ? nextId : Number(fm.attributes.vid_id);
         if (fm.attributes.fandoms) {
           const fandoms = fm.attributes.fandoms.toString().split(", ");
           for (fandom of fandoms) {
@@ -157,6 +161,12 @@ Metalsmith(process.cwd())
   .use(
     fandoms()
   )
+  .use(replace({
+    'admin/config.yml': {
+      find: /abcd/gi,
+      replace: () => `${nextId + 1}`
+    }
+  }))
   .use(
     each((file, filename) => {
       file.basename = path.basename(filename, ".md");
