@@ -72,8 +72,8 @@ creators: ${vid.vidder}
 song: ${vid.song}
 artist: ${vid.artist}
 date:   ${vid.date_made}
-thumbnail: ${vid.mp4 ? vid.mp4.replace('.m4v', '.jpg') : null}
-barcode: ${vid.mp4 ? vid.mp4.replace('.m4v', '.png') : null}
+thumbnail: ${vid.mp4 ? encodeURIComponent(vid.mp4.replace('.m4v', '.jpg')) : null}
+barcode: ${vid.mp4 ? encodeURIComponent(vid.mp4.replace('.m4v', '.png')) : null}
 mp4name: ${vid.mp4 ? vid.mp4 : null}
 mp4size: ${vid.mp4 ? vid.mp4size : null}
 width: ${vid.width}
