@@ -6,29 +6,31 @@ const layouts = require("metalsmith-layouts");
 const inplace = require("metalsmith-in-place");
 const permalinks = require("metalsmith-permalinks");
 const collections = require("metalsmith-collections");
-const metadata = require("metalsmith-metadata");
+// const metadata = require("metalsmith-metadata");
 const nunjucks = require("nunjucks");
 const paths = require("metalsmith-paths");
 const less = require("metalsmith-less");
 const autoprefixer = require("metalsmith-autoprefixer");
-const metacopy = require("metalsmith-metacopy");
+// const metacopy = require("metalsmith-metacopy");
 const copy = require("metalsmith-copy");
-const pagination = require("metalsmith-pagination");
-const jsonToFiles = require("metalsmith-json-to-files");
+// const pagination = require("metalsmith-pagination");
+// const jsonToFiles = require("metalsmith-json-to-files");
 const htmlMinifier = require("metalsmith-html-minifier");
 const ignore = require("metalsmith-ignore");
 const each = require("metalsmith-each");
 const filesize = require("filesize");
-const watch = require("metalsmith-watch");
+// const watch = require("metalsmith-watch");
 const frontmatter = require("front-matter");
 const fingerprint = require("metalsmith-fingerprint-ignore");
 const subsetfonts = require("metalsmith-subsetfonts");
 const sitemap = require("metalsmith-sitemap");
 const feed = require("metalsmith-feed");
 const fileMetadata = require("metalsmith-filemetadata");
-const tags = require("metalsmith-tags");
-const replace = require('metalsmith-text-replace');
-const sitedata = require("./src/data/site.json");
+// const tags = require("metalsmith-tags");
+const replace = require("metalsmith-text-replace");
+
+const sitedata = frontmatter(fs.readFileSync("./src/data/config.md", "utf8"))
+  .attributes;
 
 let nextId = 0;
 
@@ -38,7 +40,7 @@ if (fs.existsSync("./lumvids.json")) {
   let files = fs
     .readdirSync("F:\\lum\\encodes")
     .filter(f => f.indexOf(".m4v") > -1);
-  let vids = Object.keys(lumvids).map(v => {
+  const vids = Object.keys(lumvids).map((v) => {
     const vid = lumvids[v];
     let mp4 = files.filter(f => f.indexOf(`-${v.split("-")[0]}-`) > -1);
     let mp4size = 0;
@@ -63,17 +65,19 @@ if (fs.existsSync("./lumvids.json")) {
 
   for (vid of vids.filter(v => v.mp4)) {
     const vidTemplate = `---
-vid_id: ${vid.key.split('-')[0]}
+vid_id: ${vid.key.split("-")[0]}
 title: ${vid.title}
 fandoms:${vid.fandoms
-  ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")
-  : ""}
+      ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")
+      : ""}
 creators: ${vid.vidder}
 song: ${vid.song}
 artist: ${vid.artist}
 date:   ${vid.date_made}
-thumbnail: ${vid.mp4 ? encodeURIComponent(vid.mp4.replace('.m4v', '.jpg')) : null}
-barcode: ${vid.mp4 ? encodeURIComponent(vid.mp4.replace('.m4v', '.png')) : null}
+thumbnail: ${vid.mp4
+      ? encodeURIComponent(vid.mp4.replace(".m4v", ".jpg"))
+      : null}
+barcode: ${vid.mp4 ? encodeURIComponent(vid.mp4.replace(".m4v", ".png")) : null}
 mp4name: ${vid.mp4 ? vid.mp4 : null}
 mp4size: ${vid.mp4 ? vid.mp4size : null}
 width: ${vid.width}
@@ -94,8 +98,12 @@ function fandoms(options) {
     Object.keys(files)
       .filter(f => path.extname(f) === ".md")
       .forEach(function(file) {
-        const fm = frontmatter(fs.readFileSync(path.join(metalsmith._source, file), "utf8"));
-        nextId = Number.isNaN(Number(fm.attributes.vid_id)) ? nextId : Number(fm.attributes.vid_id);
+        const fm = frontmatter(
+          fs.readFileSync(path.join(metalsmith._source, file), "utf8")
+        );
+        nextId = Number.isNaN(Number(fm.attributes.vid_id))
+          ? nextId
+          : Number(fm.attributes.vid_id);
         if (fm.attributes.fandoms) {
           const fandoms = fm.attributes.fandoms.toString().split(", ");
           for (fandom of fandoms) {
@@ -126,8 +134,11 @@ Metalsmith(process.cwd())
       move: false,
       transform: function(file) {
         return path.join(
-          ...path.dirname(file).split(path.sep).slice(1),
-          'admin',
+          ...path
+            .dirname(file)
+            .split(path.sep)
+            .slice(1),
+          "admin",
           path.basename(file)
         );
       }
@@ -139,7 +150,10 @@ Metalsmith(process.cwd())
       move: true,
       transform: function(file) {
         return path.join(
-          ...path.dirname(file).split(path.sep).slice(1),
+          ...path
+            .dirname(file)
+            .split(path.sep)
+            .slice(1),
           path.basename(file)
         );
       }
@@ -151,22 +165,19 @@ Metalsmith(process.cwd())
       pattern: "css/admin/*.*",
       move: true,
       transform: function(file) {
-        return path.join(
-          'css',
-          path.basename(file)
-        );
+        return path.join("css", path.basename(file));
       }
     })
   )
+  .use(fandoms())
   .use(
-    fandoms()
+    replace({
+      "admin/config.yml": {
+        find: /abcd/gi,
+        replace: () => `${nextId + 1}`
+      }
+    })
   )
-  .use(replace({
-    'admin/config.yml': {
-      find: /abcd/gi,
-      replace: () => `${nextId + 1}`
-    }
-  }))
   .use(
     each((file, filename) => {
       file.basename = path.basename(filename, ".md");
@@ -181,7 +192,10 @@ Metalsmith(process.cwd())
       transform: function(file) {
         const newpath = path.join(
           "vidplayer",
-          ...path.dirname(file).split(path.sep).slice(1),
+          ...path
+            .dirname(file)
+            .split(path.sep)
+            .slice(1),
           path.basename(file)
         );
         return newpath;

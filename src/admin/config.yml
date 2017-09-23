@@ -26,3 +26,16 @@ collections:
       - {label: "mp4 height", name: "height", widget: "number", required: false}
       - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
       - {label: "Barcode", name: "barcode", widget: "image", required: false}
+  - name: "data" # Used in routes, e.g., /admin/collections/blog
+    label: "Site Configuration" # Used in the UI
+    folder: "src/data" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "config" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Site Title", name: "title", widget: "string", required: true}
+      - {label: "Site Description", name: "description", widget: "string", required: true}
+      - {label: "Site Author", name: "author", widget: "string", default: "Luminosity Deville", required: true}
+      - {label: "URL", name: "url", widget: "string", required: true}
+      - {label: "Vid File CDN", name: "vid_cdn", widget: "string", required: true}
+      - {label: "Facebook App ID", name: "fb_appid", widget: "string", required: true}
+      - {label: "Twitter Handle", name: "twitter_handle", widget: "string", required: true}
