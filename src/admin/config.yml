@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: AbsoluteDestiny/luminous # Path to your Github repository
-  branch: staging # Branch to update
+  branch: lumsvids # Branch to update
 publish_mode: editorial_workflow
 media_folder: "src/assets/images"
 public_folder: "/images"
