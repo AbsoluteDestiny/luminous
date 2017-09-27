@@ -16,4 +16,3 @@ height: 480
 ---
 
 Bedelia assesses her situation.
-  

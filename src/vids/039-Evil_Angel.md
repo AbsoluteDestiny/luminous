@@ -16,4 +16,3 @@ height: 480
 ---
 
 Poor Darla. When she's bad, he's good. When she's good, he's better. When she's really bad, he's really beige. She can't win.
-  

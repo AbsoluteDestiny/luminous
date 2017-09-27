@@ -37,10 +37,10 @@ let nextId = 0;
 if (fs.existsSync("./lumvids.json")) {
   const lumvids = require("./lumvids.json");
 
-  let files = fs
+  const files = fs
     .readdirSync("F:\\lum\\encodes")
     .filter(f => f.indexOf(".m4v") > -1);
-  const vids = Object.keys(lumvids).map((v) => {
+  const vids = Object.keys(lumvids).map(v => {
     const vid = lumvids[v];
     let mp4 = files.filter(f => f.indexOf(`-${v.split("-")[0]}-`) > -1);
     let mp4size = 0;
@@ -63,12 +63,12 @@ if (fs.existsSync("./lumvids.json")) {
     };
   });
 
-  for (vid of vids.filter(v => v.mp4)) {
+  vids.filter(v => v.mp4).forEach(vid => {
     const vidTemplate = `---
 vid_id: ${vid.key.split("-")[0]}
 title: ${vid.title}
 fandoms:${vid.fandoms
-      ? "\n" + vid.fandoms.map(f => "    - " + f).join("\n")
+      ? `\n${vid.fandoms.map(f => `    - ${f}`).join("\n")}`
       : ""}
 creators: ${vid.vidder}
 song: ${vid.song}
@@ -85,19 +85,19 @@ height: ${vid.height}
 ---
 
 ${vid.description}
-  `;
+`;
     fs.writeFileSync(`./src/vids/${vid.key}.md`, vidTemplate);
-  }
+  });
 }
 
 nunjucks.configure("./layouts", { watch: false, noCache: true });
 
-function fandoms(options) {
-  return function(files, metalsmith, done) {
-    let fandoms = [];
+function fandoms() {
+  return (files, metalsmith, done) => {
+    const tags = [];
     Object.keys(files)
       .filter(f => path.extname(f) === ".md")
-      .forEach(function(file) {
+      .forEach(file => {
         const fm = frontmatter(
           fs.readFileSync(path.join(metalsmith._source, file), "utf8")
         );
@@ -105,16 +105,16 @@ function fandoms(options) {
           ? nextId
           : Number(fm.attributes.vid_id);
         if (fm.attributes.fandoms) {
-          const fandoms = fm.attributes.fandoms.toString().split(", ");
-          for (fandom of fandoms) {
-            if (fandoms.indexOf(fandom) < 0) {
-              fandoms.push(fandom);
+          // const fandoms = fm.attributes.fandoms.toString().split(", ");
+          fm.attributes.fandoms.forEach(fandom => {
+            if (tags.indexOf(fandom) < 0) {
+              tags.push(fandom);
             }
-          }
+          });
         }
       });
-    fandoms.sort();
-    metalsmith._metadata.tags = fandoms;
+    tags.sort();
+    metalsmith._metadata.tags = tags;
     setImmediate(done);
   };
 }
@@ -132,7 +132,7 @@ Metalsmith(process.cwd())
     copy({
       pattern: "assets/css/*.css",
       move: false,
-      transform: function(file) {
+      transform: file => {
         return path.join(
           ...path
             .dirname(file)
@@ -148,15 +148,14 @@ Metalsmith(process.cwd())
     copy({
       pattern: "assets/**/*.*",
       move: true,
-      transform: function(file) {
-        return path.join(
+      transform: file =>
+        path.join(
           ...path
             .dirname(file)
             .split(path.sep)
             .slice(1),
           path.basename(file)
-        );
-      }
+        )
     })
   )
   .use(fingerprint({ pattern: ["css/*.css", "js/*.css"] }))
@@ -164,9 +163,7 @@ Metalsmith(process.cwd())
     copy({
       pattern: "css/admin/*.*",
       move: true,
-      transform: function(file) {
-        return path.join("css", path.basename(file));
-      }
+      transform: file => path.join("css", path.basename(file))
     })
   )
   .use(fandoms())
@@ -189,17 +186,15 @@ Metalsmith(process.cwd())
     copy({
       pattern: "vids/*.*",
       move: false,
-      transform: function(file) {
-        const newpath = path.join(
+      transform: file =>
+        path.join(
           "vidplayer",
           ...path
             .dirname(file)
             .split(path.sep)
             .slice(1),
           path.basename(file)
-        );
-        return newpath;
-      }
+        )
     })
   )
   .use(
@@ -270,7 +265,7 @@ Metalsmith(process.cwd())
       omitIndex: true
     })
   )
-  .build(function(err, files) {
+  .build((err) => {
     if (err) {
       throw err;
     }

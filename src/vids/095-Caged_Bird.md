@@ -16,4 +16,3 @@ height: 480
 ---
 
 Une méditation sur le système métrique.
-  

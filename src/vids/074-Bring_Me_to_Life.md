@@ -16,4 +16,3 @@ height: 480
 ---
 
 It works because we really believe it.
-  

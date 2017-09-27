@@ -16,4 +16,3 @@ height: 480
 ---
 
 We don't know; therefore, ALIENS!
-  

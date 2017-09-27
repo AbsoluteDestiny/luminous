@@ -16,4 +16,3 @@ height: 480
 ---
 
 For Bonibaru. The dayspring from on high has visited us, to give light to those that sit in darkness.
-  

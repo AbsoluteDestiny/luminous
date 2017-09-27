@@ -16,4 +16,3 @@ height: 480
 ---
 
 Our Bodies, Ourselves.
-  

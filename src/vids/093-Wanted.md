@@ -16,4 +16,3 @@ height: 360
 ---
 
 Lead an exciting life in rat extermination!
-  

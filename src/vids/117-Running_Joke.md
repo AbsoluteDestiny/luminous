@@ -16,4 +16,3 @@ height: 404
 ---
 
 Rust Cohle: Existentialist.
-  

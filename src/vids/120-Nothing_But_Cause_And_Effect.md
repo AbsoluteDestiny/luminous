@@ -16,4 +16,3 @@ height: 400
 ---
 
 “Thoughts are nothing but cause and effect.”  -  Vaibhav Mukim, Logicops
-  

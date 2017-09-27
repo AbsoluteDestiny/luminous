@@ -16,4 +16,3 @@ height: 404
 ---
 
 Will is ready to leave.
-  

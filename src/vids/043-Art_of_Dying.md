@@ -16,4 +16,3 @@ height: 480
 ---
 
 Who’s the action hero of 2004? Not Spider-man, not Hellboy, not Riddick. It’s Beatrix Kiddo.
-  

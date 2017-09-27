@@ -16,4 +16,3 @@ height: 480
 ---
 
 Everybody loses the thing that made them. It's even how it's supposed to be in nature. The brave men stay and watch it happen. They don't run. - Hushpuppy
-  
