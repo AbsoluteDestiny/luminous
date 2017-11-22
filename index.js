@@ -146,7 +146,7 @@ Metalsmith(process.cwd())
   )
   .use(
     copy({
-      pattern: "assets/**/*.*",
+      pattern: "assets/**/**",
       move: true,
       transform: file =>
         path.join(
