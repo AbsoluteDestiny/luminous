@@ -7,8 +7,8 @@ creators: Luminosity
 song: Art of Dying
 artist: George Harrison
 date:   2004-04-02 10:00:00
-thumbnail: Luminosity-043-Art-of-Dying.jpg
-barcode: Luminosity-043-Art-of-Dying.png
+thumbnail: /images/Luminosity-043-Art-of-Dying.jpg
+barcode: /images/Luminosity-043-Art-of-Dying.png
 mp4name: Luminosity-043-Art-of-Dying.m4v
 mp4size: 37.98 MB
 width: 640

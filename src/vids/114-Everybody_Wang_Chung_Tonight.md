@@ -7,8 +7,8 @@ creators: Luminosity
 song: Everybody Wang Chung Tonight
 artist: Wang Chung
 date:   2013-04-01 10:00:00
-thumbnail: Luminosity-114-Everybody-Wang-Chung-Tonight.jpg
-barcode: Luminosity-114-Everybody-Wang-Chung-Tonight.png
+thumbnail: /images/Luminosity-114-Everybody-Wang-Chung-Tonight.jpg
+barcode: /images/Luminosity-114-Everybody-Wang-Chung-Tonight.png
 mp4name: Luminosity-114-Everybody-Wang-Chung-Tonight.m4v
 mp4size: 69.94 MB
 width: 992

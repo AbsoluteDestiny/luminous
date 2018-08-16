@@ -7,8 +7,8 @@ creators: Luminosity & sisabet
 song: Bring Me to Life
 artist: Evanescence
 date:   2006-06-01 10:00:00
-thumbnail: Luminosity-074-Bring-Me-to-Life.jpg
-barcode: Luminosity-074-Bring-Me-to-Life.png
+thumbnail: /images/Luminosity-074-Bring-Me-to-Life.jpg
+barcode: /images/Luminosity-074-Bring-Me-to-Life.png
 mp4name: Luminosity-074-Bring-Me-to-Life.m4v
 mp4size: 31.23 MB
 width: 640

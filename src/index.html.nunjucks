@@ -27,9 +27,9 @@ title: Welcome
       {% endif %}
         {% if post.mp4name and post.mp4name != 'undefined' %}
           {% if loop.index > 7 %}
-            <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/images/barcodes/{{vidkey}}.png">
+            <img alt="A barcode of colors from the vid {{post.title}}" class="b-lazy c-vid__barcode" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{post.barcode}}">
           {% else %}
-            <img alt="A barcode of colors from the vid {{post.title}}" class="c-vid__barcode" src="/images/barcodes/{{vidkey}}.png">
+            <img alt="A barcode of colors from the vid {{post.title}}" class="c-vid__barcode" src="{{post.barcode}}">
           {% endif %}
         {% endif %}
         <div class="c-vid__main">
@@ -62,7 +62,7 @@ title: Welcome
           </div>
         </div>
         <div class="c-vid__description">{{post.description}}</div>
-        
+
       {% if post.mp4name and post.mp4name != 'undefined'%}
       </a>
       {% else %}

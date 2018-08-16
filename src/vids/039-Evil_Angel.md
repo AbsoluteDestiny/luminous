@@ -7,8 +7,8 @@ creators: Luminosity
 song: Evil Angel
 artist: Rufus Wainwright
 date:   2003-11-01 10:00:00
-thumbnail: Luminosity-039-Evil-Angel.jpg
-barcode: Luminosity-039-Evil-Angel.png
+thumbnail: /images/Luminosity-039-Evil-Angel.jpg
+barcode: /images/Luminosity-039-Evil-Angel.png
 mp4name: Luminosity-039-Evil-Angel.m4v
 mp4size: 37 MB
 width: 640

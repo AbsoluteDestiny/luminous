@@ -7,8 +7,8 @@ creators: Luminosity
 song: Caged Bird
 artist: Unkle
 date:   2010-07-01 10:00:00
-thumbnail: Luminosity-095-Caged-Bird.jpg
-barcode: Luminosity-095-Caged-Bird.png
+thumbnail: /images/Luminosity-095-Caged-Bird.jpg
+barcode: /images/Luminosity-095-Caged-Bird.png
 mp4name: Luminosity-095-Caged-Bird.m4v
 mp4size: 60.39 MB
 width: 992

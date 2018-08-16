@@ -7,8 +7,8 @@ creators: Luminosity & sisabet
 song: My West Hollywood Lifestyle, Whatever
 artist: T-Bal and BJ
 date:   2004-01-02 10:00:00
-thumbnail: Luminosity-041-Whatever.jpg
-barcode: Luminosity-041-Whatever.png
+thumbnail: /images/Luminosity-041-Whatever.jpg
+barcode: /images/Luminosity-041-Whatever.png
 mp4name: Luminosity-041-Whatever.m4v
 mp4size: 21.92 MB
 width: 640

@@ -7,8 +7,8 @@ creators: Luminosity
 song: Golden Slumbers
 artist: The Beatles
 date:   2005-03-01 10:00:00
-thumbnail: Luminosity-058-Golden-Slumbers.jpg
-barcode: Luminosity-058-Golden-Slumbers.png
+thumbnail: /images/Luminosity-058-Golden-Slumbers.jpg
+barcode: /images/Luminosity-058-Golden-Slumbers.png
 mp4name: Luminosity-058-Golden-Slumbers.m4v
 mp4size: 12.78 MB
 width: 640

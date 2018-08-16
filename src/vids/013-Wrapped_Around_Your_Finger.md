@@ -7,8 +7,8 @@ creators: Luminosity
 song: Wrapped Around Your Finger
 artist: The Police
 date:   2001-10-01 10:00:00
-thumbnail: Luminosity-013-Wrapped-Around-Your-Finger.jpg
-barcode: Luminosity-013-Wrapped-Around-Your-Finger.png
+thumbnail: /images/Luminosity-013-Wrapped-Around-Your-Finger.jpg
+barcode: /images/Luminosity-013-Wrapped-Around-Your-Finger.png
 mp4name: Luminosity-013-Wrapped-Around-Your-Finger.m4v
 mp4size: 44.08 MB
 width: 640

@@ -7,8 +7,8 @@ creators: Luminosity
 song: Roseability
 artist: Idlewild South
 date:   2006-02-01 10:00:00
-thumbnail: Luminosity-071-Roseability.jpg
-barcode: Luminosity-071-Roseability.png
+thumbnail: /images/Luminosity-071-Roseability.jpg
+barcode: /images/Luminosity-071-Roseability.png
 mp4name: Luminosity-071-Roseability.m4v
 mp4size: 37.57 MB
 width: 848

@@ -7,8 +7,8 @@ creators: Luminosity
 song: Every Me, Every You
 artist: Placebo
 date:   2001-09-03 10:00:00
-thumbnail: Luminosity-012-Every-Me%2C-Every-You.jpg
-barcode: Luminosity-012-Every-Me%2C-Every-You.png
+thumbnail: /images/Luminosity-012-Every-Me%2C-Every-You.jpg
+barcode: /images/Luminosity-012-Every-Me%2C-Every-You.png
 mp4name: Luminosity-012-Every-Me,-Every-You.m4v
 mp4size: 43.78 MB
 width: 640
