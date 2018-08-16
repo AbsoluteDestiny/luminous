@@ -34,7 +34,7 @@ const sitedata = frontmatter(fs.readFileSync("./src/data/config.md", "utf8"))
 
 let nextId = 0;
 
-if (fs.existsSync("./lumvids.json")) {
+if (fs.existsSync("./lumvids.json") && false) {
   const lumvids = require("./lumvids.json");
 
   const files = fs

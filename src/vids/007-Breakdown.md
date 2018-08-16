@@ -7,8 +7,8 @@ creators: Luminosity
 song: Breakdown
 artist: Tantric
 date:   2001-07-02 10:00:00
-thumbnail: Luminosity-007-Breakdown.jpg
-barcode: Luminosity-007-Breakdown.png
+thumbnail: /images/Luminosity-007-Breakdown.jpg
+barcode: /images/Luminosity-007-Breakdown.png
 mp4name: Luminosity-007-Breakdown.m4v
 mp4size: 42.11 MB
 width: 640

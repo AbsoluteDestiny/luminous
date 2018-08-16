@@ -7,8 +7,8 @@ creators: Luminosity
 song: Chemical
 artist: Unkle with Lupe Fiasco
 date:   2012-07-01 10:00:00
-thumbnail: Luminosity-108-Chemical%20v2.jpg
-barcode: Luminosity-108-Chemical%20v2.png
+thumbnail: /images/Luminosity-108-Chemical%20v2.jpg
+barcode: /images/Luminosity-108-Chemical%20v2.png
 mp4name: Luminosity-108-Chemical v2.m4v
 mp4size: 24.89 MB
 width: 640

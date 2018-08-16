@@ -7,8 +7,8 @@ creators: Luminosity
 song: Learning to Fly
 artist: Pink Floyd
 date:   2002-10-12 10:00:00
-thumbnail: Luminosity-029-Learning-to-Fly.jpg
-barcode: Luminosity-029-Learning-to-Fly.png
+thumbnail: /images/Luminosity-029-Learning-to-Fly.jpg
+barcode: /images/Luminosity-029-Learning-to-Fly.png
 mp4name: Luminosity-029-Learning-to-Fly.m4v
 mp4size: 49.75 MB
 width: 848

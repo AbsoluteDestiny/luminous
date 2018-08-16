@@ -7,8 +7,8 @@ creators: Luminosity
 song: You Never Give Me Your Money
 artist: The Beatles
 date:   2004-12-01 10:00:00
-thumbnail: Luminosity-052-You-Never-Give-Me-Your-Money.jpg
-barcode: Luminosity-052-You-Never-Give-Me-Your-Money.png
+thumbnail: /images/Luminosity-052-You-Never-Give-Me-Your-Money.jpg
+barcode: /images/Luminosity-052-You-Never-Give-Me-Your-Money.png
 mp4name: Luminosity-052-You-Never-Give-Me-Your-Money.m4v
 mp4size: 30.73 MB
 width: 640

@@ -5,6 +5,7 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "src/assets/images"
 public_folder: "/images"
+display_url: https://lumsvids.com
 collections:
   - name: "vids" # Used in routes, e.g., /admin/collections/blog
     label: "Vids" # Used in the UI

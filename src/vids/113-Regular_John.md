@@ -7,8 +7,8 @@ creators: Luminosity
 song: Regular John
 artist: Queens of the Stone Age
 date:   2013-03-01 10:00:00
-thumbnail: Luminosity-113-Regular-John.jpg
-barcode: Luminosity-113-Regular-John.png
+thumbnail: /images/Luminosity-113-Regular-John.jpg
+barcode: /images/Luminosity-113-Regular-John.png
 mp4name: Luminosity-113-Regular-John.m4v
 mp4size: 58.95 MB
 width: 848

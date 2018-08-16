@@ -7,8 +7,8 @@ creators: Luminosity
 song: Sun King
 artist: The Beatles
 date:   2005-06-01 10:00:00
-thumbnail: Luminosity-066-Sun-King.jpg
-barcode: Luminosity-066-Sun-King.png
+thumbnail: /images/Luminosity-066-Sun-King.jpg
+barcode: /images/Luminosity-066-Sun-King.png
 mp4name: Luminosity-066-Sun-King.m4v
 mp4size: 26.3 MB
 width: 640

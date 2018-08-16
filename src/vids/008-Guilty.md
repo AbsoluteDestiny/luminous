@@ -7,8 +7,8 @@ creators: Luminosity
 song: Guilty
 artist: Gravity Kills
 date:   2001-08-01 10:00:00
-thumbnail: Luminosity-008-Guilty.jpg
-barcode: Luminosity-008-Guilty.png
+thumbnail: /images/Luminosity-008-Guilty.jpg
+barcode: /images/Luminosity-008-Guilty.png
 mp4name: Luminosity-008-Guilty.m4v
 mp4size: 40.83 MB
 width: 640

@@ -7,8 +7,8 @@ creators: Luminosity
 song: Too Drunk To Fuck
 artist: Nouvelle Vague
 date:   2008-07-01 10:00:00
-thumbnail: Luminosity-088-Too-Drunk.jpg
-barcode: Luminosity-088-Too-Drunk.png
+thumbnail: /images/Luminosity-088-Too-Drunk.jpg
+barcode: /images/Luminosity-088-Too-Drunk.png
 mp4name: Luminosity-088-Too-Drunk.m4v
 mp4size: 18.18 MB
 width: 640

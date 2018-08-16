@@ -7,8 +7,8 @@ creators: Luminosity
 song: Emmanuel
 artist: Von Trapp Family Singers
 date:   2004-06-02 10:00:00
-thumbnail: Luminosity-045-Emmanuel.jpg
-barcode: Luminosity-045-Emmanuel.png
+thumbnail: /images/Luminosity-045-Emmanuel.jpg
+barcode: /images/Luminosity-045-Emmanuel.png
 mp4name: Luminosity-045-Emmanuel.m4v
 mp4size: 36.58 MB
 width: 848

@@ -7,8 +7,8 @@ creators: Liza & Luminosity
 song: American Baby
 artist: Dave Matthews Band
 date:   2007-12-01 10:00:00
-thumbnail: Luminosity-083-American-Baby.jpg
-barcode: Luminosity-083-American-Baby.png
+thumbnail: /images/Luminosity-083-American-Baby.jpg
+barcode: /images/Luminosity-083-American-Baby.png
 mp4name: Luminosity-083-American-Baby.m4v
 mp4size: 59.56 MB
 width: 848

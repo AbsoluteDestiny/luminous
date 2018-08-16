@@ -7,8 +7,8 @@ creators: Luminosity
 song: Enough
 artist: Gravity Kills
 date:   2001-10-02 10:00:00
-thumbnail: Luminosity-014-Enough.jpg
-barcode: Luminosity-014-Enough.png
+thumbnail: /images/Luminosity-014-Enough.jpg
+barcode: /images/Luminosity-014-Enough.png
 mp4name: Luminosity-014-Enough.m4v
 mp4size: 50.5 MB
 width: 640

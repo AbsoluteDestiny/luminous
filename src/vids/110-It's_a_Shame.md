@@ -7,8 +7,8 @@ creators: Luminosity
 song: Henry Nearly Killed Me
 artist: Ray LaMontagne
 date:   2012-10-01 10:00:00
-thumbnail: Luminosity-110-It's-a-Shame.jpg
-barcode: Luminosity-110-It's-a-Shame.png
+thumbnail: /images/Luminosity-110-It's-a-Shame.jpg
+barcode: /images/Luminosity-110-It's-a-Shame.png
 mp4name: Luminosity-110-It's-a-Shame.m4v
 mp4size: 58.12 MB
 width: 848
