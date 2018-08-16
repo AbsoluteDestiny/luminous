@@ -59,7 +59,7 @@
                                 "height": height + "px"
                             },
                                 mp4name ? h('source', {
-                                    "src": "https://f000.backblazeb2.com/file/LuminosityM4V/" + mp4name,
+                                    "src": "/vidfiles/" + mp4name,
                                     "type": "video/mp4"
                                 }) : ''
                             )
@@ -80,7 +80,7 @@
                                 h("div", { "className": "c-vid-detail__download" },
                                     "Download: ",
                                     h("a", {
-                                        "href": "https://f000.backblazeb2.com/file/LuminosityM4V/Luminosity-049-Something.m4v",
+                                        "href": "/vidfiles/" + mp4name,
                                         "download": "",
                                         "className": "c-vid-detail__download-link"
                                     }, entry.getIn(['data', 'mp4name']) + "(" + mp4size + ")")
