@@ -7,7 +7,7 @@ fandoms:
 creators: Luminosity and sisabet
 song: Buffalo Stance
 artist: Neneh Cherry
-mp4name: Luminosity and sisabet-133-Buffalo Stance
+mp4name: Luminosity and sisabet-133-Buffalo Stance.m4v
 mp4size: 111 mb
 width: '1920'
 height: '1080'
