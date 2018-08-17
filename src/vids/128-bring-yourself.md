@@ -1,7 +1,7 @@
 ---
 vid_id: '128'
 title: Bring Yourself
-date: 2018-05-21T00:17:47.933Z
+date: 2018-02-21T01:17:47.933Z
 fandoms:
   - due South
 creators: Luminosity
