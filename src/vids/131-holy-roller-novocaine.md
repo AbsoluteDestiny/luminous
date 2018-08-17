@@ -1,7 +1,7 @@
 ---
 vid_id: '131'
 title: Holy Roller Novocaine
-date: 2018-08-17T01:42:21.265Z
+date: 2018-05-20T01:42:21.265Z
 fandoms:
   - American Gods
 creators: Luminosity
