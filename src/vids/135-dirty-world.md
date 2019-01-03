@@ -7,5 +7,7 @@ fandoms:
 creators: Luminosity
 song: Dirty World
 artist: The Traveling Wilburys
+mp4name: Luminosity-Dirty World.m4v
+mp4size: 23 MB
 ---
 
