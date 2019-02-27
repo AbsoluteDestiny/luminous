@@ -2,6 +2,8 @@
 vid_id: '136'
 title: Beast and Valentine
 date: 2019-02-26T04:34:24.883Z
+fandoms:
+  - Hannibal
 creators: Luminosity
 song: 'The Beast and Dragon, Adored; The Two Sides of M. Valentine'
 artist: Spoon
