@@ -14,4 +14,4 @@ thumbnail: >-
 barcode: >-
   https://raw.githubusercontent.com/AbsoluteDestiny/luminous/lumsvids/src/assets/images/dirty-world.png
 ---
-
+Created for Ride_4_Ever.  Escapade, 2019
