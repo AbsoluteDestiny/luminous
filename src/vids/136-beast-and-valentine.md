@@ -9,9 +9,10 @@ song: 'The Beast and Dragon, Adored; The Two Sides of M. Valentine'
 artist: Spoon
 mp4name: Luminosity-c002-Beast and Valentine.m4v
 mp4size: 308MB
-thumbnail: /images/vbb-2-.jpg
+thumbnail: >-
+  https://raw.githubusercontent.com/AbsoluteDestiny/luminous/lumsvids/src/assets/images/valentine-2-.jpg
 barcode: /images/vidbigbang2019.beast.valentine.png
 ---
-2019 Vid Big Bang.
+2019 Vid Big Bang
 
-Portraits of the Artists.
+Portraits of the Artists
