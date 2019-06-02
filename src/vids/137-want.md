@@ -1,5 +1,5 @@
 ---
-vid_id: '137'
+vid_id: '136'
 title: Want
 date: 2019-06-02T21:09:31.086Z
 fandoms:
@@ -7,6 +7,7 @@ fandoms:
 creators: Luminosity
 song: Want
 artist: Recoil (featuring Nicole Blackman)
+mp4name: Luminosity-136-Want.m4v
 mp4size: 310 MB
 width: 1920
 height: 1080
