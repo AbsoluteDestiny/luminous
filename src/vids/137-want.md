@@ -7,5 +7,10 @@ fandoms:
 creators: Luminosity
 song: Want
 artist: Recoil (featuring Nicole Blackman)
+mp4size: 310 MB
+width: 1920
+height: 1080
+thumbnail: /images/image-000000046.jpg
+barcode: /images/hannibal_want.png
 ---
 
