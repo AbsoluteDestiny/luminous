@@ -7,7 +7,7 @@ fandoms:
 creators: Luminosity
 song: Boys
 artist: Lizzo
-mp4name: PopeLizzo.m4v
+mp4name: Pope Lizzo.m4v
 thumbnail: /images/image-000000142.jpg
 barcode: /images/pope-lizzo.png
 ---
