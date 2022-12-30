@@ -30,7 +30,7 @@
     "metalsmith-fingerprint-ignore": "^2.0.0",
     "metalsmith-html-minifier": "^2.2.0",
     "metalsmith-ignore": "^0.1.2",
-    "metalsmith-in-place": "^3.0.1",
+    "metalsmith-in-place": "^4.4.2",
     "metalsmith-json-to-files": "^1.0.0",
     "metalsmith-layouts": "^1.8.1",
     "metalsmith-less": "^2.0.0",
