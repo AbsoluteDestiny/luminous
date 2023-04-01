@@ -41,7 +41,7 @@ url("{{barcode}}");' class="t-vid-detail"{% endblock %} {% block main %}
       width="{{ width }}px"
       height="{{ height }}px"
     >
-      <source src="{{ site.vid_cdn }}/{{ mp4name }}" type="video/mp4" />
+      <source src="{{ site.vid_cdn }}{{ mp4name }}" type="video/mp4" />
     </video>
   </div>
 </figure>
