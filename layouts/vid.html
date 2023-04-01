@@ -34,6 +34,7 @@ url("{{barcode}}");' class="t-vid-detail"{% endblock %} {% block main %}
 <figure class="c-vid-detail__stream">
   <div class="c-vid-detail__video">
     <video
+      id="vplayer"
       poster="{{thumbnail}}"
       controls
       preload="metadata"
@@ -80,6 +81,6 @@ url("{{barcode}}");' class="t-vid-detail"{% endblock %} {% block main %}
 {% endblock %} {% block scripts %}
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 <script>
-  plyr.setup();
+  const player = new Plyr("#vplayer");
 </script>
 {% endblock %}
